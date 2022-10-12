@@ -30,15 +30,15 @@ javascript: (() => {
       n++
     ) {
       var o = t[n];
-      if (o.content.toLowerCase().includes("gitlab")) return !0;
-      if ("hostname" === o.name && o.content.includes("github")) return !0;
+      if (o.content.toLowerCase().includes("gitlab")) return !1;
+      if ("hostname" === o.name && o.content.includes("github")) return !1;
       if (
         "application-name" === o.name &&
         o.content.toLowerCase().includes("bitbucket")
       )
-        return !0;
+        return !1;
     }
-    return !1;
+    return !0;
   })() &&
     window.open(
       ("https://gitpod.io",
