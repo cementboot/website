@@ -2,7 +2,7 @@
 author: svenefftinge
 date: Wed Nov 21 2018 13:34:27 GMT+0000 (UTC)
 excerpt: Whenever you want to share a reproducible example on StackOverflow or an issue report, providing real code that can be quickly tried
-image: workspace-snapshots.jpeg
+image: workspace-snapshots.webp
 slug: workspace-snapshots
 subtitle: Code never lies
 title: Creating reproducibles for any programming language

@@ -2,10 +2,10 @@
 author: svenefftinge
 date: Thu Dec 20 2018 21:51:05 GMT+0000 (UTC)
 excerpt: Learn how to streamline your code review experience. Code reviews are one of the best things you can do to keep your codebase clean. They
-image: when-code-reviews-lgtm.jpeg
+image: when-code-reviews-lgtm.webp
 slug: when-code-reviews-lgtm
 subtitle: Say goodbye to shallow reviews!
-teaserImage: when-code-reviews-lgtm.jpeg
+teaserImage: when-code-reviews-lgtm.webp
 title: When code reviews LGTM
 url: https://hackernoon.com/when-code-reviews-lgtm-say-goodbye-to-shallow-reviews-a4e01b84ddef
 ---

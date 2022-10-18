@@ -3,7 +3,7 @@ url: https://medium.com/gitpod/developing-a-nuxt-js-app-entirely-in-your-browser
 date: Fri Sep 21 2018 13:23:34 GMT+0000 (UTC)
 author: svenefftinge
 title: Developing a Nuxt.js app entirely in your browser
-image: developing-nuxtjs-in-a-browser.jpeg
+image: developing-nuxtjs-in-a-browser.webp
 excerpt: A walk-through to create a fully working Nuxt.js web application with only a browser, using Gitpod.io the online IDE for GitHub.
 slug: developing-nuxtjs-in-browser
 ---
