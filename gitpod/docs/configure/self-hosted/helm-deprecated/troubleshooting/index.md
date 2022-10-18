@@ -113,7 +113,7 @@ components:
 
 <!-- svelte-ignore a11y-img-redundant-alt -->
 
-![Request createWorkspace failed with message: 7 PERMISSION_DENIED: cannot resolve workspace image: not authorized Unknown Error](../../../static/images/docs/self-hosted/troubleshooting/registry-unauthorized.webp)
+![Request createWorkspace failed with message: 7 PERMISSION_DENIED: cannot resolve workspace image: not authorized Unknown Error](../../../static/images/docs/self-hosted/troubleshooting/registry-unauthorized.jpeg)
 
 If you are using the internal Docker registry, you will need to specify the username and password so your Gitpod instance can access it.
 

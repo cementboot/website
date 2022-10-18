@@ -18,7 +18,7 @@ declare module "*.webp" {
   export = value;
 }
 
-declare module "*.webp" {
+declare module "*.jpeg" {
   const value: string;
   export = value;
 }

@@ -52,7 +52,7 @@ Unfortunately, the pain doesn’t stop here.
 
 You probably know the famous phrase “It works on my machine”? The situation when a bug only appears on one machine and is hard to reproduce on others? **That feeling when a bad thing happens in production, but you can’t reproduce it locally?** Not very surprising, though, as long you are running the code on a different platform based on a different setup.
 
-![But it works... On my machine](https://cdn-images-1.medium.com/max/2000/1*I3-fRXyMaZDfesAxyA2eKw.webp)
+![But it works... On my machine](https://cdn-images-1.medium.com/max/2000/1*I3-fRXyMaZDfesAxyA2eKw.jpeg)
 
 ## **Going back to fix something on an old branch**
 
@@ -60,7 +60,7 @@ Another pet peeve is when you need to fix something on a maintenance branch. Fix
 
 Tinkering with a six months old technology stack can be so annoying. You have to deal with all those old libraries and versions of them. However, you still have to make it work somehow.
 
-![Woman biting a pen in front of a laptop](../../../static/images/blog/dev-env-as-code/jeeshoots.webp)_Photo by [JESHOOTS.COM](https://unsplash.com/@jeshoots?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)_
+![Woman biting a pen in front of a laptop](../../../static/images/blog/dev-env-as-code/jeeshoots.jpeg)_Photo by [JESHOOTS.COM](https://unsplash.com/@jeshoots?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)_
 
 All this suffering can end if we applied the ‘infrastructure as code’ idea to our dev environments, too. Why not make dev environment setups automated, reliably reproducible, and versioned by writing them down in an executable format and checking them into the project’s source code repository?
 
@@ -80,7 +80,7 @@ Docker files are a pretty neat way to describe a developer environment. Imagine 
 
 Once you push the change to the repository and the Docker image gets updated (automatically), all team members have the new tool in their developer environment. We need to get to coding with a single click.
 
-![Laptop with code on the screen](../../../static/images/blog/dev-env-as-code/clement-h.webp)_Photo by [Clément H](https://unsplash.com/@clemhlrdt?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)_
+![Laptop with code on the screen](../../../static/images/blog/dev-env-as-code/clement-h.jpeg)_Photo by [Clément H](https://unsplash.com/@clemhlrdt?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)_
 
 ### **Automated IDE Setup**
 

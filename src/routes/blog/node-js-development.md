@@ -2,7 +2,7 @@
 author: akosyakov
 date: Wed Dec 12 2018 11:44:33 GMT+0000 (UTC)
 excerpt: Nowadays, there are many collaborative platforms for showcasing JS code snippets and frameworks. Most of them run in your browser, some even
-image: node-js-development-with-only-a-browser.webp
+image: node-js-development-with-only-a-browser.jpeg
 slug: node-js-development
 title: Sustainable Node.js development with only a browser
 url: https://medium.com/gitpod/sustainable-node-js-development-with-only-a-browser-4887bc6e737b

@@ -2,7 +2,7 @@
 author: svenefftinge
 date: Wed Sep 26 2018 09:35:09 GMT+0000 (UTC)
 excerpt: It has been a month already since we went public with Gitpod.io. We want to take a moment and send out a big thank you for all the great
-image: october-2018-release.webp
+image: october-2018-release.jpeg
 slug: october-2018-release
 subtitle: What's new this month?
 title: Gitpod — October 2018 Release

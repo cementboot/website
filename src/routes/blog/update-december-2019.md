@@ -2,10 +2,10 @@
 author: svenefftinge
 date: Thu Dec 23 2019 11:49:24 GMT+0000 (UTC)
 excerpt: Ho ho ho! Christmas came early! We’ve just released a bunch of exciting new features and I'm not talking about Gitpod Enterprise which was
-image: winter.webp
+image: winter.jpeg
 slug: update-december-2019
 subtitle: A Last, Big Update in 2019
-teaserImage: winter.webp
+teaserImage: winter.jpeg
 title: Christmas Release 🎄
 ---
 
