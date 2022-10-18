@@ -42,7 +42,7 @@ Finally, please note that these changes will only take effect in new workspaces.
 
 ## Using the Ammonite REPL
 
-![The Ammonite REPL in action](../../../static/images/docs/AmmoniteRepl.png)
+![The Ammonite REPL in action](../../../static/images/docs/AmmoniteRepl.webp)
 
 To install the [Ammonite REPL](https://ammonite.io/) in Gitpod, you must add the following to our previously-created [.gitpod.Dockerfile](/docs/configure/workspaces/workspace-image):
 
@@ -129,7 +129,7 @@ image:
 
 ### Scala Syntax (official)
 
-![Scala Syntax demo](../../../static/images/docs/scala-syntax.png)
+![Scala Syntax demo](../../../static/images/docs/scala-syntax.webp)
 
 Scala Syntax adds basic syntax highlighting for Scala and `sbt` files.
 
@@ -137,7 +137,7 @@ To get it, open Gitpod's **Extensions** panel (left vertical menu in the IDE), t
 
 ### Metals
 
-![An example of the metals in Gitpod](../../../static/images/docs/metals-demo.png)
+![An example of the metals in Gitpod](../../../static/images/docs/metals-demo.webp)
 
 Metals adds helpful Scala features to Gitpod, for example, advanced autocompletion and debugging support just to name a few. Although to use it you must also have the previously mentioned Scala Syntax.
 

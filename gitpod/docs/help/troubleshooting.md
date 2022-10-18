@@ -63,6 +63,6 @@ While this is a very critical issue, our workspace-team would eventually look in
 1. Go to the [Gitpod Dashboard](https://gitpod.io/workspaces)
 2. Find your workspace from the list
 3. Download your workspace like so:
-   ![Download a workspace](../../../static/images/docs/troubleshooting/download_a_workspace.png)
+   ![Download a workspace](../../../static/images/docs/troubleshooting/download_a_workspace.webp)
 4. You can now either try opening a new workspace or use your local machine for a while.
 5. The downloaded workspace is a `tar` file which can be extracted with `tar -xf <your-workspace-filename-here>` command on a new Gitpod workspace or in your Linux/MacOS machine. You can use `7-zip` to extract if you're on windows and don't have `tar`.

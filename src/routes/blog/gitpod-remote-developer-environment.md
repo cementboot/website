@@ -2,7 +2,7 @@
 author: svenefftinge
 date: Tue Jul 31 2018 06:02:26 GMT+0000 (UTC)
 excerpt: After over one year of intensive work, we are proud to announce the public Beta of Gitpod. Gitpod is a Remote Developer Environment which can be launched
-image: gitpod-online-ide.png
+image: gitpod-online-ide.webp
 slug: gitpod-remote-developer-environment
 subtitle: One Click to Coding!
 title: Gitpod - Remote Developer Environment
@@ -41,7 +41,7 @@ Starting a Gitpod workspace from an issue will automatically create a branch and
 
 Once you are in the IDE, you can interact with GitHub in various ways. Besides the obvious Git integration, you can do things like **commenting inline in editors, approving and even merging PRs**.
 
-![Inline Comments For Pull Requests](https://cdn-images-1.medium.com/max/6908/1*HNDYawJpDgX6gP_e0w17mg.png)_Inline Comments For Pull Requests_
+![Inline Comments For Pull Requests](https://cdn-images-1.medium.com/max/6908/1*HNDYawJpDgX6gP_e0w17mg.webp)_Inline Comments For Pull Requests_
 
 ## **Automated Setup**
 
@@ -61,19 +61,19 @@ You usually never need to go back to any workspace, but of course you can in cas
 
 Gitpod gives developers full featured terminals to run any processes such as compiling, linting or simply running tests or your application. Any Docker image works and you can even configure Gitpod to automatically launch certain tasks on start.
 
-![Terminal](https://cdn-images-1.medium.com/max/6796/1*K8oKjiVfaptpeI27UXPbcA.png)
+![Terminal](https://cdn-images-1.medium.com/max/6796/1*K8oKjiVfaptpeI27UXPbcA.webp)
 
 ## **Open Source**
 
 The IDE in Gitpod is based on [Theia](http://theia-ide.org), an open-source project that we ([TypeFox](https://www.typefox.io/)) have started together with our friends from Ericsson in early 2017. You can think of it as **the online version of VS Code**. We love VS Code, but needed some additional properties, like a more extensible architecture and the ability to run in browsers connected to a remote backend. Theia is a true open-source project, hosted at the Eclipse Foundation and developed by a diverse crowd of engineers backed by TypeFox, Ericsson, Red Hat, Arm and others.
 
-![Language Tooling In Action](https://cdn-images-1.medium.com/max/6796/1*5DnbR6-FbyVQ8ILgFHJXOw.png)_Language Tooling In Action_
+![Language Tooling In Action](https://cdn-images-1.medium.com/max/6796/1*5DnbR6-FbyVQ8ILgFHJXOw.webp)_Language Tooling In Action_
 
 ## **Supports Many Languages**
 
 Being based on VS Code and its Language Server Protocol, Theia supports most major programming languages. The table below provides a good overview of the current state.
 
-![Current State of Supported Programming Languages](https://cdn-images-1.medium.com/max/4712/1*BshL6_wwY2XYRDKSMYiSDg.png)_Current State of Supported Programming Languages_
+![Current State of Supported Programming Languages](https://cdn-images-1.medium.com/max/4712/1*BshL6_wwY2XYRDKSMYiSDg.webp)_Current State of Supported Programming Languages_
 
 Additional languages like **C#, Swift, Clojure, Groovy, Objective-C, Markdown, Less, XML and many others** are supported with syntax coloring, as well. Because it is so easy to create an extension for Theia, support will improve both in breadth (more languages) and depth, shortly.
 

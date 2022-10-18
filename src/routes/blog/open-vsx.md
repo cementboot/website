@@ -2,10 +2,10 @@
 author: svenefftinge, spoenemann
 date: Thu Apr 9 2020 17:00:00 GMT+0000 (UTC)
 excerpt: VS Code is used by more than 50% of all developers worldwide. Its extension protocol enabled the broader developer community to create over
-image: open.jpg
+image: open.webp
 slug: open-vsx
 subtitle: A Free Marketplace for VS Code extensions
-teaserImage: open.jpg
+teaserImage: open.webp
 title: Open VSX
 ---
 
@@ -31,7 +31,7 @@ Most extensions are developed by the community and published under permissive Op
 
 In addition to providing a publicly hosted, vendor-neutral extension registry, we also make the code available as open-source. This way everyone can install their own registry and use it, e.g. inside a company network. As a result, you are not forced to publish proprietary extensions to a public marketplace, but maintain precise control over their availability. This is very similar to common practice found in other ecosystems such as npm, Cargo or Maven.
 
-![Open VSX Registry](../../../static/images/blog/open-vsx/openvsx-screenshot.png)
+![Open VSX Registry](../../../static/images/blog/open-vsx/openvsx-screenshot.webp)
 
 ## Open VSX
 

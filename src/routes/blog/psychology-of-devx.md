@@ -2,10 +2,10 @@
 author: pawlean, mikenikles, ellenchisa
 date: Mon, 10 Nov 2021 11:00:00 UTC
 excerpt: For our third edition of DevX Digest, we talk about the psychology behind developer experience.
-image: teaser.png
+image: teaser.webp
 slug: psychology-of-devx
 subtitle:
-teaserImage: teaser.png
+teaserImage: teaser.webp
 title: DevX Digest 03 - The Psychology of Developer Experience
 type: digest
 ---

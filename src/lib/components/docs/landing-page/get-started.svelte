@@ -10,7 +10,7 @@
   class="flex items-center p-xx-small md:p-small gap-small"
 >
   <img
-    src="/images/docs/book.png"
+    src="/images/docs/book.webp"
     class="hidden lg:block"
     width="136"
     height="140"

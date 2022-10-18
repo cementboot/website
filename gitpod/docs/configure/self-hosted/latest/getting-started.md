@@ -76,23 +76,23 @@ The first page will ask you to upload your Gitpod license which you can get [her
 
 After uploading the license, you will be forwarded to the config page. On this page, you need to enter your domain name for your Gitpod installation. You can also configure to use [external components](/docs/configure/self-hosted/latest/requirements) (by default internal ones are installed) as well as your TLS certs setup. Click “Continue” to proceed with the installation.
 
-![kots-install-config](../../static/images/docs/self-hosted/kots-install-config.png)
+![kots-install-config](../../static/images/docs/self-hosted/kots-install-config.webp)
 
 In the next step, the installer runs a preflight check. This validates your cluster meets the minimum requirements. Everything is green? Awesome! Click “Continue” to proceed.
 
-![kots-preflights-results](../../static/images/docs/self-hosted/kots-preflights-results.png)
+![kots-preflights-results](../../static/images/docs/self-hosted/kots-preflights-results.webp)
 
 Now, you are seeing the installation admin page. Once the installation has been finished successfully, you will see the status “Ready” with a small green indicator next to the Gitpod logo. You will also see which version you installed and which license you are using.
 
-![kots-admin-dashboard](../../static/images/docs/self-hosted/kots-admin-dashboard.png)
+![kots-admin-dashboard](../../static/images/docs/self-hosted/kots-admin-dashboard.webp)
 
 Open your Gitpod domain in your browser to access your running Gitpod instance. You should be greeted by the following screen:
 
-![welcome screen](../../static/images/docs/self-hosted/welcome-screen.png)
+![welcome screen](../../static/images/docs/self-hosted/welcome-screen.webp)
 
 You will then be asked to configure a git integration:
 
-![git integration setup](../../static/images/docs/self-hosted/git-integration-setup.png)
+![git integration setup](../../static/images/docs/self-hosted/git-integration-setup.webp)
 
 This git integration will also serve as the way that you and your users get authenticated against your Gitpod installation. You can find out more in the [Integrations](/docs/integrations) section.
 

@@ -19,7 +19,7 @@ All of this is already pre-configured for `GitLab.com` (the SaaS version), and c
 
 You can start a Gitpod workspace directly from the web pages of a GitLab repository. Simply click on the dropdown arrow next to the _Web IDE_ split button on the project or merge request page, and choose _Gitpod_. The Gitpod workspace will open in a new browser tab. The next time you visit a GitLab page, the last used action will be pre-selected.
 
-![GitLab Integration](../../../static/images/docs/beta/integrations/gitpod-button-project-page.png)
+![GitLab Integration](../../../static/images/docs/beta/integrations/gitpod-button-project-page.webp)
 
 To launch new Gitpod workspaces for issues, branches, specific commits, etc. you can also prefix any GitLab URL with `gitpod.io/#` as described in the [Getting started](/docs/introduction/getting-started) page, or use the [browser extension](/docs/configure/user-settings/browser-extension) to add a convenient _Gitpod_ button to every GitLab page.
 
@@ -27,11 +27,11 @@ To launch new Gitpod workspaces for issues, branches, specific commits, etc. you
 
 To automatically create a [prebuilt workspace](/docs/configure/projects/prebuilds) for each commit, Gitpod needs access to install a webhook. To allow this, go to Gitpod's [Integrations](https://gitpod.io/integrations/) page, scroll to the "Git Providers" section, click on the three dot button that pops up when you hover over the "GitLab" entry. Then choose _Edit Permissions_ from the popup menu.
 
-![GitLab integration actions menu](../../../static/images/docs/beta/integrations/gitlab-integration-actions-menu.png)
+![GitLab integration actions menu](../../../static/images/docs/beta/integrations/gitlab-integration-actions-menu.webp)
 
 In the "Edit Permissions" dialog, make sure that _api_ is checked such that Gitpod is allowed to install the webhook.
 
-![Modal Edit Permissions of GitLab in the Gitpod settings](../../../static/images/docs/beta/integrations/edit-permissions.png)
+![Modal Edit Permissions of GitLab in the Gitpod settings](../../../static/images/docs/beta/integrations/edit-permissions.webp)
 
 The webhook will be automatically installed when you trigger the first prebuild manually. For this, prefix your GitLab project URL with `gitpod.io/#prebuild/` as described in the [prebuilds page](/docs/configure/projects/prebuilds#on-gitlab-and-bitbucket).
 
@@ -58,17 +58,17 @@ If you have logged into Gitpod with a different provider, you can manually add y
 
 1. Open [the integrations page](https://gitpod.io/integrations/). Scroll to the section about "Git Providers" and click on the three dot button that pops up when you hover over the _GitLab_ item. Select _Connect_ from the popup menu.
 
-![GitLab integration connect menu item](../../../static/images/docs/beta/integrations/gitlab-integration-connect-menu-item.png)
+![GitLab integration connect menu item](../../../static/images/docs/beta/integrations/gitlab-integration-connect-menu-item.webp)
 
 2. You will be redirected to GitLab's login page. Log in with your username and password or choose one of the OAuth providers from the list.
 
 3. Once logged in successfully, you will be asked to authorize Gitpod to access your personal information on GitLab and use their API. Click _Authorize_.
 
-![GitLab: Authorize Gitpod](../../../static/images/docs/beta/integrations/authorize-gitpod.png)
+![GitLab: Authorize Gitpod](../../../static/images/docs/beta/integrations/authorize-gitpod.webp)
 
 4. You'll be directed back to Gitpod's settings page. A green bullet left to _GitLab_ signals you've successfully linked your GitLab account with Gitpod.
 
-![GitLab integration connected](../../../static/images/docs/beta/integrations/gitlab-integration-connected.png)
+![GitLab integration connected](../../../static/images/docs/beta/integrations/gitlab-integration-connected.webp)
 
 ### Connecting Your Self-Hosted GitLab Account
 
@@ -98,20 +98,20 @@ Here is how to register your Self-Hosted GitLab installation:
 
 2. Head over to [the integrations page](https://gitpod.io/integrations/) on Gitpod. Scroll to the section about `Git Integrations` and click on the "New Integration" button.
 
-![Git Integrations section in the Gitpod settings](../../../static/images/docs/beta/integrations/git-integrations.png)
+![Git Integrations section in the Gitpod settings](../../../static/images/docs/beta/integrations/git-integrations.webp)
 
 3. In the pop-up window, choose GitLab as the provider type and enter the URL of the GitLab installation you want to use.
 
-![New Git integration dialog](../../../static/images/docs/beta/integrations/new-git-integration.png)
+![New Git integration dialog](../../../static/images/docs/beta/integrations/new-git-integration.webp)
 
 4. The next field in the form is the _redirect URL_ that you need to register Gitpod on the GitLab side. Copy the _redirect URL_ to your clipboard using the button on the right.
 
 5. Go to `/profile/applications` on your GitLab installation to create an OAuth app. Type in a name (e.g. "Gitpod") and paste the _redirect URL_ in the corresponding text area. Check the scopes _api_ and _read_user_. Click the button _Save Application_ below.
 
-<img alt="create new GitLab app" src="https://user-images.githubusercontent.com/372735/91146315-04abe800-e6b7-11ea-87ff-e61f5a87861f.png">
+<img alt="create new GitLab app" src="https://user-images.githubusercontent.com/372735/91146315-04abe800-e6b7-11ea-87ff-e61f5a87861f.webp">
 
 6. Copy the _Application ID_ and the _Secret_ in the corresponding form fields (_Client ID_ resp. _Client Secret_) of your Gitpod installation.
 
-<img alt="link new GitLab app to Gitpod" src="https://user-images.githubusercontent.com/372735/91142160-9f54f880-e6b0-11ea-8436-6a9c8bc67d9f.png">
+<img alt="link new GitLab app to Gitpod" src="https://user-images.githubusercontent.com/372735/91142160-9f54f880-e6b0-11ea-8436-6a9c8bc67d9f.webp">
 
 7. Press _Connect_ and go through the GitLab authentication flow to connect your user account.

@@ -41,8 +41,8 @@
   title="Engineering Teams get more done with Gitpod"
   text="Unleash developer productivity and collaboration by supercharging how you develop."
   image={{
-    src: "/images/enterprise/enter-rug.png",
-    darkSrc: "/images/enterprise/enter-rug-dark.png",
+    src: "/images/enterprise/enter-rug.webp",
+    darkSrc: "/images/enterprise/enter-rug-dark.webp",
     alt: "Enter Rug",
   }}
   btnPrimary={{

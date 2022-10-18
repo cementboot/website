@@ -16,7 +16,7 @@ Besides a complete relaunch of the website and app, we have added some very exci
 We have been busy developing a <a href="https://github.com/apps/gitpod-io" target="_blank">new GitHub app</a>, that once installed on your repository will prebuild your project on every push.
 On GitHub pull requests this is communicated through a status check.
 
-![Prebuilt Check on PR](../../../../../static/images/docs/release-notes/2019-04-05/prebuilt-check.png)
+![Prebuilt Check on PR](../../../../../static/images/docs/release-notes/2019-04-05/prebuilt-check.webp)
 
 As a result, Gitpod is now the first IDE that builds your project, before you open it.
 
@@ -32,7 +32,7 @@ so that dev servers will be fine.
 
 Gitpod now directly uses Microsoft's great Go support for VS Code.
 
-![VS Code Go Extension](../../../../../static/images/docs/release-notes/2019-04-05/vscode-go.png)
+![VS Code Go Extension](../../../../../static/images/docs/release-notes/2019-04-05/vscode-go.webp)
 
 ## Unlimited Hours
 
@@ -49,7 +49,7 @@ You can check out the various [pricing options on the website](/pricing).
 As part of the launch, we have refreshed the design of Gitpod. The website and dashboard now use a new dark theme that we hope you'll like, and the UI of the
 IDE is more closely matching the look of VS Code.
 
-![New Dashboard](../../../../../static/images/docs/release-notes/2019-04-05/dashboard-design.png)
+![New Dashboard](../../../../../static/images/docs/release-notes/2019-04-05/dashboard-design.webp)
 
 ## Delete Workspace
 

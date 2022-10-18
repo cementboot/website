@@ -2,7 +2,7 @@
 author: svenefftinge
 date: Tue Nov 05 2019 16:16:17 GMT+0000 (UTC)
 excerpt: With Visual Studio Online (VSO) Microsoft is entering the space of cloud-based developer environments. So, what are the differences? Glad
-image: gitpod-vs-code-online.png
+image: gitpod-vs-code-online.webp
 slug: visual-studio-online-vs-gitpod
 subtitle: What are the differences?
 title: Visual Studio Online vs Gitpod

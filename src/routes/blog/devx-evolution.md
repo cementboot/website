@@ -2,10 +2,10 @@
 author: pawlean, mikenikles
 date: Tues, 21 Dec 2021 11:00:00 UTC
 excerpt: For our fifth edition of DevX Digest, we’d be breaking down the key highlights of our DevXPod conversation with Jamon from Infinite Red.
-image: header.jpg
+image: header.webp
 slug: devx-evolution
 subtitle:
-teaserImage: header.jpg
+teaserImage: header.webp
 title: DevX Digest 05 - How DevX has evolved
 type: digest
 ---
@@ -18,7 +18,7 @@ type: digest
 
 In this edition, we’re looking back on an awesome conversation we had for DevXPod with [Jamon Holmgreen](https://twitter.com/jamonholmgren), the Co-founder and CTO of [Infinite Red](https://infinite.red/). We encourage you to listen to the full episode, however, if you prefer reading our key takeaways from the episode, here they are! We also have a full transcript available [here](https://www.buzzsprout.com/1895030/9712066).
 
-![DevX Podcast Episode 2](../../../static/images/blog/devx-evolution/devx-pod.png)
+![DevX Podcast Episode 2](../../../static/images/blog/devx-evolution/devx-pod.webp)
 _DevX Pod is avaliable wherever you get your podcasts or over on our [Buzzsprout page](https://www.buzzsprout.com/1895030/9712066)!_
 
 ## Key takeaways

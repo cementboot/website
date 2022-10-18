@@ -2,10 +2,10 @@
 author: svenefftinge
 date: Wed Aug 07 2019 11:57:00 GMT+0000 (UTC)
 excerpt: Continuous dev environments reduce friction in onboarding and task switching and improves reproducibility across the project.
-image: devops.jpg
+image: devops.webp
 slug: continuous-dev-environment-in-devops
 subtitle: The Missing Piece in DevOps?
-teaserImage: devops.jpg
+teaserImage: devops.webp
 title: Continuous Dev Environments
 ---
 
@@ -27,7 +27,7 @@ Getting our dev environments into a ready-to-code state is usually still done ma
 
 Automating dev environments is not new and usually focuses on the initial setup, but that doesn't quite cut it. Of course, we all have felt the pain of being on-boarded in a new project, spending the first week figuring out what tools to install and how to configure them correctly. Manually setting up a dev environment is a waste of energy. Surprising that we still do such things, given that we developers are usually busy automating everything else in the world.
 
-![disposable dev environments](../../../static/images/blog/continuous-dev-environment-in-devops/gears.jpg)
+![disposable dev environments](../../../static/images/blog/continuous-dev-environment-in-devops/gears.webp)
 
 But it is not only the one-off onboarding I want to discuss. Our projects change over time, and so do our dev environments. Developers are switching between different versions of a project. They, therefore, have to adjust parts of the dev environment accordingly, all the time.
 
@@ -39,7 +39,7 @@ We should automate dev environments using code, just as we do with testing, stag
 
 Automating a dev environment means we can recreate it any time. Starting fresh every time will make sure the setup works correctly and that you get a clean state. Since the build and the tests ran through and the dependencies are all fresh, you can be sure that any problems come from your changes. Such a setup makes it super easy to reproduce bugs, as well.
 
-![Self-service rack with available pairs of bowling shoes](../../../static/images/blog/continuous-dev-environment-in-devops/same-shoes.jpg)
+![Self-service rack with available pairs of bowling shoes](../../../static/images/blog/continuous-dev-environment-in-devops/same-shoes.webp)
 
 Moreover, a use-once dev environment frees you from cleaning up afterward. You never pollute your local system with any heavy checkouts, dependencies, builds, databases, and the like. Enter zero-waste coding.
 
@@ -55,7 +55,7 @@ Just like CI tools that build your project after you have submitted a change, a 
 
 Gitpod prebuilds your branches continuously, so that you can start coding immediately without having to wait for builds to complete. Starting a new dev environment and seeing below output in the terminal makes me smile every time:
 
-![🍌 This task ran as part of a workspace prebuild. 🎉 You just saved 5 minutes of watching your code build.](../../../static/images/blog/continuous-dev-environment-in-devops/prebuilds.png)
+![🍌 This task ran as part of a workspace prebuild. 🎉 You just saved 5 minutes of watching your code build.](../../../static/images/blog/continuous-dev-environment-in-devops/prebuilds.webp)
 
 Try below's example to see the effect of prebuilds in action. 👇
 
@@ -71,13 +71,13 @@ The Theia IDE open-source project is fully configured with continuously prebuilt
 
 > https://gitpod.io/#https://github.com/theia-ide/theia
 
-![Theia in Gitpod](../../../static/images/blog/continuous-dev-environment-in-devops/theia.png)
+![Theia in Gitpod](../../../static/images/blog/continuous-dev-environment-in-devops/theia.webp)
 
 ## But my environment is different than those from my teammates!
 
 Yes, of course, there are personal preferences like themes, keybindings, or even one or the other tool. Some developers heavily use command-line tools and have very advanced configurations. Others use particular VS Code extensions that improve their workflow significantly.
 
-![Individual](../../../static/images/blog/continuous-dev-environment-in-devops/share.jpg)
+![Individual](../../../static/images/blog/continuous-dev-environment-in-devops/share.webp)
 
 > Why don't we share all that goodness within the team?
 

@@ -2,10 +2,10 @@
 author: ghuntley
 date: Monday, 26 Apr 2021 11:00:00 UTC
 excerpt: The truth is free software isn't free. Hours have rates. Rates require payment. What if the high achievers that our digital society is built upon were empowered to become independent artists?
-image: teaser.jpg
+image: teaser.webp
 slug: gitpod-open-source-sustainability-fund
 subtitle:
-teaserImage: teaser.jpg
+teaserImage: teaser.webp
 title: Gitpod Open-Source Sustainability Fund
 ---
 
@@ -29,7 +29,7 @@ The truth is free software isn't free. How much is a task going to cost in perso
 
 Did you know there are less than 2100 people in the inner GitHub open-source maintainer community?
 
-![Maintainer Community](../../../static/images/blog/gitpod-open-source-sustainability-fund/maintainer-community.png)
+![Maintainer Community](../../../static/images/blog/gitpod-open-source-sustainability-fund/maintainer-community.webp)
 
 **I often wonder what the future would look like if these high achievers that our digital society is built upon were empowered to become independent artists.** If just one of those people can help more people better understand a technology or improve the developer experience for an entire ecosystem what is the worth/value of that and why isn't our industry doing that yet?
 
@@ -37,7 +37,7 @@ The word volunteer, by definition, means those who have the ability and time to 
 
 Paying for resources that are being consumed broadens the list of people who can do open-source. Additionally, money enables open-source maintainers to buy services and outsource the activities that do not bring them joy.
 
-![Money enables diversity](../../../static/images/blog/gitpod-open-source-sustainability-fund/teaser.jpg)
+![Money enables diversity](../../../static/images/blog/gitpod-open-source-sustainability-fund/teaser.webp)
 
 At Gitpod, we firmly believe that working for an open-source project should be a legitimate alternative to a career working for a for-profit corporation. Additionally, we'd like everyone to be able to maintain open-source projects, not just people with the right financial background or youth that enables the ability to volunteer.
 
@@ -71,11 +71,11 @@ Over the last couple months Gitpod has been emailing maintainers of dependencies
 
 If you appear in our bill of materials then Gitpod would like to unconditionally shout you some beers, some nice food or more as our way of saying thank-you for helping make Gitpod possible.
 
-![Funding Open-Source Projects Email](../../../static/images/blog/gitpod-open-source-sustainability-fund/email.png)
+![Funding Open-Source Projects Email](../../../static/images/blog/gitpod-open-source-sustainability-fund/email.webp)
 
 I hope more companies will follow Gitpod's lead and do this simple act en masse because maintainers must have income diversity because diversity creates a freedom that enables roadmap and project independence.
 
-![Thank-you for sponsoring tweet](../../../static/images/blog/gitpod-open-source-sustainability-fund/thank-you-tweet.png)
+![Thank-you for sponsoring tweet](../../../static/images/blog/gitpod-open-source-sustainability-fund/thank-you-tweet.webp)
 
 If you are a maintainer of an open-source project, then there's one simple, easy step you can do to enable Gitpod and other companies to provide financial support...
 
@@ -85,7 +85,7 @@ Go sign up to <a href="https://github.com/sponsors">GitHub Sponsors</a> or <a hr
 
 Nadia Eghbal, in 2016 with the support of the Ford Foundation, authored an <a href="https://www.fordfoundation.org/work/learning/research-reports/roads-and-bridges-the-unseen-labor-behind-our-digital-infrastructure/">extensive report</a> into the unseen labour behind our digital infrastructure. She recently published the successor of the report: <a class="no-nowrap" href="https://www.amazon.com.au/Working-Public-Making-Maintenance-Software/dp/0578675862">Working in Public: The Making and Maintenance of Open Source Software</a>. If you haven't read her work before, then start there.
 
-![Credit: XKCD](../../../static/images/blog/gitpod-open-source-sustainability-fund/xkcd.png)
+![Credit: XKCD](../../../static/images/blog/gitpod-open-source-sustainability-fund/xkcd.webp)
 _Credit: [XKCD](https://xkcd.com/2347/)_
 
 Eghbal, in her work outlines, digital infrastructure should be treated as a necessary public good. Free public source code makes it exponentially cheaper and easier for companies to build software and makes technology more accessible across the globe. However, there is a common misconception that the labour for open source projects is well-funded. In reality, it is largely created and maintained by volunteers who do it to build their reputations, out of a sense of obligation or simply as a labour of love.
@@ -116,7 +116,7 @@ In practice, this involves going through each one of your projects in your depen
 
 Gitpod has plenty of smaller dependencies for doing activities such as parsing TOML. As that dependency isn't of strategic importance, the strategy to mitigate the risk would be to fund the project.
 
-![Open-source supply chain decision tree](../../../static/images/blog/gitpod-open-source-sustainability-fund/decision-tree.png)
+![Open-source supply chain decision tree](../../../static/images/blog/gitpod-open-source-sustainability-fund/decision-tree.webp)
 
 For dependencies that are of strategic importance, then the strategy would be a combination of financial support, becoming regular contributors to the project or even hiring the maintainers of these projects as engineers for [short|long]-term engagements.
 

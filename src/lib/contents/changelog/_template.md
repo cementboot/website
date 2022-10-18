@@ -2,7 +2,7 @@
 title:
 excerpt:
 date: {{releaseDate}}
-image: {{releaseDate}}.jpg
+image: {{releaseDate}}.webp
 alt:
 ---
 

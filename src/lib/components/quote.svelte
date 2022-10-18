@@ -15,7 +15,7 @@
     class="shadow-normal flex items-start relative text-left md:mx-auto py-x-small px-micro sm:p-small {clazz}"
   >
     <img
-      src="/images/startups/kumquat-left.png"
+      src="/images/startups/kumquat-left.webp"
       alt="Gitpod Kumquat"
       class="kumquat-left absolute hidden md:block h-16 lgx:h-32 lgx:w-36 top-24 -left-12 lgx:-left-24 -z-10"
     />
@@ -43,7 +43,7 @@
     </div>
 
     <img
-      src="/images/startups/kumquat-right.png"
+      src="/images/startups/kumquat-right.webp"
       alt="Gitpod Kumquat"
       class="kumquat-right absolute hidden md:block h-20 lgx:h-36 lgx:w-44 -right-16 lgx:-right-32 -z-10 bottom-0 lgx:-bottom-10"
     />

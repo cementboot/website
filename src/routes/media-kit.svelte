@@ -25,7 +25,7 @@
 >
   <img
     slot="content"
-    src="/images/media-kit/media-kit.png"
+    src="/images/media-kit/media-kit.webp"
     alt="Gitpod Illustration"
     class="mt-small rounded-4xl w-full"
   />

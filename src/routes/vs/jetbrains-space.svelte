@@ -48,7 +48,7 @@
   text="Gitpod is the vendor neutral, open-source platform that integrates with
   your individual stack including all JetBrains IDEs."
   image={{
-    src: "/images/jetbrains-space/git-providers.png",
+    src: "/images/jetbrains-space/git-providers.webp",
     alt: "Git Providers",
     isCut: false,
   }}
@@ -69,8 +69,8 @@
       paragraph:
         "Gitpod and JetBrains entered into a long term partnership with a deep product integration. You can work in cloud developer environments provisioned by Gitpod using your favorite desktop IDE from JetBrains.",
       image: {
-        src: "/images/jetbrains-space/gitpod-jetbrains.png",
-        darkSrc: "/images/jetbrains-space/gitpod-jetbrains-dark.png",
+        src: "/images/jetbrains-space/gitpod-jetbrains.webp",
+        darkSrc: "/images/jetbrains-space/gitpod-jetbrains-dark.webp",
         alt: "JetBrains’ IDEs within Gitpod",
         classNames: "w-full max-w-md md:max-w-lg",
       },
@@ -97,13 +97,13 @@
   text="If you already have a Gitpod account, simply go to <a href='https://gitpod.io/preferences'>/preferences</a>, select your favourite IDE/editor and open your project."
 >
   <img
-    src="/images/jetbrains-space/jetbrains-ides-in-gitpod.png"
+    src="/images/jetbrains-space/jetbrains-ides-in-gitpod.webp"
     alt="Jetbrains IDEs available to use with Gitpod"
     slot="image"
     class="max-w-3xl mx-auto mt-small w-full hidden md:block dark:shadow-highlight rounded-2xl"
   />
   <img
-    src="/images/jetbrains-space/jetbrains-ides-in-gitpod-mobile.png"
+    src="/images/jetbrains-space/jetbrains-ides-in-gitpod-mobile.webp"
     alt="Jetbrains IDEs available to use with Gitpod"
     slot="image-mobile"
     class="max-w-xs mx-auto mt-x-small w-full md:hidden dark:shadow-highlight rounded-2xl"

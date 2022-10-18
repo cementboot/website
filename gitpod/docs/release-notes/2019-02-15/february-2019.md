@@ -14,7 +14,7 @@ So here are the new & noteworthy things that we have been hard at work at this t
 
 You can now navigate to GitHub directly from the editor. The GitHub URL of any editor position or selection can be accessed with a right-click, and used for example in GitHub issues or Pull Request comments to reference interesting code locations.
 
-![GitHub Links](../../../../../static/images/docs/release-notes/2019-02-15/github-navi.jpg)
+![GitHub Links](../../../../../static/images/docs/release-notes/2019-02-15/github-navi.webp)
 
 ## Snapshots
 
@@ -24,7 +24,7 @@ This is super handy for providing reproducibles in GitHub issues and StackOverfl
 
 Please see this [blog post](https://medium.com/gitpod/code-never-lies-creating-reproducibles-for-any-programming-language-7946021a68f2) as well as the [documentation](/docs/configure/workspaces/collaboration#sharing-snapshots) for more details.
 
-![Snapshot](../../../../../static/images/docs/release-notes/2019-02-15/snapshots.png)
+![Snapshot](../../../../../static/images/docs/release-notes/2019-02-15/snapshots.webp)
 
 ## Configuration
 
@@ -42,7 +42,7 @@ tasks:
     openMode: split-right
 ```
 
-![Split Terminals](../../../../../static/images/docs/release-notes/2019-02-15/terminal-split.png)
+![Split Terminals](../../../../../static/images/docs/release-notes/2019-02-15/terminal-split.webp)
 
 ### Lifecycles
 
@@ -78,7 +78,7 @@ Check out [the docs](/docs/configure/workspaces/tasks) to learn more about pre-c
 
 Gitpod now understands YAML syntax and uses json schema specifications to validate and guide developers. While this works for any YAML files it comes in especially handy when editing `.gitpod.yml`.
 
-![yaml in action](../../../../../static/images/docs/release-notes/2019-02-15/yaml-support.png)
+![yaml in action](../../../../../static/images/docs/release-notes/2019-02-15/yaml-support.webp)
 
 ## Gitpod CLI
 
@@ -160,17 +160,17 @@ In addition to Node.js one can now also launch and debug Java applications direc
 
 Launch configs are stored in a VS Code compatible `launch.json` file.
 
-![Debug Java](../../../../../static/images/docs/release-notes/2019-02-15/debug-java.jpg)
+![Debug Java](../../../../../static/images/docs/release-notes/2019-02-15/debug-java.webp)
 
 ## XML Support
 
 The new improved XML support not only does syntax highlighting for XML and XSD but also uses associated schemas to provide diagnostics, content assist and hover information.
 
-![XML Support](../../../../../static/images/docs/release-notes/2019-02-15/xml-support.png)
+![XML Support](../../../../../static/images/docs/release-notes/2019-02-15/xml-support.webp)
 
 ## Better Previews
 
-Previews can now easily be opened by clicking on the top right icon (![icon](../../../../../static/images/docs/release-notes/2019-02-15/icon.jpg)) on any previewable files, such as Markdown, HTML and SVG files.
+Previews can now easily be opened by clicking on the top right icon (![icon](../../../../../static/images/docs/release-notes/2019-02-15/icon.webp)) on any previewable files, such as Markdown, HTML and SVG files.
 
 The inverse is supported, too. I.e. clicking the file icon on the top right of a preview will open the corresponding editor on the left. For Markdown even scrolling is synced between the two views.
 

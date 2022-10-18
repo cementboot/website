@@ -2,7 +2,7 @@
 layout: false
 ---
 
-![Reference Architecture Overview](../../../static/images/docs/self-hosted/reference-architecture/ReferenceArchitecture.png)
+![Reference Architecture Overview](../../../static/images/docs/self-hosted/reference-architecture/ReferenceArchitecture.webp)
 
 The diagram above gives an overview of the reference architecture. Starting from the user’s workstation, access is provided using a layer 4 (L4) load balancer. An internal proxy distributes this traffic within Gitpod.
 

@@ -6,17 +6,17 @@
 
   const {
     description,
-    image = "images/media-image.jpg",
+    image = "images/media-image.webp",
     title,
     keywords = "dev environment, developer environment, devops, cloud ide, github ide, gitlab ide, javascript, online ide, web ide, code review",
     type = "website",
-    imageTwitter = "images/twitter-preview.jpg",
+    imageTwitter = "images/twitter-preview.webp",
     norobots = false,
   } = data || {};
 
   const url = $page.url;
 
-  const isCustomTwitterImage = imageTwitter !== "images/twitter-preview.jpg";
+  const isCustomTwitterImage = imageTwitter !== "images/twitter-preview.webp";
 </script>
 
 <svelte:head>

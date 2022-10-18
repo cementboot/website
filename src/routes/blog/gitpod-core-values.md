@@ -2,10 +2,10 @@
 author: JohannesLandgraf, svenefftinge
 date: Wed, 1 June 2022 16:00:00 UTC
 excerpt: Core values define who we are. They are an authentic representation of where we are coming from and a guiding compass on where we are going.
-image: teaser-mobile.jpg
+image: teaser-mobile.webp
 slug: gitpod-core-values
 subtitle:
-teaserImage: teaser.jpg
+teaserImage: teaser.webp
 title: Our Core Values
 ---
 
@@ -40,7 +40,7 @@ As we scale the company around the globe, we started to formalize our culture, w
 
 This is what core values are about. Core values define who we are. They are an authentic representation of where we are coming from and a guiding compass on where we are going. They are horizontal to our work, our community, and the products and services crafted on Gitpod. As we are growing, who we are matures side-by-side and while some of these values stay with us, others will need to be adapted over time.
 
-<img src="/images/blog/gitpod-core-values/we.png" alt="We" class="banner">
+<img src="/images/blog/gitpod-core-values/we.webp" alt="We" class="banner">
 
 ## We, not me
 
@@ -50,7 +50,7 @@ This is what core values are about. Core values define who we are. They are an a
 - **Ego is the enemy** - we think more about each other than ourselves. In turn, you get a team that is rooting for you every single day.
 - **Asynchronous work** allows for more time to build and less time wasted in meetings. It is inclusive for our global team and enables collaboration, no matter the timezone.
 
-<img src="/images/blog/gitpod-core-values/integrate.png" alt="Integrate" class="banner">
+<img src="/images/blog/gitpod-core-values/integrate.webp" alt="Integrate" class="banner">
 
 ## Integrate, don’t dictate
 
@@ -60,7 +60,7 @@ This is what core values are about. Core values define who we are. They are an a
 - **Our community** is the heartbeat of Gitpod. Their feedback drives our product and helps shape how and what we prioritize. We are committed to fostering connection by supporting and empowering our community.
 - **Build in the open**. Transparency helps build a community of trust. Openness creates access between Gitpod and our community helping us stay ahead. [Public when possible, private when necessary.](https://www.notion.so/gitpod/How-we-work-0f9159f282d24f9d9776372e0c7dbab4)
 
-<img src="/images/blog/gitpod-core-values/students.png" alt="Book" class="banner">
+<img src="/images/blog/gitpod-core-values/students.webp" alt="Book" class="banner">
 
 ## Students of the game
 
@@ -70,7 +70,7 @@ This is what core values are about. Core values define who we are. They are an a
 - We **stay entrepreneurial** developing resilience and agility. We commit to being stretched and increase our tolerance in adversity.
 - We **operate as [managers of one](https://www.notion.so/gitpod/How-we-work-0f9159f282d24f9d9776372e0c7dbab4)**, taking personal responsibility for commitments, growth, and development. Everyone takes ownership of their responsibilities and is accountable for accomplishing them.
 
-<img src="/images/blog/gitpod-core-values/skateboard.png" alt="Skateboard" class="banner">
+<img src="/images/blog/gitpod-core-values/skateboard.webp" alt="Skateboard" class="banner">
 
 ## Ship skateboards
 

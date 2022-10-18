@@ -19,7 +19,7 @@
     }}
   >
     <img
-      src="/images/webinars/thumbnail.png"
+      src="/images/webinars/thumbnail.webp"
       alt="Webinar Remote Development with IntelliJ & Gitpod"
       class="rounded-lg mt-macro md:mt-x-small"
     />

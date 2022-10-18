@@ -4,8 +4,8 @@ date: Wednesday, 16 Feb 2022 06:00:00 UTC
 excerpt: We're launching our open source program to help you build great things without friction, for free.
 slug: gitpod-for-opensource
 subtitle:
-teaserImage: teaser.jpg
-image: teaser.jpg
+teaserImage: teaser.webp
+image: teaser.webp
 title: Introducing Gitpod for Open Source
 ---
 

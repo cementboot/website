@@ -20,11 +20,11 @@
       ><img
         class="dark:hidden w-[400px]"
         alt="kubecon logo"
-        src="/images/events/kubecon-logo.png"
+        src="/images/events/kubecon-logo.webp"
       /><img
         alt="kubecon logo"
         class="hidden dark:block w-[400px]"
-        src="/images/events/kubecon-logo-dark.png"
+        src="/images/events/kubecon-logo-dark.webp"
       /></Card
     >
   </div>
@@ -32,11 +32,11 @@
     <img
       class="dark:hidden w-48 "
       alt="kubecon logo"
-      src="/images/events/kubecon-logo.png"
+      src="/images/events/kubecon-logo.webp"
     /><img
       alt="kubecon logo"
       class="hidden w-48 dark:block"
-      src="/images/events/kubecon-logo-dark.png"
+      src="/images/events/kubecon-logo-dark.webp"
     />
   </div>
 </Section>

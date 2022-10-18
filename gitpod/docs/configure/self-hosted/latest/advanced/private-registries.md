@@ -20,7 +20,7 @@ Please refer to the [Docker image documentation](/docs/configure/workspaces/work
 
 To access private registries, Gitpod needs to have the corresponding access credentials. These can be supplied in the KOTS installation UI:
 
-![registry credentials UI](../../static/images/docs/self-hosted/private-registry-credentials.png)
+![registry credentials UI](../../static/images/docs/self-hosted/private-registry-credentials.webp)
 
 ## Allowlist
 

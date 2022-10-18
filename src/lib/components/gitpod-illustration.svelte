@@ -1,11 +1,11 @@
 <img
   class="block dark:hidden mt-small md:mt-medium w-full max-w-4xl bg-right-top mx-auto"
-  src="/images/illustration-crop.png"
+  src="/images/illustration-crop.webp"
   alt="Gitpod Illustration"
 />
 
 <img
   class="hidden dark:block mt-small md:mt-medium w-full max-w-4xl bg-right-top mx-auto"
-  src="/images/illustration-crop-dark.png"
+  src="/images/illustration-crop-dark.webp"
   alt="Gitpod Illustration"
 />

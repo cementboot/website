@@ -16,7 +16,7 @@ export const demoScreencast: Screencast = {
   description:
     "See how Gitpod launches a ready-to-code project built on five containers using a Node app, .NET app, a Python app as well as Redis and Postgres databases with a simple click.",
   youtubeId: "KgIWj9rHXS4",
-  tile: "screencast-16.jpg",
+  tile: "screencast-16.webp",
   duration: 523,
   tags: ["Demo"],
   href: "/screencasts/demo",
@@ -29,7 +29,7 @@ export const screencasts: Screencast[] = [
     description:
       "How to get a full dev environment in your browser with the click of a button and be immediately ready-to-code.",
     duration: 119,
-    tile: "screencast-1.jpg",
+    tile: "screencast-1.webp",
     youtubeId: "w65POyu3ZUQ",
     relatedDocs: [
       { path: "/docs/", title: "Introduction to Gitpod" },
@@ -46,7 +46,7 @@ export const screencasts: Screencast[] = [
     title: "My workspace is running, now what? 🎯",
     description: "Your workspace is running, now what?",
     duration: 216,
-    tile: "screencast-2.jpg",
+    tile: "screencast-2.webp",
     youtubeId: "4495YOMhhgo",
     relatedDocs: [
       {
@@ -62,7 +62,7 @@ export const screencasts: Screencast[] = [
     description:
       "Understanding the automation benefits that arise from the concept of dev-environment-as-code.",
     duration: 245,
-    tile: "screencast-3.jpg",
+    tile: "screencast-3.webp",
     youtubeId: "fA2fpqP1xaM",
     relatedDocs: [
       { path: "/docs/configure", title: "Configure Your Project" },
@@ -81,7 +81,7 @@ export const screencasts: Screencast[] = [
     description:
       "How to customize and configure Gitpod for your personal needs and those of your team.",
     duration: 125,
-    tile: "screencast-4.jpg",
+    tile: "screencast-4.webp",
     youtubeId: "VYHsd1zI_tE",
     relatedDocs: [
       {
@@ -101,7 +101,7 @@ export const screencasts: Screencast[] = [
     description:
       "How to make Gitpod load in a blink by prebuilding your project ahead-of-time, continuously.",
     duration: 135,
-    tile: "screencast-5.jpg",
+    tile: "screencast-5.webp",
     youtubeId: "ZtlJ0PakUHQ",
     relatedDocs: [
       {
@@ -117,7 +117,7 @@ export const screencasts: Screencast[] = [
     description:
       "Discover ephemeral/disposable workspaces and start fresh for each new task with just a single click. Pure magic!",
     duration: 207,
-    tile: "screencast-6.jpg",
+    tile: "screencast-6.webp",
     youtubeId: "n7Ca3jHFtZg",
     relatedDocs: [
       {
@@ -133,7 +133,7 @@ export const screencasts: Screencast[] = [
     description:
       "How to collaborate effectively with Gitpod's Shared Workspaces and Snapshots.",
     duration: 196,
-    tile: "screencast-7.jpg",
+    tile: "screencast-7.webp",
     youtubeId: "TrY15zN98p8",
     relatedDocs: [
       {
@@ -148,7 +148,7 @@ export const screencasts: Screencast[] = [
     title: "Git Integrations on Gitpod 🕸",
     description: "Learn about Git Integrations that you can use on Gitpod.",
     duration: 221,
-    tile: "screencast-8.jpg",
+    tile: "screencast-8.webp",
     youtubeId: "nXMlnMEP784",
     relatedDocs: [{ path: "/docs/integrations", title: "Integrations" }],
     tags: ["Getting started"],
@@ -158,7 +158,7 @@ export const screencasts: Screencast[] = [
     title: "Using Environment Variables 🌿",
     description: "How to use environment variables in Gitpod.",
     duration: 341,
-    tile: "screencast-9.jpg",
+    tile: "screencast-9.webp",
     youtubeId: "dehln1E8ylY",
     relatedDocs: [
       {
@@ -174,7 +174,7 @@ export const screencasts: Screencast[] = [
     description:
       "Discover how to use VS Code extensions in Gitpod and how they work on Gitpod using OpenVSX.",
     duration: 185,
-    tile: "screencast-10.jpg",
+    tile: "screencast-10.webp",
     youtubeId: "TwXYbZKEuoA",
     relatedDocs: [
       {
@@ -190,7 +190,7 @@ export const screencasts: Screencast[] = [
     description:
       "Learn how with VS Code Desktop Support, you can keep your local IDE configurations and benefit from Gitpod’s high-spec servers & automated prebuilds.",
     duration: 230,
-    tile: "screencast-11.jpg",
+    tile: "screencast-11.webp",
     youtubeId: "kI6firDA0Bw",
     relatedDocs: [
       {
@@ -205,7 +205,7 @@ export const screencasts: Screencast[] = [
     title: "Databases on Gitpod 💿",
     description: "Learn how to use Databases on Gitpod.",
     duration: 92,
-    tile: "screencast-12.jpg",
+    tile: "screencast-12.webp",
     youtubeId: "8oXSzN_W8Ls",
     relatedDocs: [
       {
@@ -221,7 +221,7 @@ export const screencasts: Screencast[] = [
     description:
       "Learn how you can use your IPad to develop software using Gitpod.",
     duration: 222,
-    tile: "screencast-13.jpg",
+    tile: "screencast-13.webp",
     youtubeId: "bFj3fUSHf3A",
     tags: ["Getting started"],
   },
@@ -230,7 +230,7 @@ export const screencasts: Screencast[] = [
     title: "Using Custom Docker Images 🐳",
     description: "Learn how to use Docker Images on Gitpod.",
     duration: 389,
-    tile: "screencast-14.jpg",
+    tile: "screencast-14.webp",
     youtubeId: "jFsbmcXCRf8",
     relatedDocs: [
       {
@@ -245,7 +245,7 @@ export const screencasts: Screencast[] = [
     title: "Local Companion App 🤖",
     description: "Learn how to use Local Companion App.",
     duration: 191,
-    tile: "screencast-15.jpg",
+    tile: "screencast-15.webp",
     youtubeId: "lwb0JSVJ2J4",
     relatedDocs: [
       {
@@ -261,7 +261,7 @@ export const screencasts: Screencast[] = [
     description:
       "Learn how to runs the latest VS Code on a remote machine accessed through a modern web browser.",
     duration: 139,
-    tile: "screencast-16.jpg",
+    tile: "screencast-16.webp",
     youtubeId: "qGR7rgqjdiY",
     relatedDocs: [
       {

@@ -4,8 +4,8 @@ date: Thursday, 28 April 2022 11:00:00 UTC
 title: Set up a Spring Boot Remote Development Environment With JetBrains Gateway and Gitpod
 slug: set-up-spring-boot-application-remotely-with-gitpod-and-jetBrains-gateway
 excerpt: Setting up your first Spring project using JetBrains Gateway and Gitpod.
-teaserImage: header.jpg
-image: teaser.jpg
+teaserImage: header.webp
+image: teaser.webp
 ---
 
 <script context="module">
@@ -43,7 +43,7 @@ Gitpod JetBrains IDE integration is powered with JetBrains Gateway, a compact de
 
    - Navigate to `Plugins` and search for Gitpod in the Marketplace to find and install the **Gitpod Gateway** plugin.
    <figure>
-   <img src="https://user-images.githubusercontent.com/37153406/165688357-d9e223d6-a08f-4cbc-8440-5f7d1d4f812a.png" alt="Installing Gitpod plugin in JetBrains Gateway">
+   <img src="https://user-images.githubusercontent.com/37153406/165688357-d9e223d6-a08f-4cbc-8440-5f7d1d4f812a.webp" alt="Installing Gitpod plugin in JetBrains Gateway">
    <figcaption style="text-align:center">Installing Gitpod Gateway plugin in JetBrains Gateway</figcaption>
    </figure>
 
@@ -52,7 +52,7 @@ Gitpod JetBrains IDE integration is powered with JetBrains Gateway, a compact de
 
    Select IntelliJ IDEA on the [Gitpod preferences](https://gitpod.io/preferences) page. It will set IntelliJ IDEA as your default desktop IDE for future workspaces. This will launch an IDE window connected to your Gitpod workspace. You can also choose to use other JetBrains IDEs such as GoLand, PyCharm or PhpStorm.
       <figure>
-          <img src="https://user-images.githubusercontent.com/37153406/165688354-d4cc2eba-f7f6-4f2a-b54b-c545889a8131.png" alt="Gitpod Preferences">
+          <img src="https://user-images.githubusercontent.com/37153406/165688354-d4cc2eba-f7f6-4f2a-b54b-c545889a8131.webp" alt="Gitpod Preferences">
           <figcaption style="text-align:center">Gitpod Preferences</figcaption>
       </figure>
 
@@ -61,12 +61,12 @@ Gitpod JetBrains IDE integration is powered with JetBrains Gateway, a compact de
 
    Open JetBrains Gateway on your machine, and click `Connect to Gitpod` under the Gitpod section, connect to your workspace or create a new one from an existing repository.
       <figure>
-          <img src="https://user-images.githubusercontent.com/37153406/165688355-7704fadb-c030-4a76-a387-510b91aaf87a.png" alt="Connect to Gitpod">
+          <img src="https://user-images.githubusercontent.com/37153406/165688355-7704fadb-c030-4a76-a387-510b91aaf87a.webp" alt="Connect to Gitpod">
           <figcaption style="text-align:center">Connect to Gitpod</figcaption>
       </figure>
 
       <figure>
-          <img src="https://user-images.githubusercontent.com/37153406/165688360-78cb72a1-d867-4298-b767-8d28d81de1be.png" alt="Create a new workspace">
+          <img src="https://user-images.githubusercontent.com/37153406/165688360-78cb72a1-d867-4298-b767-8d28d81de1be.webp" alt="Create a new workspace">
           <figcaption style="text-align:center">Create a new workspace</figcaption>
       </figure>
 
@@ -79,7 +79,7 @@ You can create a new Gitpod workspace using JetBrains Gateway with our [Spring B
 1.  Launch JetBrains Gateway and navigate to the Gitpod tab.
 2.  Enter [`https://github.com/gitpod-io/template-java-spring-boot-gradle`](https://github.com/gitpod-io/template-java-spring-boot-gradle) as the repository URL and click on `New Workspace` to start a new Gitpod workspace.
     <figure>
-        <img src="https://user-images.githubusercontent.com/37153406/165688318-b07d656c-a7aa-424d-8b77-7cd9807a6c0e.png" alt="Create Spring Boot project from our template">
+        <img src="https://user-images.githubusercontent.com/37153406/165688318-b07d656c-a7aa-424d-8b77-7cd9807a6c0e.webp" alt="Create Spring Boot project from our template">
         <figcaption style="text-align:center">Create Spring Boot project from our template</figcaption>
     </figure>
 
@@ -88,13 +88,13 @@ You can create a new Gitpod workspace using JetBrains Gateway with our [Spring B
 1. Wait for the IDE to import the project and install the dependencies.
 2. Run your project by clicking on the `Run` button. IntelliJ IDEA starts your Spring application in the ‘Run window’.
 <figure>
-    <img src="https://user-images.githubusercontent.com/37153406/165688347-390cf9a7-11a5-4d4f-8506-e1962c0ec699.png" alt="Run app inside IntelliJ IDE">
+    <img src="https://user-images.githubusercontent.com/37153406/165688347-390cf9a7-11a5-4d4f-8506-e1962c0ec699.webp" alt="Run app inside IntelliJ IDE">
     <figcaption style="text-align:center">Run app inside IntelliJ IDE</figcaption>
 </figure>
 
 3. Once the Spring application starts, IntelliJ IDEA will prompt you for the availability of port 8080. Click on the port and select `Forward and open in browser` to launch the application in your web browser.
 <figure>
-    <img src="https://user-images.githubusercontent.com/37153406/165688350-fcc27164-8e8f-41a0-9fdc-7304f6e040c7.png" alt="Launch your app">
+    <img src="https://user-images.githubusercontent.com/37153406/165688350-fcc27164-8e8f-41a0-9fdc-7304f6e040c7.webp" alt="Launch your app">
     <figcaption style="text-align:center">Launch your app 🚀</figcaption>
 </figure>
 

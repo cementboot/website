@@ -2,10 +2,10 @@
 author: kylos101, csweichel, lucasvaltl, Furisto
 date: Thursday, 5 May 2022 11:00:00 UTC
 excerpt: Gitpod experienced a series of incidents between April 11th and 22nd, which led to workspace performance degradation in all regions, and in some cases, users were unable to start workspaces and experienced data loss.
-image: teaser.png
+image: teaser.webp
 slug: sustained-performance-degradation
 subtitle: contributing factors and how we'll do better
-teaserImage: teaser.png
+teaserImage: teaser.webp
 title: Sustained workspace performance degradation for April 11-21
 ---
 

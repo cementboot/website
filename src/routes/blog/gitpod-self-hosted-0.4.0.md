@@ -2,10 +2,10 @@
 author: meysholdt
 date: Wed May 06 2020 14:49:24 GMT+0000 (UTC)
 excerpt: We are excited to announce the new release of Gitpod Self-Hosted in version 0.4.0. Gitpod Self-Hosted allows everyone to set-up and run a
-image: cloud-download.png
+image: cloud-download.webp
 slug: gitpod-self-hosted-0.4.0
 subtitle: Features, Fixes, Fixes, and Fixes
-teaserImage: cloud-download.png
+teaserImage: cloud-download.webp
 title: Gitpod Self-Hosted 0.4.0
 ---
 
@@ -34,7 +34,7 @@ This release ships with a new web UI for administrative tasks. The UI is particu
 It allows for easy listing and searching of users and worksapces.
 When selecting a user, the UI will show the user's details and workspaces, as you can in the following screenshot:
 
-![Gitpod Admin UI](../../../static/images/blog/gitpod-self-hosted-0.4.0/sh-userdetails2.png)
+![Gitpod Admin UI](../../../static/images/blog/gitpod-self-hosted-0.4.0/sh-userdetails2.webp)
 
 To try the new admin interface in Gitpod Self-Hosted, you'll need to assign the "admin" privilege to your user and open /admin in your browser.
 

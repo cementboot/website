@@ -42,7 +42,7 @@
   </div>
   <img
     class="absolute max-w-2xl right-0 top-1/2 -z-10 hidden lg:block"
-    src="/images/jetbrains-space/git-providers.png"
+    src="/images/jetbrains-space/git-providers.webp"
     alt="Git Providers"
   />
 </Section>

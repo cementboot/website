@@ -20,7 +20,7 @@ Gitpod self-hosted is built to work by default, but it also has to be incredibly
 
 In your KOTS dashboard, you will need to enable advanced options. This will enable the "Components" section.
 
-![kots-advanced](../../static/images/docs/self-hosted/kots-advanced.png)
+![kots-advanced](../../static/images/docs/self-hosted/kots-advanced.webp)
 
 ### Proxy service type
 

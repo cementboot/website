@@ -18,14 +18,14 @@
       "Open conversation about Java remote development covering best practices. What does not work well yet, and what had to click to make it work.",
     keywords:
       "panel-discussion, remote development, success-stories, Java, Gitpod",
-    image: "images/webinars/java-panel-discussion.png",
-    imageTwitter: "images/webinars/java-panel-discussion.png",
+    image: "images/webinars/java-panel-discussion.webp",
+    imageTwitter: "images/webinars/java-panel-discussion.webp",
   }}
 />
 
 <svelte:head>
-  <link rel="preload" as="image" href="/images/illustration-crop.png" />
-  <link rel="preload" as="image" href="/images/illustration-crop-dark.png" />
+  <link rel="preload" as="image" href="/images/illustration-crop.webp" />
+  <link rel="preload" as="image" href="/images/illustration-crop-dark.webp" />
 </svelte:head>
 
 <div class="flex items-start">
@@ -47,7 +47,7 @@
 
         <div class="flex">
           <YoutubeEmbed
-            coverImage="/images/webinars/java-panel-discussion.png"
+            coverImage="/images/webinars/java-panel-discussion.webp"
             title="Success and failure stories of Java developers shifting to remote"
             embedId="Tgb7CBoqoqg"
           />
@@ -83,7 +83,7 @@
 
         <div class="flex">
           <YoutubeEmbed
-            coverImage="/images/webinars/java-panel-discussion.png"
+            coverImage="/images/webinars/java-panel-discussion.webp"
             title="Success and failure stories of Java developers shifting to remote"
             embedId="Tgb7CBoqoqg"
           />

@@ -2,10 +2,10 @@
 author: pawlean, michaelaring
 date: Tue, 06 Sep 2022 18:00:00 UTC
 excerpt: DevX community is a curated community for DevX leaders to share their knowledge and learnings.
-image: teaser.jpg
+image: teaser.webp
 slug: launching-devx-community
 subtitle:
-teaserImage: teaser.jpg
+teaserImage: teaser.webp
 title: Launching DevX Community
 ---
 

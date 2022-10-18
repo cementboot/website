@@ -2,10 +2,10 @@
 author: mikenikles
 date: Sat, 08 May 2021 18:00:00 UTC
 excerpt: A very tight deadline, a small team and a complete redesign - insights into why we use Svelte.
-image: teaser.png
+image: teaser.webp
 slug: from-gatsby-to-svelte
 subtitle:
-teaserImage: teaser.png
+teaserImage: teaser.webp
 title: From Gatsby to Svelte in 3 weeks
 ---
 
@@ -44,7 +44,7 @@ SvelteKit’s public beta [was announced](https://svelte.dev/blog/sveltekit-beta
 
 With one week to go, we migrated from Sapper to SvelteKit ([pull request](https://github.com/gitpod-io/website/pull/120)). The team’s feedback was clear:
 
-![Vote on the SvelteKit developer experience](../../../static/images/blog/from-gatsby-to-svelte/sveltekit-devx-vote.png)
+![Vote on the SvelteKit developer experience](../../../static/images/blog/from-gatsby-to-svelte/sveltekit-devx-vote.webp)
 
 Remember that frictionless migration we were promised? It was indeed smooth as butter! At this point, a huge thank you to the Svelte maintainers & contributors for their incredible work ❤️ !
 

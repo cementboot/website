@@ -50,7 +50,7 @@ Now, we can open the created project in Gitpod. You can do it by simply prefixin
 
 The first time, you will need to sign in Gitpod with your GitHub account. GitHub will ask you to authorize read access to your email address. Write access to repositories can be granted later on [your access control page](https://gitpod.io/access-control/).
 
-![GitHub Authorize Gitpod Page](https://cdn-images-1.medium.com/max/5692/1*K8cn3G30eQouKmWQb228LQ.png)
+![GitHub Authorize Gitpod Page](https://cdn-images-1.medium.com/max/5692/1*K8cn3G30eQouKmWQb228LQ.webp)
 
 Gitpod starts a new workspace, which is a Linux-based cloud container, and provides access to it via a VS Code powered online IDE. Workspaces are started on demand and automatically shut-down if you don’t use them. They are continuously replicated and never deleted, so you always can restart a workspace later from [your Gitpod dashboard](https://gitpod.io/workspaces/).
 
@@ -108,7 +108,7 @@ Let’s have a look at how we can share our changes through Git. Open the Git vi
 
 If you have not granted write access to your repositories yet, Gitpod will ask for it. Grant permissions and try to push again.
 
-![Gitpod prompt grant write access to your repositories](https://cdn-images-1.medium.com/max/3380/1*bHchL7DVfmfdYWqjWsqRaw.png)
+![Gitpod prompt grant write access to your repositories](https://cdn-images-1.medium.com/max/3380/1*bHchL7DVfmfdYWqjWsqRaw.webp)
 
 ## Automating Node.js setup
 

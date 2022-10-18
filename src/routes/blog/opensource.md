@@ -2,10 +2,10 @@
 author: svenefftinge, JohannesLandgraf
 date: Tue, 25 Aug 2020 13:00:00 UTC
 excerpt: As of today Gitpod is open source under the AGPL license at github.com/gitpod-io/gitpod. This allows the community to participate in the
-image: teaser.jpg
+image: teaser.webp
 slug: opensource
 subtitle:
-teaserImage: teaser.jpg
+teaserImage: teaser.webp
 title: Gitpod is now Open Source 🎉
 ---
 

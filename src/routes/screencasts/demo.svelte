@@ -56,7 +56,7 @@
       title: "Gitpodifying — The Ultimate Guide",
       excerpt:
         "I recently stumbled upon a new project on GitHub that peaked my interest. It proposed a new type of database that I was dying to try out.",
-      image: "/images/guides/gitpodify/teaser.jpg",
+      image: "/images/guides/gitpodify/teaser.webp",
       type: "guides",
       href: "/guides/gitpodify",
       isNotAnActualPost: true,

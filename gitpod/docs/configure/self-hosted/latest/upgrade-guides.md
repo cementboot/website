@@ -42,7 +42,7 @@ This release includes security fixes addressing information leakage in logs; see
 
 You can now configure the service type of the proxy service in the installation UI (see image below) - you do not need to upload a `.yaml` file as a [config patch](./config-patches) anymore to configure this. However, having it in the config patch will still work until December.
 
-![proxy service type UI](../../static/images/docs/self-hosted/proxy-service-type-ui.png)
+![proxy service type UI](../../static/images/docs/self-hosted/proxy-service-type-ui.webp)
 
 ### Setting the default workspace image and which image registries the default image can be pulled from
 

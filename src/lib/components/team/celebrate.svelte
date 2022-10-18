@@ -10,7 +10,7 @@
     class="flex items-center max-w-3xl mx-auto p-x-small md:px-small md:py-medium gap-medium shadow-normal"
   >
     <img
-      src="/images/team/plant.png"
+      src="/images/team/plant.webp"
       alt="Plant"
       class="hidden md:block w-36"
     />

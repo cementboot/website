@@ -132,7 +132,7 @@ const codeAnywhereFeature: Feature = {
   paragraph:
     "Gitpod moves the workload to the cloud. No need to ship overpowered laptops around the world. Use any computer to code securely.",
   image: {
-    src: "/images/features/ipad.png",
+    src: "/images/features/ipad.webp",
     alt: "Gitpod Workspace on an iPad.",
   },
 };

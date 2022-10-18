@@ -16,7 +16,7 @@ Gitpod has certain expectations on the characteristics of the cluster it is runn
 
 ## Cluster Requirements
 
-![cluster requirements](../../static/images/docs/self-hosted/cluster-requirements.png)
+![cluster requirements](../../static/images/docs/self-hosted/cluster-requirements.webp)
 
 <!-- raw editable diagram can be found under static/images/docs/self-hosted/cluster-requirements.excalidraw -->
 

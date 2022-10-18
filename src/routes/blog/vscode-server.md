@@ -2,10 +2,10 @@
 author: jeanp413, akosyakov, loujaybee
 date: Thursday, 04 Nov 2021 15:00:00 UTC
 excerpt: Thanks Microsoft for open-sourcing VS Code Server
-image: vscodeserver.jpg
+image: vscodeserver.webp
 slug: vscode-server
 subtitle:
-teaserImage: vscodeserver.jpg
+teaserImage: vscodeserver.webp
 title: Thanks Microsoft for open-sourcing VS Code Server 👐
 ---
 

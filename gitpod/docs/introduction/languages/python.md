@@ -81,7 +81,7 @@ vscode:
 
 ### Python Test Explorer
 
-![Python test explorer example](../../../static/images/docs/python_Test_In_Gitpod.png)
+![Python test explorer example](../../../static/images/docs/python_Test_In_Gitpod.webp)
 Easily test your python extensions with the Python Test Explorer.
 To add this to your repository add the following to your [.gitpod.yml](/docs/references/gitpod-yml)
 

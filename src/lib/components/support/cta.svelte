@@ -10,12 +10,12 @@
 >
   <section class="flex flex-col sm:flex-row items-center sm:max-w-2xl mx-auto">
     <img
-      src="/images/support/monitor.png"
+      src="/images/support/monitor.webp"
       alt="Monitor"
       class="w-40 dark:hidden"
     />
     <img
-      src="/images/support/monitor-dark.png"
+      src="/images/support/monitor-dark.webp"
       alt="Monitor"
       class="w-40 hidden dark:block transform scale-110"
     />

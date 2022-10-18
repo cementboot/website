@@ -11,7 +11,7 @@
     class="flex flex-col items-center max-w-lg mx-auto md:max-w-none md:flex-row py-medium px-small shadow-normal"
   >
     <img
-      src="/images/docs/book.png"
+      src="/images/docs/book.webp"
       alt="Book"
       class="w-32 mb-x-small md:mb-0 lg:w-44 mr-small"
     />

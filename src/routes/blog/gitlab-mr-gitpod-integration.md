@@ -2,7 +2,7 @@
 author: corneliusludmann
 date: Mon Aug 30 2021 08:08:08 GMT+0000 (UTC)
 excerpt: GitLab now has a Gitpod button on MR pages
-image: gitlab-header.png
+image: gitlab-header.webp
 slug: gitlab-mr-gitpod-integration
 subtitle: Launch Gitpod workspace from GitLab MR pages with one click
 title: New Gitpod Button has landed on GitLab Merge Request Pages
@@ -20,11 +20,11 @@ This is a situation where ephemeral development environments show their full str
 
 Starting a Gitpod development environment is easy: Just add `gitpod.io/#` in front of a GitLab, GitHub, or Bitbucket URL in your browser's address bar and hit Enter. That's it.
 
-![Gitpod loves GitLab](../../../static/images/blog/gitlab-mr-gitpod-integration/gitpod-loves-gitlab.png)
+![Gitpod loves GitLab](../../../static/images/blog/gitlab-mr-gitpod-integration/gitpod-loves-gitlab.webp)
 
 With the native Gitpod integration in GitLab, it's even easier! Next to the Web IDE button you'll find a Gitpod button in a drop-down menu that [has been introduced in GitLab 13.5](/blog/gitlab-integration). With the [GitLab 14.2 release](https://about.gitlab.com/releases/2021/08/22/gitlab-14-2-released/) you'll find this button on all merge request pages. Just hit the button and a cloud development environment waits for your review.
 
-![Gitpod button on GitLab merge request](../../../static/images/blog/gitlab-mr-gitpod-integration/create-gitpod-in-mr-view.png)
+![Gitpod button on GitLab merge request](../../../static/images/blog/gitlab-mr-gitpod-integration/create-gitpod-in-mr-view.webp)
 
 The [GitLab docs](https://docs.gitlab.com/ee/integration/gitpod.html) provide you with further information on how to enable the Gitpod integration in your self-managed GitLab instance and how to use the Gitpod integration.
 
@@ -32,7 +32,7 @@ The [GitLab docs](https://docs.gitlab.com/ee/integration/gitpod.html) provide yo
 
 Every release, GitLab selects a community contributor as a [most valuable person](https://about.gitlab.com/community/mvp/) (MVP) of the release which is recognized with the prestigious golden fork. In the 14.2 release Cornelius from Gitpod [has been awarded](https://about.gitlab.com/releases/2021/08/22/gitlab-14-2-released/#mvp) for the contribution of the Gitpod integration in GitLab.
 
-![GitLab MVP of release 14.2](../../../static/images/blog/gitlab-mr-gitpod-integration/gitlab-mvp.png)
+![GitLab MVP of release 14.2](../../../static/images/blog/gitlab-mr-gitpod-integration/gitlab-mvp.webp)
 
 ## Further reading
 

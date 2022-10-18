@@ -2,10 +2,10 @@
 author: JohannesLandgraf, csweichel
 date: Tuesday, 26 Oct 2021 13:00:00 UTC
 excerpt: Tailscale and Gitpod partner to enable secure and professional software development from anywhere.
-image: header.jpg
+image: header.webp
 slug: tailscale
 subtitle:
-teaserImage: header.jpg
+teaserImage: header.webp
 title: Tailscale x Gitpod
 ---
 
@@ -21,7 +21,7 @@ title: Tailscale x Gitpod
 
 With [VS Code remote](https://code.visualstudio.com/docs/remote/remote-overview) and [Jetbrains' remote development support](https://youtrack.jetbrains.com/issue/IDEA-226455#focus=Comments-27-5290105.0-0), more than [80% of developers](https://insights.stackoverflow.com/survey/2021#section-most-popular-technologies-integrated-development-environment) will use an IDE with built-in functionality to connect to developer environments running in the cloud.
 
-![Stackoverflow Survey 2021](../../../static/images/blog/cloud-ide-history/stackoverflow-ide.jpg)
+![Stackoverflow Survey 2021](../../../static/images/blog/cloud-ide-history/stackoverflow-ide.webp)
 
 Gitpod provisions and orchestrates remote developer environments enabling you to develop from anywhere ([even from an iPad traversing Australia 🏕](https://ghuntley.com/anywhere/)). Today, all of this gets even more connected & secure. We are excited to announce a [partnership with our friends at Tailscale](https://www.tailscale.com/blog/gitpod). Secure, ephemeral developer environments as part of your private network.
 

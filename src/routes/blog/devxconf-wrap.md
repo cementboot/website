@@ -2,10 +2,10 @@
 author: chrifro, ghuntley
 date: Thursday, 3 Jun 2021 11:00:00 UTC
 excerpt: As part of Gitpod’s Open-Source Sustainability Fund initiative attendees of DevX Conf were able to decide where USD 10,000 of funds (the profits from DevX Conf plus an additional donation by Gitpod) were to be distributed. Here's the breakdown how the fund was split and our retrospective on running our first-ever conference.
-image: teaser.png
+image: teaser.webp
 slug: devxconf-wrap
 subtitle:
-teaserImage: teaser.png
+teaserImage: teaser.webp
 title: DevX Conf wrap & distributing USD 10k of open-source funding
 ---
 
@@ -21,7 +21,7 @@ Speakers included [Jason Warner](https://twitter.com/jasoncwarner) (CTO GitHub),
 
 First of all, we were amazed by the attention that was drawn by this topic. It was the first conference ever organized by this team and it was being driven by a Gitpod, a company that's still on the starting line of its potential. More than 1.5k curious minds signed up for the event and more than 40% of them attended the live conference. There, 28 great speakers shared their expertise and unique knowledge with us. In case you missed a talk or would like to see them again, all recordings are now available on YouTube. To provide a space for attendees and speakers to interact live during the talks, we created a discord server. In total 550+ users signed up to join the live discussions. If you haven't joined the channel yet and would like to stay connected with the community, [you can still join](https://www.gitpod.io/chat).
 
-[![I'm very glad developer experience is picking up so much steam that there's now a dedicated conference for it: http://devxconf.org. Not only that, Gitpod is donating all the commercial proceeds from sponsors to open source projects they rely on!! Exploding 🤯👏](../../../static/images/blog/devxconf-wrap/tweet-mxstbr.png)](https://twitter.com/mxstbr/status/1385511937845387269)
+[![I'm very glad developer experience is picking up so much steam that there's now a dedicated conference for it: http://devxconf.org. Not only that, Gitpod is donating all the commercial proceeds from sponsors to open source projects they rely on!! Exploding 🤯👏](../../../static/images/blog/devxconf-wrap/tweet-mxstbr.webp)](https://twitter.com/mxstbr/status/1385511937845387269)
 
 ## Event Highlights
 
@@ -35,13 +35,13 @@ All talks are now available for watching via this [playlist on YouTube](https://
 
 ## Funding open source
 
-[![🤯 @gitpod is starting an Open-Source Sustainability Fund to help FOSS maintainers. What is more amazing that based on voting, Emacs's lsp-mode received almost 3% of the initial pool from @devxconf! Check https://gitpod.io/blog/gitpod-open-source-sustainability-fund/ for more.](../../../static/images/blog/devxconf-wrap/tweet-yonchovski.png)](https://twitter.com/yonchovski/status/1390659877740158976)
+[![🤯 @gitpod is starting an Open-Source Sustainability Fund to help FOSS maintainers. What is more amazing that based on voting, Emacs's lsp-mode received almost 3% of the initial pool from @devxconf! Check https://gitpod.io/blog/gitpod-open-source-sustainability-fund/ for more.](../../../static/images/blog/devxconf-wrap/tweet-yonchovski.webp)](https://twitter.com/yonchovski/status/1390659877740158976)
 
 The truth is free software isn't free. How much is a task going to cost in person hours? Hours have rates. Rates require payment. Yet, an entire community of developers provide their services outside of their day job to produce tools consumed by businesses.
 
 Did you know there are less than 2100 people in the inner GitHub open-source maintainer community?
 
-![Maintainer Community](../../../static/images/blog/gitpod-open-source-sustainability-fund/maintainer-community.png)
+![Maintainer Community](../../../static/images/blog/gitpod-open-source-sustainability-fund/maintainer-community.webp)
 
 **At Gitpod, we often wonder what the future would look like if these high achievers that our digital society is built upon were empowered to become independent artists.** If just one of those people can help more people better understand a technology or improve the developer experience for an entire ecosystem what is the worth/value of that and why isn't our industry doing that yet?
 
@@ -65,13 +65,13 @@ After some dialectical thinking, the answer became clear: projects built by unpa
 
 Over the last month Gitpod has been emailing maintainers and distributing the funds.
 
-[![🤯👏](../../../static/images/blog/devxconf-wrap/shellcheck-email.png)](https://github.com/koalaman/shellcheck)
+[![🤯👏](../../../static/images/blog/devxconf-wrap/shellcheck-email.webp)](https://github.com/koalaman/shellcheck)
 
-[![🤯👏](../../../static/images/blog/devxconf-wrap/shellcheck-sponsorship.png)](https://github.com/koalaman/shellcheck)
+[![🤯👏](../../../static/images/blog/devxconf-wrap/shellcheck-sponsorship.webp)](https://github.com/koalaman/shellcheck)
 
 Attendees of the DevX Conference were able to vote once for each of the projects, and the distribution of funds was calculated using Quadratic Funding ([Paper](https://arxiv.org/pdf/1809.06421.pdf)). See [wtfisqf.com](https://wtfisqf.com/?grant=4&grant=4&grant=3&grant=4&grant=11&grant=7&grant=5&grant=4&grant=9&grant=12&grant=6&grant=24&grant=3&grant=7&grant=17&grant=7&grant=15&match=10000) for a breakdown of how the fund was split. Each vote was considered a share (or $1 matched), and then a total amount was set to $10,000.
 
-[![🤯 Woah Gitpod just donated ✨$212✨ to patch-package! They're democratically dividing $10k between a small set of OSS dev tools https://devxconf.org/opensource – what a lovely idea, I'm so honored to be included Smiling face I'll keep $5 for a beer and forward the rest to worthy causes. ](../../../static/images/blog/devxconf-wrap/tweet-djsheldrick.png)](https://twitter.com/djsheldrick/status/1392419294852550656)
+[![🤯 Woah Gitpod just donated ✨$212✨ to patch-package! They're democratically dividing $10k between a small set of OSS dev tools https://devxconf.org/opensource – what a lovely idea, I'm so honored to be included Smiling face I'll keep $5 for a beer and forward the rest to worthy causes. ](../../../static/images/blog/devxconf-wrap/tweet-djsheldrick.webp)](https://twitter.com/djsheldrick/status/1392419294852550656)
 
 In total there were 17 projects that were available for voting:
 
@@ -103,11 +103,11 @@ In total there were 17 projects that were available for voting:
 
 Only a fraction of funds has been distributed at this stage because, as an industry, we haven't documented and established straightforward ways where companies can give open-source projects money.
 
-[![🤯👏](../../../static/images/blog/devxconf-wrap/pre-commit-sponsorship.png)](https://github.com/pre-commit/pre-commit)
+[![🤯👏](../../../static/images/blog/devxconf-wrap/pre-commit-sponsorship.webp)](https://github.com/pre-commit/pre-commit)
 
 Sending hand crafted emails (assuming an email address is publically available 😢) asking projects these questions isn't scalable, and most companies would not do this manual grunt work. 😉
 
-<!-- [![Thanks Gitpod for helping make development of @pre_commit (and open source) more sustainable!](../../../static/images/blog/devxconf-wrap/tweet-codewithanthony.png)](https://twitter.com/codewithanthony/status/1391524021984915456) -->
+<!-- [![Thanks Gitpod for helping make development of @pre_commit (and open source) more sustainable!](../../../static/images/blog/devxconf-wrap/tweet-codewithanthony.webp)](https://twitter.com/codewithanthony/status/1391524021984915456) -->
 
 If you are the steward of one of the above, open-source projects, then there's one simple, easy step you can do to enable Gitpod and other companies to provide financial support...
 

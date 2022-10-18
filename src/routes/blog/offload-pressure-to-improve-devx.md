@@ -2,10 +2,10 @@
 author: pawlean, mikenikles
 date: Thurs, 13 Jan 2022 16:00:00 UTC
 excerpt: For our sixth edition of DevX Digest, we’d be breaking down the key highlights of our DevXPod conversation with Shanea from CodeSee.
-image: teaser.jpg
+image: teaser.webp
 slug: offload-pressure-to-improve-devx
 subtitle:
-teaserImage: teaser.jpg
+teaserImage: teaser.webp
 title: DevX Digest 06 - Offload pressure to improve DevX
 type: digest
 ---
@@ -24,7 +24,7 @@ To kick off the year of all things developer experience, we’re reflecting on o
 
 Our conversation highlighted some important topics, and we’ll leave you with our key takeaways below. [You can also listen to the episode anywhere you get your podcasts!](https://devxpod.buzzsprout.com/1895030/9867669-offload-pressure-from-developers-to-improve-devx-w-shanea-leven-co-founder-ceo) Don’t forget to subscribe and leave us a rating ⭐️
 
-![DevX Podcast Episode 3](../../../static/images/blog/offload-pressure-to-improve-devx/podcast.png)
+![DevX Podcast Episode 3](../../../static/images/blog/offload-pressure-to-improve-devx/podcast.webp)
 _DevX Pod is available wherever you get your podcasts!_
 
 ### Key Takeaways

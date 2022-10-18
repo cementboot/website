@@ -15,8 +15,8 @@ You can directly access your workspace via SSH for editing code directly using a
 
 There are two ways to access a workspace via SSH using an SSH key or an Access Token.
 
-![Copy SSH key from modal](/images/docs/ssh-key-modal-dark-light-theme.png)
-![Copy SSH key from modal](/images/docs/ssh-key-modal-dark-theme.png)
+![Copy SSH key from modal](/images/docs/ssh-key-modal-dark-light-theme.webp)
+![Copy SSH key from modal](/images/docs/ssh-key-modal-dark-theme.webp)
 
 1. **SSH Key** (recommended) - By creating your own public/private SSH key pair, and uploading the public key to Gitpod you can directly SSH into a Gitpod workspace. Uploading a private key means that you do not need to keep re-visiting the Gitpod dashboard to retrieve an SSH command. It is also a more secure approach. See [configure SSH](/docs/configure/user-settings/ssh) for more.
 
@@ -35,18 +35,18 @@ To access a workspace using an SSH Key:
 
 <br/>
 
-![Accessing an SSH key from the workspace list](/images/docs/ssh-workspace-list-dark-theme.png)
-![Accessing an SSH key from the workspace list](/images/docs/ssh-workspace-list-light-theme.png)
+![Accessing an SSH key from the workspace list](/images/docs/ssh-workspace-list-dark-theme.webp)
+![Accessing an SSH key from the workspace list](/images/docs/ssh-workspace-list-light-theme.webp)
 
 <br/>
 
-![SSH Key access via modal](/images/docs/ssh-key-modal-dark-light-theme.png)
-![SSH Key access via modal](/images/docs/ssh-key-modal-dark-theme.png)
+![SSH Key access via modal](/images/docs/ssh-key-modal-dark-light-theme.webp)
+![SSH Key access via modal](/images/docs/ssh-key-modal-dark-theme.webp)
 
 You can also access the SSH connection string from the workspace start page, which is shown to users who have selected a desktop IDE or editor as their [preference](https://gitpod.io/preferences).
 
-![SSH to a workspace via the workspace splash page](/images/docs/ssh-connect-splash-dark-theme.png)
-![SSH to a workspace via the workspace splash page](/images/docs/ssh-connect-splash-light-theme.png)
+![SSH to a workspace via the workspace splash page](/images/docs/ssh-connect-splash-dark-theme.webp)
+![SSH to a workspace via the workspace splash page](/images/docs/ssh-connect-splash-light-theme.webp)
 
 ## Access Token SSH
 
@@ -60,18 +60,18 @@ You can currently copy/paste a simple SSH command to get command line access to 
 
 <br/>
 
-![Accessing an SSH key from the workspace list](/images/docs/ssh-workspace-list-dark-theme.png)
-![Accessing an SSH key from the workspace list](/images/docs/ssh-workspace-list-light-theme.png)
+![Accessing an SSH key from the workspace list](/images/docs/ssh-workspace-list-dark-theme.webp)
+![Accessing an SSH key from the workspace list](/images/docs/ssh-workspace-list-light-theme.webp)
 
 <br/>
 
-![SSH via access token from the workspace list](/images/docs/ssh-accesss-modal-dark-theme.png)
-![SSH via access token from the workspace list](/images/docs/ssh-accesss-modal-light-theme.png)
+![SSH via access token from the workspace list](/images/docs/ssh-accesss-modal-dark-theme.webp)
+![SSH via access token from the workspace list](/images/docs/ssh-accesss-modal-light-theme.webp)
 
 You can also access the SSH connection string from the workspace start page, which is shown to users who have selected a desktop IDE or editor as their [preference](https://gitpod.io/preferences).
 
-![SSH to a workspace via the workspace splash page](/images/docs/ssh-connect-splash-dark-theme.png)
-![SSH to a workspace via the workspace splash page](/images/docs/ssh-connect-splash-light-theme.png)
+![SSH to a workspace via the workspace splash page](/images/docs/ssh-connect-splash-dark-theme.webp)
+![SSH to a workspace via the workspace splash page](/images/docs/ssh-connect-splash-light-theme.webp)
 
 ## SSH via Local Companion
 

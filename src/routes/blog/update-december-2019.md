@@ -68,7 +68,7 @@ The Unlimited plan got a couple of cool upgrades.
 
 Most importantly, **Unlimited users enjoy a 60min timeout with an additional 3 hours booster**. For regular users the timeout is strict 30 minutes. The additional booster can be triggered from within a workspace. Simply press the hourglass sign in the status bar (only visible if you are an unlimited users)
 
-![Timeout Booster](../../../static/images/blog/update-december-2019/timeout-boost.png)
+![Timeout Booster](../../../static/images/blog/update-december-2019/timeout-boost.webp)
 
 Furthermore, with Unlimited you can **start up 16 workspaces in parallel**.
 
@@ -90,7 +90,7 @@ Well, in order to really be able to forget about it, we have implemented an auto
 
 **Garbage collection starts on January 20th.**
 
-![Pin Workspaces](../../../static/images/blog/update-december-2019/pin-gc.jpg)
+![Pin Workspaces](../../../static/images/blog/update-december-2019/pin-gc.webp)
 
 <!--
 

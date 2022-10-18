@@ -4,7 +4,7 @@ import fetch, { Response } from "node-fetch";
 const handler: Handler = async (event, _) => {
   const { username, size = "54" } = event.queryStringParameters;
   const resLocation: Response = await fetch(
-    `https://github.com/${username}.png`,
+    `https://github.com/${username}.webp`,
     { redirect: "manual" }
   );
   const res = await fetch(`${resLocation.headers.get("location")}&s=${size}`);

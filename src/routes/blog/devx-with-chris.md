@@ -2,10 +2,10 @@
 author: pawlean, mikenikles
 date: Tues, 22 Mar 2022 16:00:00 UTC
 excerpt: For our tenth edition of DevX Digest, we look back at our conversation with Chris Weichel
-image: teaser.jpg
+image: teaser.webp
 slug: devx-with-chris
 subtitle:
-teaserImage: teaser.jpg
+teaserImage: teaser.webp
 title: DevX Digest 10 - A look at DevX with Chris Weichel
 type: digest
 ---
@@ -20,7 +20,7 @@ The recent episode of DevX Pod is a special one! We spoke to our Cheif Technolog
 
 As usual, in today’s newsletter, we’ll be sharing some of our key takeaways from the podcast episode. If you’d like to listen to the full episode, head over to your favourite podcast platform and search for `DevXPod`. Don’t forget to subscribe and leave us a rating ⭐️ Alternatively, if you’d prefer to read a transcript of our conversation head over to [our Buzzsprout site](https://devxpod.buzzsprout.com)!
 
-![DevX Podcast Episode ](../../../static/images/blog/devx-with-chris/podcast.png)
+![DevX Podcast Episode ](../../../static/images/blog/devx-with-chris/podcast.webp)
 _DevX Pod is avaliable wherever you get your podcasts!_
 
 ## Key Takeaways

@@ -2,7 +2,7 @@
 author: akosyakov
 date: Tue Nov 13 2018 12:41:55 GMT+0000 (UTC)
 excerpt: Gitpod is based on the open-source Theia IDE Framework, which is highly inspired by VS Code, reuses its major components like the Monaco
-image: node-js-gitpod.png
+image: node-js-gitpod.webp
 slug: node-js-gitpod
 title: Debugging Node.js applications in Theia
 url: https://medium.com/gitpod/debugging-node-js-applications-in-theia-76c94c76f0a1
@@ -38,17 +38,17 @@ The debug view allows you to configure launch configurations, start and manage d
 
 Node.js Shopping Cart is an Express.js web-application. The repository already has a pre-configured Launch Program configuration, which starts the web server Node.js process in the debug mode. Let’s run it with F5 or by pressing the run button left to the configuration drop-down.
 
-![Gitpod Debug Tab](https://cdn-images-1.medium.com/max/3644/1*SUD-Cfy3YC86JJmgo1bLpA.png)
+![Gitpod Debug Tab](https://cdn-images-1.medium.com/max/3644/1*SUD-Cfy3YC86JJmgo1bLpA.webp)
 
 ## Step 2: Preview the application
 
 A notification should pop-up suggesting you open an application side-by-side with an editor or externally, in a new browser tab. Let’s open it side-by-side to be able to debug and use our app at the same time.
 
-![Gitpod Preview Notification](https://cdn-images-1.medium.com/max/4512/1*65SBIeZyvn_31V9biYKNAQ.png)
+![Gitpod Preview Notification](https://cdn-images-1.medium.com/max/4512/1*65SBIeZyvn_31V9biYKNAQ.webp)
 
 Take your time and play with the app. You can review items to buy and in your cart, move them into or out of your cart.
 
-![Gitpod workspace shopping cart application preview](https://cdn-images-1.medium.com/max/7676/1*M6KN6axYYOW8iqlnqsXpVw.png)
+![Gitpod workspace shopping cart application preview](https://cdn-images-1.medium.com/max/7676/1*M6KN6axYYOW8iqlnqsXpVw.webp)
 
 ## Step 3: Pause on a breakpoint
 
@@ -56,15 +56,15 @@ In this step we debug what happens when a user navigates to the homepage.
 
 First, we need to add a breakpoint to the routing logic. It is defined in routes/index.js. You can open that file from the navigator or using the quick file palette (Ctrl/Cmd+P) .
 
-![Gitpod quick file pallete](https://cdn-images-1.medium.com/max/2500/1*6ni4GKFo9FFJoh_r8lvLVg.png)
+![Gitpod quick file pallete](https://cdn-images-1.medium.com/max/2500/1*6ni4GKFo9FFJoh_r8lvLVg.webp)
 
 Next, add a breakpoint in the editor margin against a line which you want to debug. A route callback handling / path looks promising.
 
-![Debugging: Breakpoints](https://cdn-images-1.medium.com/max/2988/1*AaqYqH5LILFw4g0-jNu5Bg.png)_Breakpoints are displayed in the debug view and applied to currently running sessions._
+![Debugging: Breakpoints](https://cdn-images-1.medium.com/max/2988/1*AaqYqH5LILFw4g0-jNu5Bg.webp)_Breakpoints are displayed in the debug view and applied to currently running sessions._
 
 Now, in the app, try navigating to the homepage. The debug session will pause on the breakpoint. You can traverse the current stack trace, inspect variables and control the execution flow with the debug actions toolbar:
 
-![Gitpod Debug Menu](https://cdn-images-1.medium.com/max/2000/1*Ru0MXHEcU_RzQEAKX30seA.png)
+![Gitpod Debug Menu](https://cdn-images-1.medium.com/max/2000/1*Ru0MXHEcU_RzQEAKX30seA.webp)
 
 ## Step 4: Inspect and modify data
 
@@ -78,7 +78,7 @@ There are several ways to see variables’ values:
 
 You can always double-click on any variable to modify its value.
 
-![Debug: Inspect and Modify data](https://cdn-images-1.medium.com/max/7676/1*_zf4PL_AWfzeBZlp2mRjZQ.png)
+![Debug: Inspect and Modify data](https://cdn-images-1.medium.com/max/7676/1*_zf4PL_AWfzeBZlp2mRjZQ.webp)
 
 ## Next steps
 

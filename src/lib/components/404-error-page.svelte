@@ -17,8 +17,8 @@
   <div slot="content">
     <ImageLightDark
       image={{
-        src: "/images/404.png",
-        darkSrc: "/images/404-dark.png",
+        src: "/images/404.webp",
+        darkSrc: "/images/404-dark.webp",
         alt: "404",
       }}
       class="mx-auto w-full max-w-xl mb-xx-small"

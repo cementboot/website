@@ -12,12 +12,12 @@
     <img
       class="w-full hidden lg:block mx-auto max-w-md md:max-w-lg dark:hidden"
       alt="JetBrains’ IDEs within Gitpod"
-      src="/images/jetbrains-space/gitpod-jetbrains.png"
+      src="/images/jetbrains-space/gitpod-jetbrains.webp"
     />
     <img
       class="w-full hidden mx-auto max-w-md md:max-w-lg dark:lg:block"
       alt="JetBrains’ IDEs within Gitpod"
-      src="/images/jetbrains-space/gitpod-jetbrains-dark.png"
+      src="/images/jetbrains-space/gitpod-jetbrains-dark.webp"
     />
     <div class="flex flex-col items-centers justify-center">
       <h3 class="h3 !mb-micro md:!mb-x-small">JetBrains 🤝 Gitpod demo</h3>

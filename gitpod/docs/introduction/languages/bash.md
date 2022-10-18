@@ -56,7 +56,7 @@ Not sure about ShellCheck? Try it in Gitpod!
 
 ### Bash IDE
 
-![A Bash IDE demonstration](../../../static/images/docs/bashIDE.png)
+![A Bash IDE demonstration](../../../static/images/docs/bashIDE.webp)
 
 Just to name a few things Bash IDE adds: Code completion, hovers, and diagnostic reporting.
 
@@ -88,6 +88,6 @@ Not sure about Bash IDE? Try it in Gitpod
 ### The shellcheck program was not found
 
 [It has been reported](https://github.com/gitpod-io/gitpod/issues/1461#issuecomment-621232166) that shellcheck extension fails to detect shellcheck from homebrew which results in:
-![shellcheck notification](https://user-images.githubusercontent.com/11302521/80605581-91110b80-8a33-11ea-9247-44cb33134cc9.png)
+![shellcheck notification](https://user-images.githubusercontent.com/11302521/80605581-91110b80-8a33-11ea-9247-44cb33134cc9.webp)
 
 To resolve this you need to set `"shellcheck.executablePath": "/home/linuxbrew/.linuxbrew/bin/shellcheck",` (or to path that point to shellcheck on your system), See https://github.com/vivek-verma202/GWAS_FM/pull/3/files

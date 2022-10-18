@@ -23,7 +23,7 @@ Before you start, you will need to create a YAML file that is subsequently used 
 
 Once created, this file can be uploaded to the Installation Admin UI during installation under the advanced features section (bottom).
 
-![kots-advanced-customization](../../static/images/docs/self-hosted/kots-advanced-customization.png)
+![kots-advanced-customization](../../static/images/docs/self-hosted/kots-advanced-customization.webp)
 
 ### Annotations and labels
 

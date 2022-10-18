@@ -2,10 +2,10 @@
 author: svenefftinge, JohannesLandgraf, csweichel
 date: Tue Dec 09 2020 8:00:00 GMT+0000 (UTC)
 excerpt: Fully automated developer environments will be the standard for professional developers in 5-10 years.
-image: teaser.jpg
+image: teaser.webp
 slug: moving-software-development-to-the-cloud
 subtitle: Gitpod & GitHub Codespaces
-teaserImage: teaser.jpg
+teaserImage: teaser.webp
 title: Moving software development to the cloud ☁️
 ---
 
@@ -43,7 +43,7 @@ With GitHub Codespaces and other solutions whenever you start a new dev environm
 
 Instead Gitpod prebuilds dev environments when a new commit is pushed to the remote repository. The following diagram illustrates the idea:
 
-![Prebuilds Diagram](https://user-images.githubusercontent.com/372735/101493570-870aa000-3966-11eb-9fe1-e32eb80449f0.png)
+![Prebuilds Diagram](https://user-images.githubusercontent.com/372735/101493570-870aa000-3966-11eb-9fe1-e32eb80449f0.webp)
 
 The advantages of having your dev environments prebuilt can not be overstated. For the [vscode repository](https://github.com/gitpod-io/vscode) we measured a 15x difference.
 

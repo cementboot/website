@@ -2,10 +2,10 @@
 author: pawlean, mikenikles
 date: Tues, 21 Feb 2022 16:00:00 UTC
 excerpt: For our eigth edition of DevX Digest, we look back at our conversation with Shawn Wang (swyx) about the radiating circle of DevX.
-image: teaser.jpg
+image: teaser.webp
 slug: the-radiating-circle-of-devx
 subtitle:
-teaserImage: teaser.jpg
+teaserImage: teaser.webp
 title: DevX Digest 08 - The Radiating Circle of DevX
 type: digest
 ---
@@ -20,7 +20,7 @@ Last week on DevXPod, we sat down with [Shawn Wang (aka Swyx) ](https://twitter.
 
 As usual, in today’s newsletter, we’ll be sharing some of our key takeaways from the podcast episode. If you’d like to listen to the full episode, head over to your favourite podcast platform and search for `DevXPod`. Don’t forget to subscribe and leave us a rating ⭐️Alternatively, if you’d prefer to read a transcript of our conversation head over to [our Buzzsprout site](https://devxpod.buzzsprout.com)!
 
-![Podcast](../../../static/images/blog/the-radiating-circle-of-devx/podcast.png)
+![Podcast](../../../static/images/blog/the-radiating-circle-of-devx/podcast.webp)
 
 _DevX Pod is available wherever you get your podcasts!_
 

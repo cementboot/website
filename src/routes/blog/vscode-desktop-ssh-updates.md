@@ -2,10 +2,10 @@
 author: jeanp413, akosyakov, loujaybee
 date: Friday, 22 July 2022 09:00:00 UTC
 excerpt: Understand how VS Code establishes SSH connections, the different approaches, and understand common gotchas setting up VS Code Desktop and Gitpod via SSH.
-image: header.jpg
+image: header.webp
 slug: vscode-desktop-ssh-updates
 subtitle: Establishing SSH Connections, common gotchas and more.
-teaserImage: header.jpg
+teaserImage: header.webp
 title: "VS Code Desktop and SSH explained"
 ---
 
@@ -49,8 +49,8 @@ You may notice above the mention of the [SSH Gateway](/docs/configure/user-setti
 
 SSH Gateway for SaaS should be mostly transparent / invisible to the Gitpod experience. However, it is worth noting that SSH Gateway has non-functional benefits for performance and security.
 
-![SSH Gateway architecture in Gitpod](/images/ssh-gateway/ssh-gateway-dark-theme.png)
-![SSH Gateway architecture in Gitpod](/images/ssh-gateway/ssh-gateway-light-theme.png)
+![SSH Gateway architecture in Gitpod](/images/ssh-gateway/ssh-gateway-dark-theme.webp)
+![SSH Gateway architecture in Gitpod](/images/ssh-gateway/ssh-gateway-light-theme.webp)
 _Caption: SSH Gateway architecture in Gitpod_
 
 ## VS Code Desktop for connecting via SSH Gateway
@@ -62,8 +62,8 @@ The two main methods for using SSH Gateway with VS Code Desktop are:
 
 > **Important:** You must first ensure that `gitpod.remote.useLocalApp` is set to `false` in your VS Code user preferences for Gitpod to connect via the two SSH Gateway methods.
 
-![VS Code Gitpod use Local App setting](/images/editors/vscode-local-app-setting-light-theme.png)
-![VS Code Gitpod use Local App setting](/images/editors/vscode-local-app-setting-dark-theme.png)
+![VS Code Gitpod use Local App setting](/images/editors/vscode-local-app-setting-light-theme.webp)
+![VS Code Gitpod use Local App setting](/images/editors/vscode-local-app-setting-dark-theme.webp)
 _The VS Code Desktop Gitpod extension "useLocalApp" setting_
 
 ### SSH Gateway access using an uploaded public key (recommended)
@@ -73,7 +73,7 @@ First, VS Code Desktop will check if you have already added a public SSH key to 
 If you haven't set up an SSH key with Gitpod, you can go to [gitpod.io/keys](https://gitpod.io/keys) to upload a public key. Alternatively, you can continue using the owner token approach detailed below.
 
 <div align="center">
-  <img alt="The VS Code Desktop prompt from Gitpod when opening a workspace with no SSH key found locally or uploaded to Gitpod" src="/images/editors/no-registered-ssh-key-for-this-machine.png" width="50%">
+  <img alt="The VS Code Desktop prompt from Gitpod when opening a workspace with no SSH key found locally or uploaded to Gitpod" src="/images/editors/no-registered-ssh-key-for-this-machine.webp" width="50%">
   <p><i>Caption: The VS Code Desktop prompt from Gitpod when opening a workspace with no SSH key found locally or uploaded to Gitpod.</i></p>
   <br />
 </div>
@@ -93,8 +93,8 @@ You must have at least one public key uploaded to Gitpod, and a matching private
 
 If you cannot upload a public key to Gitpod (for whatever reason) selecting **Copy** will allow you to proceed to access your Gitpod workspace using the owner token approach. Selecting **Copy** will copy the necessary password to your clipboard to be pasted in the subsequent password prompt.
 
-![VS Code prompting for a password. This message is shown when the public key warning notice is dismissed on the previous page by selecting Copy](/images/editors/enter-password-for-ssh-connection-light-theme.png)
-![VS Code prompting for a password. This message is shown when the public key warning notice is dismissed on the previous page by selecting Copy](/images/editors/enter-password-for-ssh-connection-dark-theme.png)
+![VS Code prompting for a password. This message is shown when the public key warning notice is dismissed on the previous page by selecting Copy](/images/editors/enter-password-for-ssh-connection-light-theme.webp)
+![VS Code prompting for a password. This message is shown when the public key warning notice is dismissed on the previous page by selecting Copy](/images/editors/enter-password-for-ssh-connection-dark-theme.webp)
 _Caption: VS Code prompting for a password. This message is shown when the public key warning notice is dismissed on the previous page by selecting Copy._
 
 > **Note:** Gitpod previously required a local private SSH key to be stored in the default SSH directory, otherwise Gitpod would prompt for a "password". This limitation is no longer required. If not using an SSH uploaded key, you may be prompted for a password (the owner token), or asked for the passphrase associated with your SSH key.
@@ -121,12 +121,12 @@ If you experience issues with any of the above described methods of accessing yo
 
 If, for some reason you are being prompted for the owner token password, but cannot copy to clipboard, you can find the password on the Gitpod [workspaces page](https://gitpod.io/workspaces) under "connect via SSH".
 
-![The password prompt in VS Code Desktop for the owner token](/images/editors/enter-password-for-ssh-connection-light-theme.png)
-![The password prompt in VS Code Desktop for the owner token](/images/editors/enter-password-for-ssh-connection-dark-theme.png)
+![The password prompt in VS Code Desktop for the owner token](/images/editors/enter-password-for-ssh-connection-light-theme.webp)
+![The password prompt in VS Code Desktop for the owner token](/images/editors/enter-password-for-ssh-connection-dark-theme.webp)
 _Caption: The password prompt in VS Code Desktop for the owner token_
 
-![Accessing the owner token string manually from the Gitpod dashboard](/images/editors/connect-via-ssh-dashboard-dark-theme.png)
-![Accessing the owner token string manually from the Gitpod dashboard](/images/editors/connect-via-ssh-dashboard-light-theme.png)
+![Accessing the owner token string manually from the Gitpod dashboard](/images/editors/connect-via-ssh-dashboard-dark-theme.webp)
+![Accessing the owner token string manually from the Gitpod dashboard](/images/editors/connect-via-ssh-dashboard-light-theme.webp)
 _Caption: Accessing the owner token string manually from the Gitpod dashboard_
 
 > **Note:** The pattern of the owner token string is: `workspaceid#ownertoken@host`
@@ -138,8 +138,8 @@ If you're unsure which connection method you're using to connect (SSH Gateway or
 - **SSH Gateway** - `SSH: workspaceid.ssh.*.gitpod.io`
 - **Local Companion**: `workspaceid` (no domain)
 
-![The SSH host information shown in the bottom left of VS Code Desktop](/images/editors/show-ssh-connection-vscode-dark-theme.png)
-![The SSH host information shown in the bottom left of VS Code Desktop](/images/editors/show-ssh-connection-vscode-light-theme.png)
+![The SSH host information shown in the bottom left of VS Code Desktop](/images/editors/show-ssh-connection-vscode-dark-theme.webp)
+![The SSH host information shown in the bottom left of VS Code Desktop](/images/editors/show-ssh-connection-vscode-light-theme.webp)
 _Caption: The SSH host information shown in the bottom left of VS Code Desktop_
 
 ### I'm prompted for a password/passphrase but I still cannot access my workspace?
@@ -148,17 +148,17 @@ The owner token prompt and passphrase prompt in VS Code can look similar, howeve
 
 1. **Owner token** - If the password prompt in VS Code Desktop asks `Enter password for workspace@\*.gitpod.io`, this prompt is for the owner token of the workspace, not the passphrase associated with your SSH key.
 
-![Password prompt from VS Code requiring the workspace owner token](/images/editors/enter-password-for-ssh-connection-dark-theme.png)
-![Password prompt from VS Code requiring the workspace owner token](/images/editors/enter-password-for-ssh-connection-light-theme.png)
+![Password prompt from VS Code requiring the workspace owner token](/images/editors/enter-password-for-ssh-connection-dark-theme.webp)
+![Password prompt from VS Code requiring the workspace owner token](/images/editors/enter-password-for-ssh-connection-light-theme.webp)
 _Caption: Password prompt from VS Code requiring the workspace owner token._
 
-![The SSH owner token shown in the Gitpod dashboard](/images/editors/connect-via-ssh-dashboard-dark-theme.png)
-![The SSH owner token shown in the Gitpod dashboard](/images/editors/connect-via-ssh-dashboard-light-theme.png)
+![The SSH owner token shown in the Gitpod dashboard](/images/editors/connect-via-ssh-dashboard-dark-theme.webp)
+![The SSH owner token shown in the Gitpod dashboard](/images/editors/connect-via-ssh-dashboard-light-theme.webp)
 _Caption: The SSH owner token shown in the Gitpod dashboard_
 
 2. **SSH key Passphrase** - If your SSH key has a "passphrase" associated with the SSH key (it is not required for SSH keys), you'll need to enter your passphrase. If your public key has no passphrase, you should not see the passphrase prompt.
 
-![Passphrase prompt from VS Code requiring the SSH key passphrase](/images/editors/enter-passphrase-for-ssh.png)
+![Passphrase prompt from VS Code requiring the SSH key passphrase](/images/editors/enter-passphrase-for-ssh.webp)
 _Caption: Passphrase prompt from VS Code requiring the SSH key passphrase._
 
 There is no way to recover passphrases with Gitpod. If you cannot remember your passphrase, consider creating a new SSH key and uploading that new key to Gitpod.

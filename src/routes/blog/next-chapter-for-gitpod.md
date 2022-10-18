@@ -2,10 +2,10 @@
 author: svenefftinge, JohannesLandgraf
 date: Thu, 08 Apr 2021 14:00:00 UTC
 excerpt: Our focus has always been to remove friction from the developer experience. Today we announce a new funding round, our new brand, several product milestones, and DevX Conf.
-image: teaser.jpg
+image: teaser.webp
 slug: next-chapter-for-gitpod
 subtitle:
-teaserImage: teaser.jpg
+teaserImage: teaser.webp
 title: Next Chapter for Gitpod
 ---
 
@@ -21,14 +21,14 @@ title: Next Chapter for Gitpod
     margin-bottom: var(--x-small);
   }
 
-  img[src$="funding.jpg"] {
+  img[src$="funding.webp"] {
     margin-top: var(--large);
   }
 </style>
 
 At Gitpod our focus has always been to remove all friction from the developer experience and empower developers to be always ready-to-code. Today we are excited to announce a $13m funding round led by [General Catalyst](https://www.generalcatalyst.com/team/dr-steve-herrod), a fully revamped visual & brand identity as well as several product milestones aimed at defining a new product category in modern software development.
 
-![An enter key on its own](../../../static/images/blog/next-chapter-for-gitpod/funding.jpg)
+![An enter key on its own](../../../static/images/blog/next-chapter-for-gitpod/funding.webp)
 
 ## Funding
 
@@ -38,7 +38,7 @@ We did not need to raise money and actually did not plan for it. We reconsidered
   <LinkIconExternal href="https://www.gitpod.io/direction" icon="🗺️">Gitpod's Direction</LinkIconExternal>
 </div>
 
-![A mug with the Gitpod logo](../../../static/images/blog/next-chapter-for-gitpod/brand.jpg)
+![A mug with the Gitpod logo](../../../static/images/blog/next-chapter-for-gitpod/brand.webp)
 
 ## Brand
 
@@ -48,7 +48,7 @@ We believe there are standards to be set when it comes to establishing brands in
   <LinkIconExternal href="https://www.gitpod.io/values" icon="✨">Brand &amp; Values</LinkIconExternal>
 </div>
 
-![A monitor with three open windows](../../../static/images/blog/next-chapter-for-gitpod/product.jpg)
+![A monitor with three open windows](../../../static/images/blog/next-chapter-for-gitpod/product.webp)
 
 ## Product
 
@@ -58,7 +58,7 @@ Product is at the core of everything we do. We believe that by 2023 ephemeral cl
   <LinkIconExternal href="https://www.gitpod.io/roadmap" icon="🛣">Product Roadmap</LinkIconExternal>
 </div>
 
-![The DevX Conf logo](../../../static/images/blog/next-chapter-for-gitpod/devxconf.jpg)
+![The DevX Conf logo](../../../static/images/blog/next-chapter-for-gitpod/devxconf.webp)
 
 ## Conference
 

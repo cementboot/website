@@ -112,14 +112,14 @@
   </div>
   <div class="hero__illustration">
     <img
-      src="/images/illustration-large.png"
+      src="/images/illustration-large.webp"
       alt="Gitpod in a Nutshell"
       width="700"
       height="724"
       class="block dark:hidden"
     />
     <img
-      src="/images/illustrattion-large-dark.png"
+      src="/images/illustrattion-large-dark.webp"
       alt="Gitpod in a Nutshell"
       width="700"
       height="724"

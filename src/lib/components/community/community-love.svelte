@@ -4,7 +4,7 @@
 
 <Section class="max-w-md mx-auto text-center">
   <img
-    src="/images/community/kumquat.png"
+    src="/images/community/kumquat.webp"
     alt="Kumquat"
     class="mx-auto h-20 mb-x-small"
   />

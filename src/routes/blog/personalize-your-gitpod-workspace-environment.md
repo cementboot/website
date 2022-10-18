@@ -4,8 +4,8 @@ date: Thursday, 14 July 2022 11:00:00 UTC
 title: Personalize your Gitpod Workspace Environments
 slug: personalize-your-gitpod-workspace-environment
 excerpt: With Gitpod, switching to remote development becomes frictionless 🚀 You Can personalize your Gitpod workspaces as you configure your IDE Settings & Custom dotfiles.
-teaserImage: header.png
-image: header.png
+teaserImage: header.webp
+image: header.webp
 ---
 
 <script context="module">
@@ -55,7 +55,7 @@ Dotfiles is not to be confused with the `.gitpod.yml`. Dotfiles are personal to 
 ## How Do Dotfiles Work in a Gitpod Workspace?
 
 <figure class="flex flex-col items-center text-center">
-  <img src="/images/blog/personalize-your-gitpod-workspace-environment/dotfiles.png" alt="Multiple services can communincate with each-other when running on the same machine" width="700" />
+  <img src="/images/blog/personalize-your-gitpod-workspace-environment/dotfiles.webp" alt="Multiple services can communincate with each-other when running on the same machine" width="700" />
 </figure>
 
 When you create a new Gitpod workspace, the Dotfiles loading process first looks in your [preferences](https://gitpod.io/preferences) to get your dotfiles repository address. If found, the repository is cloned to your new workspace as `.dotfiles` in the `$HOME` directory, before searching for [executable](https://www.gitpod.io/docs/configure/user-settings/dotfiles#:~:text=Make%20sure%20to%20make%20your%20installation%20script%20executable%20with%20chmod%20755%20%3Cinstall%2Dscript%2Dname%3E.sh%20before%20committing%20and%20pushing%20to%20your%20dotfiles%20repository.) scripts like `install.sh`, `bootstrap.sh` (for the exact script names, see the [configure Dotfiles](https://www.gitpod.io/docs/configure/user-settings/dotfiles#:~:text=following%20install%20scripts) page). The dotfiles are synchronously set up before Gitpod starts to handle the `.gitpod.yml` [start tasks](https://www.gitpod.io/docs/configure/workspaces/tasks).

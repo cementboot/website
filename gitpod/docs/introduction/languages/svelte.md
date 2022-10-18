@@ -29,7 +29,7 @@ ports:
 
 After committing and pushing this file to your repository, start a new Gitpod workspace. You'll see that Gitpod will automatically install the dependencies; start the dev server; and open a preview on the side for port `5000`.
 
-![Sveltejs Template in Gitpod](../../../static/images/docs/svelte-template-in-gitpod.png)
+![Sveltejs Template in Gitpod](../../../static/images/docs/svelte-template-in-gitpod.webp)
 
 ## Making Live Reload work
 

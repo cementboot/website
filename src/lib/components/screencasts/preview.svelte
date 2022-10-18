@@ -46,7 +46,7 @@
   .cast > div::after {
     content: "";
     @apply -z-10 absolute right-0 top-2 bottom-2 pointer-events-none;
-    background-image: url("/images/screencasts/gitpod-editor.png");
+    background-image: url("/images/screencasts/gitpod-editor.webp");
     border-radius: 0.25rem;
     filter: drop-shadow(-2px 2px 5px rgba(0, 0, 0, 0.2));
     background-size: auto 100%;

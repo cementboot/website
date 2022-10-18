@@ -2,7 +2,7 @@
  * These declarations tell TypeScript that we allow import of images, e.g.
  * ```
 		<script lang='ts'>
-			import successkid from 'images/successkid.jpg';
+			import successkid from 'images/successkid.webp';
 		</script>
 
 		<img src="{successkid}">
@@ -13,7 +13,7 @@ declare module "*.gif" {
   export = value;
 }
 
-declare module "*.jpg" {
+declare module "*.webp" {
   const value: string;
   export = value;
 }
@@ -23,7 +23,7 @@ declare module "*.jpeg" {
   export = value;
 }
 
-declare module "*.png" {
+declare module "*.webp" {
   const value: string;
   export = value;
 }

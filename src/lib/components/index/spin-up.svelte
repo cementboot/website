@@ -27,7 +27,7 @@
   >
     <div class="mb-x-small lg:mb-0">
       <img
-        src="/images/index/gitpod-browser-extension.png"
+        src="/images/index/gitpod-browser-extension.webp"
         alt="Open in Gitpod button added via the Gitpod Browser Extension"
       />
     </div>

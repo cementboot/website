@@ -2,10 +2,10 @@
 author: pawlean, mikenikles
 date: Tues, 08 Mar 2022 16:00:00 UTC
 excerpt: For our ninth edition of DevX Digest, we look back at our conversation with Brittney Postma.
-image: header.jpg
+image: header.webp
 slug: devx-affects-us-all
 subtitle:
-teaserImage: header.jpg
+teaserImage: header.webp
 title: DevX Digest 09 - How DevX affects us all
 type: digest
 ---
@@ -20,7 +20,7 @@ On another episode of DevXPod, we sat down with [Brittney Postma](https://twitte
 
 As usual, in today’s newsletter, we’ll be sharing some of our key takeaways from the podcast episode. If you’d like to listen to the full episode, head over to your favourite podcast platform and search for `DevXPod`. Don’t forget to subscribe and leave us a rating ⭐️ Alternatively, if you’d prefer to read a transcript of our conversation head over to [our Buzzsprout site](https://devxpod.buzzsprout.com/)!
 
-![DevX Podcast Episode 1](../../../static/images/blog/devx-affects-us-all/podcast.png)
+![DevX Podcast Episode 1](../../../static/images/blog/devx-affects-us-all/podcast.webp)
 _DevX Pod is avaliable wherever you get your podcasts!_
 
 ### Key take-home messages

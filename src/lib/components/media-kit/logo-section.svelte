@@ -6,20 +6,20 @@
       src: "logo-light-theme.svg",
       alt: "Gitpod light theme logo",
       text: "logo",
-      srcPNG: "logo-light-theme.png",
+      srcPNG: "logo-light-theme.webp",
     },
     {
       src: "logo-dark-theme.svg",
       alt: "Gitpod dark theme logo",
       text: "dark theme logo",
-      srcPNG: "logo-dark-theme.png",
+      srcPNG: "logo-dark-theme.webp",
       isDark: true,
     },
     {
       src: "logo-mark.svg",
       alt: "Gitpod Logo Mark",
       text: "mark",
-      srcPNG: "logo-mark.png",
+      srcPNG: "logo-mark.webp",
     },
   ];
 </script>

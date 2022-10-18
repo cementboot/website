@@ -3,8 +3,8 @@ author: axonasif, pawlean, nancy-chauhan
 date: Thursday, 30 Jun 2022 02:00:00 UTC
 excerpt: This story is about how Gitpod enabled an 18-year-old student from Dhaka with a broken laptop to continue developing software on an Android phone seamlessly
 slug: software-development-from-my-android-phone-at-datacenter-speeds
-teaserImage: teaser.png
-image: teaser.png
+teaserImage: teaser.webp
+image: teaser.webp
 title: Software development from my Android phone at datacenter speeds
 ---
 
@@ -22,7 +22,7 @@ A few years ago, I got into software development while exploring the [Android-x8
 
 # Getting started with Gitpod on Android
 
-![My android phone with a bluetooth keyboard and mouse](../../../../../static/images/blog/software-development-from-my-android-phone-at-datacenter-speeds/20220412_004915681.jpg "This is how my setup used to look like!")
+![My android phone with a bluetooth keyboard and mouse](../../../../../static/images/blog/software-development-from-my-android-phone-at-datacenter-speeds/20220412_004915681.webp "This is how my setup used to look like!")
 
 Getting started with Gitpod on Android is quite easy. If you are interested in setting up Gitpod on Android, you can check out the [detailed guide](../guides/getting-started-with-gitpod-in-android).
 
@@ -54,7 +54,7 @@ Around that time Gitpod also launched the [Community Heroes program](https://www
 
 Later, I had applied for an internship at Gitpod. It was kind of an unexpected event for me: I got the internship, and officially, I became a Gitpodder 🍊
 
-[![Mission passed: RESPECT 😝](../../../static/images/blog/software-development-from-my-android-phone-at-datacenter-speeds/internship_tweet.png)](https://twitter.com/axonasif/status/1478418230460907529)
+[![Mission passed: RESPECT 😝](../../../static/images/blog/software-development-from-my-android-phone-at-datacenter-speeds/internship_tweet.webp)](https://twitter.com/axonasif/status/1478418230460907529)
 
 # Unlocking the power of Gitpod
 

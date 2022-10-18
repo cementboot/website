@@ -16,7 +16,7 @@ To run your own Gitpod instance, you need a TLS certificate for your Gitpod doma
 
 Configure cert-manager to issue these certificates (usually with a DNS-01 challenge and services like [Let's encrypt](https://letsencrypt.org/)). See the [installation guide](../installing-gitpod#prerequisites)) for more information.
 
-![kots-tls-cert-manager](../../static/images/docs/self-hosted/kots-tls-cert-manager.png)
+![kots-tls-cert-manager](../../static/images/docs/self-hosted/kots-tls-cert-manager.webp)
 
 <p align="center"><em>TLS certificates configuration options during the installation process</em></p>
 
@@ -30,7 +30,7 @@ Let Gitpod generate self-signed certificates for your installation. This option 
 $ kubectl get secrets -n <namespace> ca-issuer-ca -o jsonpath='{.data.ca\.crt}' | base64 -d > ~/ca.crt
 ```
 
-![kots-tls-self-signed](../../static/images/docs/self-hosted/kots-tls-self-signed.png)
+![kots-tls-self-signed](../../static/images/docs/self-hosted/kots-tls-self-signed.webp)
 
 ## Option 3: Bring your own certificate
 
@@ -40,4 +40,4 @@ $ kubectl get secrets -n <namespace> ca-issuer-ca -o jsonpath='{.data.ca\.crt}' 
 
 Upload your own TLS certificate, key, and (optionally) CA certificate. When your TLS certificate is signed by a publicly accepted TLS authority, you just need to upload your certificate and key. In case it is a self-signed certificate (e.g. signed by a corporate CA), you also need to upload your CA.
 
-![kots-tls-bring-own](../../static/images/docs/self-hosted/kots-tls-bring-own.png)
+![kots-tls-bring-own](../../static/images/docs/self-hosted/kots-tls-bring-own.webp)

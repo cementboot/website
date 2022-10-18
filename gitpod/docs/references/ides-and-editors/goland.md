@@ -68,7 +68,7 @@ To install a plugin on **JetBrains Client** follow these steps:
 - Find the plugin in the **Marketplace** and click **Install**.
 
 <figure>
-<img class="shadow-medium w-full rounded-xl max-w-3xl mt-x-small" alt="Install a plugin on JetBrains Client" src="/images/editors/install-local-jb-plugin.png">
+<img class="shadow-medium w-full rounded-xl max-w-3xl mt-x-small" alt="Install a plugin on JetBrains Client" src="/images/editors/install-local-jb-plugin.webp">
     <figcaption>Install a plugin on JetBrains Client</figcaption>
 </figure>
 
@@ -88,7 +88,7 @@ You can install a plugin only for **your current workspace** following these ste
 - Find the plugin in the **Marketplace** and click **Install**.
 
 <figure>
-<img class="shadow-medium w-full rounded-xl max-w-3xl mt-x-small" alt="Install a plugin on {title} backend" src="/images/editors/install-remote-jb-plugin.png">
+<img class="shadow-medium w-full rounded-xl max-w-3xl mt-x-small" alt="Install a plugin on {title} backend" src="/images/editors/install-remote-jb-plugin.webp">
     <figcaption>Install a plugin on {title} backend</figcaption>
 </figure>
 
@@ -172,7 +172,7 @@ The remaining metrics you can find in the Backend Control Center regarding the n
 
 > **Note:** Performance information shown in the Backend Control Center is the same as the information that is shown when running the command [`gp top`](/docs/references/gitpod-cli#top) in your workspace, see the [Command Line Interface](/docs/references/gitpod-cli) documentation for more.
 
-![jetbrains performance](/images/jetbrains-gateway/jetbrains-performance-center.png)
+![jetbrains performance](/images/jetbrains-gateway/jetbrains-performance-center.webp)
 
 ## FAQs
 

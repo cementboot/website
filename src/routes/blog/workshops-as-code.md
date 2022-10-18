@@ -2,10 +2,10 @@
 author: ghuntley
 date: Tuesday, 24 August 2021 09:00:00 UTC
 excerpt: Running workshops is easier and more productive with Gitpod. That’s a bold statement and by the end this tale I hope you’ll be nodding your head but until then mash this button to launch the Nix Operating System in your browser.
-image: teaser.png
+image: teaser.webp
 slug: workshops-as-code
 subtitle:
-teaserImage: teaser.png
+teaserImage: teaser.webp
 title: Workshops as code
 ---
 
@@ -28,7 +28,7 @@ Folks in technical education, I have a hot-tip for you - **Running workshops is 
 
 Yup, that’s right, running an operating system in your browser is now possible in 2021. In 2019, which now seems like an eternity thanks COVID19, I was invited to deliver a workshop at [Compose](https://www.composeconference.org/2019-melbourne/speakers/#geoff-javier) on NixOS.
 
-![Credit: Javier Candeira](../../../static/images/blog/workshops-as-code/nixos-compose-workshop.jpg)
+![Credit: Javier Candeira](../../../static/images/blog/workshops-as-code/nixos-compose-workshop.webp)
 _Photo Credit: [Javier Candeira](https://twitter.com/candeira)_
 
 NixOS is an exciting up-and-coming in the DevOps space because it provides declarative and [reproducible](https://nix.dev/tutorials/declarative-and-reproducible-developer-environments#declarative-and-reproducible-developer-environments) environments supported by powerful [testing primitives](https://github.com/gitpod-io/template-nixos/blob/main/test.nix). One may say NixOS is “an overnight success that is 18 years in the making” as many [industry leaders are switching](https://twitter.com/mitchellh/status/1346136404682625024).
@@ -44,7 +44,7 @@ One of the biggest challenges of running a workshop is ensuring attendees **do a
 
 It’s important to remember that the reason people attend workshops is that they want to **learn about what is being taught**. People are willing to do prerequisite activities and put up with waiting for that half of the class that didn’t do the prerequisites to pass around that USB stick but already from the get go your workshop is off to a bad start and precious time is slipping.
 
-![Credit: SpongeBob SquarePants](../../../static/images/blog/workshops-as-code/20mins-later.png)
+![Credit: SpongeBob SquarePants](../../../static/images/blog/workshops-as-code/20mins-later.webp)
 _Credit: [SpongeBob SquarePants](https://en.wikipedia.org/wiki/SpongeBob_SquarePants)_
 
 Suppose you were to once again peek at the [prerequisite activities](https://github.com/ghuntley/ghuntley/tree/trunk/workshops/nixos-workshop/modules/00-prerequisites) of the NixOS workshop. In that case, you’ll notice a line item - “Create a virtual machine”. At the time, the step appeared to be a simple request, but it wasn’t. People turned up with Chromebooks and laptops running macOS, Linux and _shudder_ windows devices enrolled under group policy with admin rights disabled.
@@ -53,7 +53,7 @@ Fortunately, with some support from the lovely folks from the [QFPL](https://qfp
 
 Afterwards, feedback was collected, and one item stuck out - **what device attendees are using or how the device is configured should not matter** . People should be able to rock up to your workshop and do it on an iPad Pro or from [a forest with marginal 4G internet connectivity](https://news.ycombinator.com/item?id=26284635).
 
-![Credit: Geoffrey Huntley](../../../static/images/blog/workshops-as-code/vanlife.jpg)
+![Credit: Geoffrey Huntley](../../../static/images/blog/workshops-as-code/vanlife.webp)
 _Credit: [Geoffrey Huntley](https://ghuntley.com)_
 
 Now granted, not every workshop requires people to install or configure virtual machines, but in the CNCF space, I often see people asking attendees to create a Kubernetes cluster as a prerequisite to learning. I’ll be frank here - **there is an entire class of problems that attendees and educators continue to put up with when they shouldn’t need to because these concerns can be removed through automation**.
@@ -62,9 +62,9 @@ By taking lessons learned from the infrastructure-as-code movement and convertin
 
 A Gitpod workspace gives you the same capabilities (yes, even root, Docker & qemu) as a Linux machine that is [already pre-built](/docs/configure/projects/prebuilds), works on any device from anywhere and that launches in seconds.
 
-<!-- ![Credit: Geoffrey Huntley](../../../static/images/blog/workshops-as-code/teaser.jpg) -->
+<!-- ![Credit: Geoffrey Huntley](../../../static/images/blog/workshops-as-code/teaser.webp) -->
 
-![Docker Compose Configuration](../../../static/images/blog/workshops-as-code/docker-compose.png)
+![Docker Compose Configuration](../../../static/images/blog/workshops-as-code/docker-compose.webp)
 
 Hosting a workshop on Gitpod is as simple as supplying a [Dockerfile](https://github.com/gitpod-io/template-nixos/blob/main/.gitpod.Dockerfile) and then specifying the [commands to execute](https://github.com/gitpod-io/template-nixos/blob/main/.gitpod.yml) in a Git repository that is hosted on either GitHub, GitLab or BitBucket.
 
@@ -82,7 +82,7 @@ However, if you want to take it to 11, maybe you’ll consider embedding Gitpod?
 
 For the last couple of months, Gitpod has been working with DataStax who has integrated their cloud-native database-as-a-service product offering with Gitpod.
 
-![Datastax Astra DB is a cloud-native database-as-a-service built on Apache Cassandra that is designed to simplify cloud-native application development](../../../static/images/blog/workshops-as-code/datastax.png)
+![Datastax Astra DB is a cloud-native database-as-a-service built on Apache Cassandra that is designed to simplify cloud-native application development](../../../static/images/blog/workshops-as-code/datastax.webp)
 
 Let’s peek under the hood how the integration works from top to bottom:
 
@@ -99,7 +99,7 @@ Let’s peek under the hood how the integration works from top to bottom:
 
 The Infrastructure as Software company [Pulumi](https://www.pulumi.com/) has also been using Gitpod as an option for attendees taking part in their instructor-led workshops because Gitpod enables them to spend less time configuring prerequisites and enables people to focus on what matters: **the educational content**.
 
-![Stuff like gitpod makes doing workshops so much easier I can’t believe how we used to do this stuff before - Matty Stratton](../../../static/images/blog/workshops-as-code/pulumi.png)
+![Stuff like gitpod makes doing workshops so much easier I can’t believe how we used to do this stuff before - Matty Stratton](../../../static/images/blog/workshops-as-code/pulumi.webp)
 _https://twitter.com/mattstratton/status/1426213495826096131?s=20_
 
 🎉 Thanks for reading! Hopefully, you’re convinced and can see the benefits of defining your workshops as code by now. As [recently announced](/blog/cloud-based-development-for-everyone), Gitpod is available to everyone, and our free tier is open to every developer with a GitLab, GitHub, and/or Bitbucket account.

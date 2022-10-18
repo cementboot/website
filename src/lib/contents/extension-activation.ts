@@ -5,7 +5,7 @@ export const feature: Feature = {
   paragraph:
     "The extension adds a Gitpod button on every project and branch across GitLab, GitHub, and Bitbucket so you can easily open a new workspace for any project.",
   image: {
-    src: "/images/extension-activation/extension-screenshot.png",
+    src: "/images/extension-activation/extension-screenshot.webp",
     alt: "A GitHub project page with the Gitpod button highlighted",
     classNames: "shadow-medium rounded-2xl",
   },

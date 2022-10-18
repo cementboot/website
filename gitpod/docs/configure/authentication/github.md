@@ -16,7 +16,7 @@ The first time you login to Gitpod with GitHub, you will be prompted to "Authori
 
 Gitpod uses the name and email from your GitHub account ID to create a new Gitpod user account. This is sufficient to start a Gitpod workspace on a public repository.
 
-![GitHub prompt for Gitpod OAuth App permissions with user:email scope](../../../static/images/integrations/github-oauth-install.png)
+![GitHub prompt for Gitpod OAuth App permissions with user:email scope](../../../static/images/integrations/github-oauth-install.webp)
 
 ## Starting Workspaces
 
@@ -30,7 +30,7 @@ GitHub requires `repo` scope permissions to open a workspace on a private reposi
 
 You can grant these additional permissions for GitHub at https://gitpod.io/integrations using the context menu on the right.
 
-![Gitpod settings for GitHub integration permissions](../../../static/images/integrations/github-oauth-permissions.png)
+![Gitpod settings for GitHub integration permissions](../../../static/images/integrations/github-oauth-permissions.webp)
 
 ## Authorizing GitHub webhooks
 
@@ -38,11 +38,11 @@ The first time you create a [new Gitpod project](https://gitpod.io/new) you will
 
 > NOTE: Installing the GitHub App for webhooks is only required for github.com, not for [GitHub Enterprise](/docs/configure/authentication/github-enterprise) or other git providers.
 
-![Gitpod new project prompt for GitHub App authorization](../../../static/images/integrations/github-new-project-install-app.png)
+![Gitpod new project prompt for GitHub App authorization](../../../static/images/integrations/github-new-project-install-app.webp)
 
 The App must be installed on every GitHub user or organization account with repositories used in a Gitpod project. This allows you to grant permissions for all repositories or select repo-by-repo.
 
-![GitHub App repo authorization](../../../static/images/integrations/github-app-authorize-repos.png)
+![GitHub App repo authorization](../../../static/images/integrations/github-app-authorize-repos.webp)
 
 ## Errors with private repositories on GitHub orgs
 

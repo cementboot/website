@@ -2,7 +2,7 @@
 title: "From in-house to Gitpod: unlocking a collaboration culture"
 excerpt: Factorial embraced a collaboration culture by switching from their in-house dev environments to Gitpod. It saved each engineer 5 to 10 hours a month and freed the DevOps team to focus on production as they scaled from 45 developers to 120.
 slug: factorial
-image: teaser.png
+image: teaser.webp
 date: Thursday, 23 June 2022 06:00:00 UTC
 pageTitle: "Factorial case study: From in-house remote development to unlocking a collaboration culture"
 pageDescription: From in-house remote development to unlocking a collaboration culture. Saving each engineer 5 to 10 hours a month. Freeing the DevOps team to focus on production as Factorial grows from 45 developers to 120.
@@ -35,7 +35,7 @@ data={{
 title="From in-house to Gitpod: unlocking a collaboration culture"
 text="Factorial embraced a collaboration culture by switching from their in-house dev environments to Gitpod. It saved each engineer 5 to 10 hours a month and freed the DevOps team to focus on production as they scaled from 45 developers to 120."
 card={{
-		image: "/images/customers/factorial/teaser.png",
+		image: "/images/customers/factorial/teaser.webp",
 		details:{
 			industry: "Human Resources",
 			plan: "Team Unlimited, SaaS",
@@ -77,9 +77,9 @@ text: "new developers hired",
 	/>
 </Section>
 
-<Story bannerImg="/images/customers/factorial/banner.png" text="From in-house to Gitpod: unlocking a collaboration culture">
+<Story bannerImg="/images/customers/factorial/banner.webp" text="From in-house to Gitpod: unlocking a collaboration culture">
 
-<img src="/images/customers/factorial/josep-band-slack.png" alt="Slack message from Josep Jaume: 'Just to show you how much I am becoming a meme in Factorial, and how much I love Gitpod – I have a band and some amazing humans from Factorial came to see us. You won't believe what happened next' with some photos of the Factorial team holding Gitpod signs in the crowd." class="rounded-t-2xl">
+<img src="/images/customers/factorial/josep-band-slack.webp" alt="Slack message from Josep Jaume: 'Just to show you how much I am becoming a meme in Factorial, and how much I love Gitpod – I have a band and some amazing humans from Factorial came to see us. You won't believe what happened next' with some photos of the Factorial team holding Gitpod signs in the crowd." class="rounded-t-2xl">
 
 Factorial is a software company building an all-in-one human resources management application that handles document management, payroll, time tracking, and more.
 
@@ -158,9 +158,9 @@ Once a developer hits the "I can do that?" moment, they start seeing the work of
 Eventually the messages started coming in.
 
 <div class="bg-white px-4 py-2 rounded-lg">
-	<img src="/images/customers/factorial/slack-1.png" alt="Can anyone delete my devenv? Been using Gitpod for a long time now and not coming back." />
-	<img src="/images/customers/factorial/slack-2.png" alt="I'm not going to need my devenv anymore either. I usually worked on localhost before but I'm not going to use it anymore." />
-	<img src="/images/customers/factorial/slack-3.png" alt="I will not need my devenv anymore either, could you please delete it?" />
+	<img src="/images/customers/factorial/slack-1.webp" alt="Can anyone delete my devenv? Been using Gitpod for a long time now and not coming back." />
+	<img src="/images/customers/factorial/slack-2.webp" alt="I'm not going to need my devenv anymore either. I usually worked on localhost before but I'm not going to use it anymore." />
+	<img src="/images/customers/factorial/slack-3.webp" alt="I will not need my devenv anymore either, could you please delete it?" />
 </div>
 
 The tide had turned. 4 months after Factorial began transitioning to Gitpod, the engineers embraced the new way of working and committed to it—from varying degrees of skepticism and engagement to passionate advocates for a modern developer experience.
@@ -169,7 +169,7 @@ One evening in May, Josep was playing a show with his band, where a group from t
 
 <div class="max-w-xl mx-auto">
 
-![A gitpod sign in the crowd with Josep playing guitar in the background](/images/customers/factorial/sign-in-crowd.jpg)
+![A gitpod sign in the crowd with Josep playing guitar in the background](/images/customers/factorial/sign-in-crowd.webp)
 
 </div>
 

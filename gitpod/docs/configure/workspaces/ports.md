@@ -21,12 +21,12 @@ By default, when a port is opening in a Gitpod workspace, Gitpod will:
 1. **Notify the user** - Gitpod sends the user a popup notification in their [IDE or editor](/docs/references/ides-and-editors) to let the user know that a port has been detected.
 
 <figure>
-<img class="shadow-medium w-full rounded-xl max-w-3xl mt-x-small" alt="Setting a port public/private in VS Code Browser" src="/images/editors/port-notification-vscode.png">
+<img class="shadow-medium w-full rounded-xl max-w-3xl mt-x-small" alt="Setting a port public/private in VS Code Browser" src="/images/editors/port-notification-vscode.webp">
     <figcaption>Setting a port public/private in VS Code Browser</figcaption>
 </figure>
 
 <figure>
-<img class="shadow-medium w-full rounded-xl max-w-3xl mt-x-small" alt="Setting a port public/private in a JetBrains IDE" src="/images/jetbrains-gateway/jetbrains-notification.png">
+<img class="shadow-medium w-full rounded-xl max-w-3xl mt-x-small" alt="Setting a port public/private in a JetBrains IDE" src="/images/jetbrains-gateway/jetbrains-notification.webp">
     <figcaption>Setting a port public/private in a JetBrains IDE</figcaption>
 </figure>
 
@@ -82,7 +82,7 @@ You can give ports a `name` and a `description` (both optional). These propertie
         Every exposed port's information and its corresponding actions can be found in the <Action>PORTS</Action> tab inside of VS Code Browser.
     </p>
     <figure>
-        <img class="shadow-medium w-full rounded-xl max-w-3xl mt-x-small" alt="The PORTS tab in VS Code Browser with a single port's actions" src="/images/docs/ports-view-vscode.png" />
+        <img class="shadow-medium w-full rounded-xl max-w-3xl mt-x-small" alt="The PORTS tab in VS Code Browser with a single port's actions" src="/images/docs/ports-view-vscode.webp" />
         <figcaption>The <Action>PORTS</Action> tab in VS Code Browser with a single port's actions</figcaption>
     </figure>
 </div>
@@ -92,7 +92,7 @@ You can give ports a `name` and a `description` (both optional). These propertie
         Every exposed port's information and its corresponding actions can be found in the <Action>EXPOSED PORTS</Action> tab inside of VS Code Desktop.
     </p>
     <figure>
-        <img class="shadow-medium w-full rounded-xl max-w-3xl mt-x-small" alt="The EXPOSED PORTS view in VS Code Desktop with a single port's actions" src="/images/docs/ports-view-vscodedesktop.png" />
+        <img class="shadow-medium w-full rounded-xl max-w-3xl mt-x-small" alt="The EXPOSED PORTS view in VS Code Desktop with a single port's actions" src="/images/docs/ports-view-vscodedesktop.webp" />
         <figcaption>The <Action>EXPOSED PORTS</Action> view in VS Code Desktop with a single port's actions</figcaption>
     </figure>
 </div>
@@ -102,7 +102,7 @@ You can give ports a `name` and a `description` (both optional). These propertie
         You can execute <a href="/docs/references/gitpod-cli#list-1"><code>gp ports list</code></a> in the terminal to output a table-formatted list of ports along with their status, URL, name and description.
     </p>
     <figure>
-        <img class="shadow-medium w-full rounded-xl max-w-3xl mt-x-small" alt="Display ports info with the Gitpod CLI" src="/images/docs/ports-with-name-cmd.png" />
+        <img class="shadow-medium w-full rounded-xl max-w-3xl mt-x-small" alt="Display ports info with the Gitpod CLI" src="/images/docs/ports-with-name-cmd.webp" />
         <figcaption>Display ports info with the Gitpod CLI</figcaption>
     </figure>
 </div>
@@ -112,7 +112,7 @@ You can give ports a `name` and a `description` (both optional). These propertie
         You can execute <a href="/docs/references/gitpod-cli#list-1"><code>gp ports list</code></a> to output a table-formatted list of ports along with their status, URL, name and description.
     </p>
     <figure>
-        <img class="shadow-medium w-full rounded-xl max-w-3xl mt-x-small" alt="Display ports info with the Gitpod CLI" src="/images/docs/ports-with-name-cmd.png" />
+        <img class="shadow-medium w-full rounded-xl max-w-3xl mt-x-small" alt="Display ports info with the Gitpod CLI" src="/images/docs/ports-with-name-cmd.webp" />
         <figcaption>Display ports info with the Gitpod CLI</figcaption>
     </figure>
 </div>
@@ -136,7 +136,7 @@ Port visibility can be set in [`.gitpod.yml`](/docs/references/gitpod-yml), chan
 
 <div slot="vscodebrowser">
     <figure>
-    <img class="shadow-medium w-full rounded-xl max-w-3xl mt-x-small" alt="Setting a port public/private in VS Code Browser" src="/images/editors/toggle-port-visibility-vscode.png">
+    <img class="shadow-medium w-full rounded-xl max-w-3xl mt-x-small" alt="Setting a port public/private in VS Code Browser" src="/images/editors/toggle-port-visibility-vscode.webp">
         <figcaption>Setting a port public/private in VS Code Browser</figcaption>
     </figure>
 </div>
@@ -174,7 +174,7 @@ Local port forwarding allows you to forward a port running in your Gitpod worksp
 <div slot="jetbrains">
     <p>To forward a port in JetBrains, navigate to the preferences page in the <a href="/docs/integrations/jetbrains-gateway">JetBrains Gateway</a> client to select the port and protocol to be forwarded.</p>
     <figure>
-    <img class="shadow-medium w-full rounded-xl max-w-3xl mt-x-small" alt="Port forwarding in a JetBrains IDE" src="/images/jetbrains-gateway/port-forward-jetbrains.png">
+    <img class="shadow-medium w-full rounded-xl max-w-3xl mt-x-small" alt="Port forwarding in a JetBrains IDE" src="/images/jetbrains-gateway/port-forward-jetbrains.webp">
         <figcaption>Port forwarding in a JetBrains IDE</figcaption>
     </figure>
 </div>
@@ -187,7 +187,7 @@ Local port forwarding allows you to forward a port running in your Gitpod worksp
     <p>With VS Code Desktop, all ports are automatically forwarded, allowing you to access any forwarded ports on your localhost address. You can also manually forward a port using the ports view.</p>
 
     <figure>
-    <img class="shadow-medium w-full rounded-xl max-w-3xl mt-x-small" alt="Port forwarding in VS Code Desktop" src="/images/editors/port-forwarding-vscode-desktop.png">
+    <img class="shadow-medium w-full rounded-xl max-w-3xl mt-x-small" alt="Port forwarding in VS Code Desktop" src="/images/editors/port-forwarding-vscode-desktop.webp">
         <figcaption>Port forwarding in VS Code Desktop</figcaption>
     </figure>
 

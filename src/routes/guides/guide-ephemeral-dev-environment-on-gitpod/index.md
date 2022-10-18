@@ -3,8 +3,8 @@ author: nancy-chauhan, Siddhant-K-code, axonasif, loujaybee
 date: Friday, 19 August 2022 02:00:00 UTC
 excerpt: This guide will focus on topics and concepts that can help you set up an ephemeral dev environment on Gitpod
 slug: guide-ephemeral-dev-environment-on-gitpod
-teaserImage: header.jpg
-image: teaser.jpg
+teaserImage: header.webp
+image: teaser.webp
 title: Build Projects in a Gitpod Ephemeral Dev Environment — The Ultimate Guide
 ---
 
@@ -110,12 +110,12 @@ Every time you create a new ephemeral workspace, a lot of time can be saved by u
 For example, the `.gitpod.yml` saves 41 minutes of installation and building time for the [Node.js](https://github.com/nodejs/node) repo that would otherwise have to be run on your machine. In Gitpod, the workspace image is prebuilt, so all you have to do is start a new workspace.
 
 <figure class="flex flex-col items-center text-center">
-  <img src="/images/guides/guide-ephemeral-dev-environment-on-gitpod/tweet-image.png" alt="This is tweet about of Node.js project. With Gitpod Prebuilds it got even faster" width="400" />
+  <img src="/images/guides/guide-ephemeral-dev-environment-on-gitpod/tweet-image.webp" alt="This is tweet about of Node.js project. With Gitpod Prebuilds it got even faster" width="400" />
    <figcaption class="w-full">This is <a href="https://twitter.com/Siddhant_K_code/status/1548143768301318144">tweet</a> about Node.js project. With <a href="https://www.gitpod.io/docs/configure/projects/prebuilds">Gitpod Prebuilds</a> it got even faster.</figcaption>
 </figure>
 
 <figure class="flex flex-col items-center text-center">
-  <img src="/images/guides/guide-ephemeral-dev-environment-on-gitpod/gitpod-prebuilds.png" alt="Average of Time we save through prebuilds with our own Gitpod project"/>
+  <img src="/images/guides/guide-ephemeral-dev-environment-on-gitpod/gitpod-prebuilds.webp" alt="Average of Time we save through prebuilds with our own Gitpod project"/>
    <figcaption class="w-full">Average of Time we save through prebuilds with our Gitpod project.</figcaption>
 </figure>
 
@@ -161,7 +161,7 @@ Every time you start a project, you require API keys, secrets like database pass
 You can configure persistent environment variables in your Gitpod [Account settings](https://gitpod.io/variables).
 
 <figure class="flex flex-col items-center text-center">
-  <img src="/images/guides/guide-ephemeral-dev-environment-on-gitpod/env-vars.png" alt="Configure the persistent environment variables in your Gitpod account settings." />
+  <img src="/images/guides/guide-ephemeral-dev-environment-on-gitpod/env-vars.webp" alt="Configure the persistent environment variables in your Gitpod account settings." />
 </figure>
 
 The scope of each variable determines in what workspaces it will be available. Scope patterns follow the `owner/repository` pattern:
@@ -173,7 +173,7 @@ You can use a wildcard (denoted with a `*`) to match either the `owner` or `repo
 - **All organizations or repositories** - Using `*/*` would make an environment variable available in every repository for any organization for that given user.
 
 <figure class="flex flex-col items-center text-center">
-  <img src="/images/guides/guide-ephemeral-dev-environment-on-gitpod/scope.png" alt="Scope of each variable determines in what workspaces it will be available" width="500" />
+  <img src="/images/guides/guide-ephemeral-dev-environment-on-gitpod/scope.webp" alt="Scope of each variable determines in what workspaces it will be available" width="500" />
 </figure>
 
 You can read more about environment variables in [Environment Variables on Gitpod](https://www.gitpod.io/docs/configure/projects/environment-variables).
@@ -191,6 +191,7 @@ Inside your workspace, Open the terminal & run the following steps:
 - Step 1: `mkdir -p /workspace/.persist`
 - Step 2: `cp $HOME/.bash_history /workspace/.persist`
 - Step 3: Add the following task inside `.gitpod.yml`:
+
 ```yaml
 tasks:
   - name: Restore persist
@@ -199,6 +200,7 @@ tasks:
       # Copy more files as necessary below
       exit;
 ```
+
 - Step 4: [See it in action](https://www.gitpod.io/docs/config-gitpod-file#see-it-in-action)
 
 > **Note**: This is just a temporary solution. The issue for this is still open [Issue URL](https://github.com/gitpod-io/gitpod/issues/8716)

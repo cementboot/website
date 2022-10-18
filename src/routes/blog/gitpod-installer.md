@@ -2,10 +2,10 @@
 author: csweichel, MrSimonEmms
 date: Wed, 6 April 2022 16:00:00 UTC
 excerpt: We at Gitpod believe in making developer experiences better, and we are super excited to introduce Gitpod Installer 🎉, which makes Gitpod installations a breeze!
-image: teaser.png
+image: teaser.webp
 slug: gitpod-installer
 subtitle:
-teaserImage: teaser.png
+teaserImage: teaser.webp
 title: Why we moved from Helm to Gitpod Installer
 ---
 
@@ -28,7 +28,7 @@ To make the matter worse, we had many undocumented configuration values that we 
 We started building the [Gitpod Installer](https://github.com/gitpod-io/gitpod/tree/main/install/installer) to make installation of Gitpod and maintenance of the installation scripts less painful. We wrote Gitpod Installer in Go, making it easier to manage, structure and reuse the code. Instead of dealing with YAML and templates, we deal with structs and functions which gets us type safety, runtime checks, and composition.
 
 <figure>
-	<img src="/images/blog/gitpod-installer/gitpod-installer.png" alt="Gitpod Installer"/>
+	<img src="/images/blog/gitpod-installer/gitpod-installer.webp" alt="Gitpod Installer"/>
 	<figcaption>Gitpod Installer</figcaption>
 </figure>
 

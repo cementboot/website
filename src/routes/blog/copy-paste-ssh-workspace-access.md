@@ -4,8 +4,8 @@ date: Wednesday, 20 April 2022 13:00:00 UTC
 excerpt: Easily access your Gitpod workspace by copy/pasting a single SSH command from the gitpod dashboard.
 slug: copy-paste-ssh-workspace-access
 title: SSH for workspaces as easy as copy/paste
-image: header.jpg
-teaserImage: header.jpg
+image: header.webp
+teaserImage: header.webp
 ---
 
 <script context="module">

@@ -20,4 +20,4 @@ You can preview your usage telemetry, control how much information you share, an
 
 A preview of your usage telemetry is available on the settings page to provide transparency about the data we'd like to collect.
 
-![Enable Service Ping in Admin Settings](../../../static/images/docs/self-hosted/telemetry-setting.png)
+![Enable Service Ping in Admin Settings](../../../static/images/docs/self-hosted/telemetry-setting.webp)

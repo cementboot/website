@@ -44,7 +44,7 @@
   title="You are in good company"
   text="Learn how other customers leverage Gitpod to improve their developer experience, remote collaboration and security."
   image={{
-    src: "/images/customers/hero.png",
+    src: "/images/customers/hero.webp",
     alt: "Workspace setup",
     isCut: false,
   }}

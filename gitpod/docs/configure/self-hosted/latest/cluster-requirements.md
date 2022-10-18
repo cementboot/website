@@ -12,7 +12,7 @@ title: Cluster Set-Up
 
 Gitpod is a Kubernetes application running with certain expectations on the characteristics of the cluster it is running on.
 
-![cluster requirements](../../static/images/docs/self-hosted/cluster-requirements.png)
+![cluster requirements](../../static/images/docs/self-hosted/cluster-requirements.webp)
 
 <!-- raw editable diagram can be found under static/images/docs/self-hosted/cluster-requirements.excalidraw -->
 

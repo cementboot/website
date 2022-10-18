@@ -7,23 +7,23 @@
     {
       name: "Gitpod",
       org: "gitpod",
-      img: "/images/events/gitpod-1.jpg",
+      img: "/images/events/gitpod-1.webp",
       text: "Team Gitpod at #KubeConEU! We’re here all day - stop by and say hello 🧡🍊 <br/><br/> @michaelar1ng @atduarte @aledbf @tarrooon @csweichel @paulienuh  @ArthurSilvaSens",
-      avatar: "gitpod.jpg",
+      avatar: "gitpod.webp",
     },
     {
       name: "Pauline P. Narvas ⭐",
       org: "paulienuh",
-      img: "/images/events/paulienuh-1.jpg",
+      img: "/images/events/paulienuh-1.webp",
       text: "🦊+🍊=🧡<br/>I’m so happy to finally have met some of our friends from @gitlab 🥰 <br /><br />@john_cogs @olearycrew @dnsmichi, thank you for hanging out at our @gitpod booth! 🧡<br /><br />#KubeConEU",
-      avatar: "paulienuh.jpg",
+      avatar: "paulienuh.webp",
     },
     {
       name: "Gitpod",
       org: "gitpod",
-      img: "/images/events/gitpod-2.jpg",
+      img: "/images/events/gitpod-2.webp",
       text: "Attendees at #KubeConEU 🇪🇸  We’re giving away a number of swag boxes 🍊<br/>For a chance to win one of our exclusive swag boxes, tell us the biggest friction you've faced when onboarding to a new company! 👀<br /><br />We’ll tweet the lucky winners ✨",
-      avatar: "gitpod.jpg",
+      avatar: "gitpod.webp",
     },
   ];
 </script>

@@ -4,8 +4,8 @@ date: Friday, 6 May 2022 11:00:00 UTC
 title: Connect Multiple Repositories on Gitpod using Tailscale
 slug: connect-multiple-repositories-using-tailscale
 excerpt: Tailscale’s secure mesh technology based on WireGuard can connect machines securely across the internet, frictionlessly. ✨ This article will show how easy it is to connect Gitpod workspaces over a secure tunnel provided by Tailscale.
-teaserImage: header.jpg
-image: teaser.jpg
+teaserImage: header.webp
+image: teaser.webp
 ---
 
 <script context="module">
@@ -26,14 +26,14 @@ This guide will show how easy it is to connect Gitpod workspaces over a secure t
 A typical architecture these days is server-side rendering (SSR). You generate the view by calling backend services on the frontend server instead of calling your API from client devices. If you develop on your local machine, two repositories will be open in two IDE windows. Every service can communicate with each other as they are all running on the same machine.
 
 <figure class="flex flex-col items-center text-center">
-  <img src="/images/guides/connect-multiple-repositories-using-tailscale/locahost-ssr.png" alt="Multiple services can communincate with each-other when running on the same machine" width="500" />
+  <img src="/images/guides/connect-multiple-repositories-using-tailscale/locahost-ssr.webp" alt="Multiple services can communincate with each-other when running on the same machine" width="500" />
   <figcaption>Local setup</figcaption>
 </figure>
 
 In Gitpod, each workspace runs in a secure sandbox. You can expose ports so that only your browser can access them. However, the workspaces cannot communicate with one another.
 
 <figure class="flex flex-col items-center text-center">
-  <img src="/images/guides/connect-multiple-repositories-using-tailscale/gitpod-workspace-without-tailscale.png" alt="In Gitpod each workspace runs in a secure sandbox, workspaces cannont communicate with one another" width="500" />
+  <img src="/images/guides/connect-multiple-repositories-using-tailscale/gitpod-workspace-without-tailscale.webp" alt="In Gitpod each workspace runs in a secure sandbox, workspaces cannont communicate with one another" width="500" />
   <figcaption class="w-full">Gitpod workspaces are secure and isolated</figcaption>
 </figure>
 
@@ -44,7 +44,7 @@ But if your application has a server-side that needs to fetch data from another 
 **This is what Tailscale is made for ✨**
 
 <figure class="flex flex-col items-center text-center">
-  <img src="/images/guides/connect-multiple-repositories-using-tailscale/gitpod-workspaces-with-tailscale.png" alt="Connect multiple workspaces on Gitpod using Tailscale" width="600" />
+  <img src="/images/guides/connect-multiple-repositories-using-tailscale/gitpod-workspaces-with-tailscale.webp" alt="Connect multiple workspaces on Gitpod using Tailscale" width="600" />
   <figcaption class="w-full">Establish secure tunnel using Tailscale</figcaption>
 </figure>
 

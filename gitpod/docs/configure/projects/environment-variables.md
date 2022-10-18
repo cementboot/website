@@ -93,7 +93,7 @@ Flags:
 
 You can also configure and view the persistent environment variables in [your account settings](https://gitpod.io/variables).
 
-![Environment Variables in Account Settings](../../../static/images/docs/beta/configure/environment-variables/environment-variables-account-settings.png)
+![Environment Variables in Account Settings](../../../static/images/docs/beta/configure/environment-variables/environment-variables-account-settings.webp)
 
 You can add as many environment variables as you wish.
 

@@ -2,10 +2,10 @@
 author: JohannesLandgraf, svenefftinge, akosyakov
 date: Tuesday, 28 Sep 2021 13:00:00 UTC
 excerpt: Run the latest VS Code on a remote machine accessed through a modern web browser - from any device, from anywhere.
-image: teaser2.jpg
+image: teaser2.webp
 slug: openvscode-server-launch
 subtitle:
-teaserImage: teaser2.jpg
+teaserImage: teaser2.webp
 title: VS Code in the browser for everyone
 ---
 

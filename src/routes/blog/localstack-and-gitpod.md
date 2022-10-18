@@ -4,8 +4,8 @@ date: Thursday, 15 September 2022 11:00:00 UTC
 title: LocalStack x Gitpod - Run cloud applications with LocalStack and Gitpod
 slug: localstack-and-gitpod
 excerpt: Developing and running cloud applications is simplified with Gitpod and LocalStack ✨ Gitpod’s fully automated, ephemeral workspaces provide a great developer experience. LocalStack accelerates your dev and test feedback loop.
-teaserImage: header.jpg
-image: header.jpg
+teaserImage: header.webp
+image: header.webp
 ---
 
 <script context="module">
@@ -53,12 +53,12 @@ The figure is also segmented vertically - in the upper part, we see the code vie
 
 The lower part contains the runtime view, i.e., an instantiation of your app that can be used for previewing the application logic and quickly iterating on the logic. The runtime makes use of a LocalStack container that runs inside the Gitpod environment - and allows you to conveniently deploy your cloud application assets into this sandbox, to then preview the results.
 
-![](../../../static/images/blog/localstack-and-gitpod/figure.png)
+![](../../../static/images/blog/localstack-and-gitpod/figure.webp)
 
 The screenshot below illustrates how things fit together when spinning up this Gitpod workspace. In the tree view on the left-hand side of VS Code in the browser, we can see the files of your application. The main view shows the source code of your app (e.g., an AWS Lambda handler file), and the terminal view in the lower part shows the log output of the LocalStack Docker instance running in the environment.
 
 <figure class="flex flex-col items-center text-center">
-  <img src="/images/blog/localstack-and-gitpod/vs-code-browser.png" alt="Requests are passing through different stages" width="800" />
+  <img src="/images/blog/localstack-and-gitpod/vs-code-browser.webp" alt="Requests are passing through different stages" width="800" />
 </figure>
 
 This setup gives us the full power of a cloud development environment where we can develop our AWS cloud app - without the need for any local installation whatsoever, and without ever talking to the production environment in the cloud (hence, not incurring any cloud costs).
@@ -74,7 +74,7 @@ We demonstrate a sample application, provided as an open source project (https:/
 The goal of this example is to develop an AWS cloud application that represents a classical asynchronous request worker pattern. Below is a simplified architecture diagram of the application that shows the different components of the application, and how they fit together:
 
 <figure class="flex flex-col items-center text-center">
-  <img src="/images/blog/localstack-and-gitpod/architecture.png" alt="Requests are passing through different stages" width="700" />
+  <img src="/images/blog/localstack-and-gitpod/architecture.webp" alt="Requests are passing through different stages" width="700" />
 </figure>
 
 > Note: This is a simplified and synthetic application for demonstration purposes, but it is easy to see that a similar application architecture could be used for different real-life purposes - e.g., in a helpdesk application that processes user requests, or some order fulfillment system that processes purchases of a customer. The key part is - even though the application will eventually be deployed on AWS cloud, we can develop and run this entire application with LocalStack running in Gitpod, without ever interacting with a costly production environment in the cloud.
@@ -82,7 +82,7 @@ The goal of this example is to develop an AWS cloud application that represents 
 Once deployed on LocalStack, the sample application will spin up a simple Web user interface to create user requests, which are then processed by the application logic. The timestamps and status updates can be seen in the screenshot below - notice how the request is passing through the different stages - from QUEUED, to PROCESSING, to FINISHED.
 
 <figure class="flex flex-col items-center text-center">
-  <img src="/images/blog/localstack-and-gitpod/requests.png" alt="Requests are passing through different stages" width="700" />
+  <img src="/images/blog/localstack-and-gitpod/requests.webp" alt="Requests are passing through different stages" width="700" />
 </figure>
 
 > Note that - in order for the request to go through these stages, it follows all the steps outlined above - entering through an API Gateway, being processed by an application handler Lambda function that puts a new item to an SQS queue, being picked up by another Lambda that starts a StepFunctions state machine workflow with two steps - a processing Lambda that updates the state in a DynamoDB table, and an archiving Lambda that puts the final result to an S3 bucket, making it available for download by the user. All the steps of this non-trivial application are being executed within the LocalStack container, running in the Gitpod environment.

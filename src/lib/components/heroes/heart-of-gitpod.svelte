@@ -8,7 +8,7 @@
     paragraph:
       "Community is at the heart of Gitpod. Together with our Community Heroes, we want to push our mission of empowering developers to make software engineering collaborative and joyful again.",
     image: {
-      src: "/images/heroes/heart-of-gitpod.png",
+      src: "/images/heroes/heart-of-gitpod.webp",
       alt: "Community Heroes",
     },
     showTheMediaFirstOnMobile: true,

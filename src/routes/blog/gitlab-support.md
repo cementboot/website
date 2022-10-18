@@ -2,7 +2,7 @@
 author: svenefftinge
 date: Wed Dec 04 2019 13:49:24 GMT+0000 (UTC)
 excerpt: We are happy to announce that you can finally enjoy Gitpod's frictionless ready-to-code dev environments on GitLab as well.
-image: teaser-gitlab-cover.png
+image: teaser-gitlab-cover.webp
 slug: gitlab-support
 subtitle: Your devops toolchain is finally complete!
 title: GitLab Support for Gitpod is Here 🎉
@@ -14,7 +14,7 @@ title: GitLab Support for Gitpod is Here 🎉
 
 We are happy to announce that you can finally enjoy Gitpod's frictionless ready-to-code dev environments on GitLab as well.
 
-![gitpod loves gitlab](../../../static/images/blog/gitlab-support/teaser-gitlab-gitpod.jpg)
+![gitpod loves gitlab](../../../static/images/blog/gitlab-support/teaser-gitlab-gitpod.webp)
 
 ## Getting started with GitLab and Gitpod
 
@@ -48,7 +48,7 @@ For instance, if you start a workspace from the issue context above, you’ll ge
 The new local branch will be named like `<username>/<issue-title>-<issue-nr>`, in my case it is:
 `svenefftinge/allow-skip-first-name-1` (if the issue title is too long, only the first few words will be included in the branch name).
 
-![GitLab Issue Context](../../../static/images/blog/gitlab-support/gitlab-issue-context-status.png)
+![GitLab Issue Context](../../../static/images/blog/gitlab-support/gitlab-issue-context-status.webp)
 
 ## Configure your project
 

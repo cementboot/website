@@ -27,7 +27,7 @@ export const sharesIoQuote: Quote = {
   jobTitle: "CTO at Shares.io",
   companyLogo: sharesSvelte,
   img: {
-    src: "/images/customers/shares-io/quote.png",
+    src: "/images/customers/shares-io/quote.webp",
     alt: "Shares.io",
   },
   link: {
@@ -42,7 +42,7 @@ export const vizlibQuote: Quote = {
   jobTitle: "CTO at Vizlib",
   companyLogo: vizlibSvelte,
   img: {
-    src: "/images/customers/vizlib/quote.png",
+    src: "/images/customers/vizlib/quote.webp",
     alt: "Vizlib",
   },
   link: {
@@ -57,7 +57,7 @@ export const redwoodJsQuote: Quote = {
   jobTitle: "Founder of GitHub & Redwood, former CEO of GitHub",
   companyLogo: redwoodjsSvelte,
   img: {
-    src: "/images/customers/redwoodjs/quote.png",
+    src: "/images/customers/redwoodjs/quote.webp",
     alt: "RedwoodJS",
   },
   link: {
@@ -72,7 +72,7 @@ export const factorialQuote: Quote = {
   jobTitle: "Senior Director of Developer Experience at Factorial",
   companyLogo: factorialSvelte,
   img: {
-    src: "/images/customers/factorial/quote.png",
+    src: "/images/customers/factorial/quote.webp",
     alt: "FactorialHR",
   },
   link: {

@@ -2,10 +2,10 @@
 author: svenefftinge
 date: Fri Aug 2 2019 12:16:17 GMT+0000 (UTC)
 excerpt: Today, we are excited to announce the start of our public beta phase for VS Code extensions in Gitpod, the next generation cloud IDE. So far
-image: tools.jpg
+image: tools.webp
 slug: vscode-extension-in-online-ide
 subtitle: Join the Beta!
-teaserImage: tools.jpg
+teaserImage: tools.webp
 title: Your Favorite VS Code Extension in an Online IDE
 ---
 

@@ -2,10 +2,10 @@
 author: ghuntley
 date: Friday, 3 September 2021 09:00:00 UTC
 excerpt: This is a story about a cake. Following a long-standing tradition in technology, we decided to send an edible Gitpod workspace to GitHub's San Francisco office.
-image: teaser.jpg
+image: teaser.webp
 slug: cake
 subtitle:
-teaserImage: teaser.jpg
+teaserImage: teaser.webp
 title: Gitpod shipped GitHub a launch cake for Codespaces
 ---
 
@@ -15,7 +15,7 @@ title: Gitpod shipped GitHub a launch cake for Codespaces
 
 This is a story about a cake. Following a [long standing tradition in technology](https://www.theverge.com/2012/10/27/3563892/internet-explorer-and-firefox-teams-celebrate-new-versions-with-cakes) we decided to send an edible Gitpod workspace to GitHub's San Francisco office last week. No trojan horse - just a tasty 🎁 🎂 sending them kudos for their [GitHub Codespaces release](/blog/cloud-based-development-for-everyone).
 
-![Credit: Rui Kowase](../../../static/images/blog/cake/github-sf.jpg)
+![Credit: Rui Kowase](../../../static/images/blog/cake/github-sf.webp)
 _Photo Credit: [Rui Kowase](https://www.google.com/maps/contrib/104088632471142363973/photos/@35.7990681,139.6037947,11z/data=!3m1!4b1!4m3!8m2!3m1!1e1)_
 
 I don't know if you have ever tried ordering a cake over the internet but let me tell you it's not the easiest thing in the world, especially when:
@@ -24,7 +24,7 @@ I don't know if you have ever tried ordering a cake over the internet but let me
 - 🎂 You don't know anything about cakes - at all.
 - 😱 Time-zones - Sunny Toowoomba in Queensland, Australia, is on the other side of the world to San Francisco.
 
-![Credit: Geoffrey Huntley](../../../static/images/blog/cake/gitpod-x-codespaces.jpg)
+![Credit: Geoffrey Huntley](../../../static/images/blog/cake/gitpod-x-codespaces.webp)
 _Photo Credit: [Geoffrey Huntley](https://twitter.com/geoffreyhuntley)_
 
 After checking with an insider at GitHub, we got confirmation that people in the San Francisco office had started to return to the office, that food is being served in their cafeteria and that they would serve our cake. With that knowledge under our belt, at the crack of sparrows, skype was downloaded, and I was off to the races cold calling bakers in San Francisco. Gitpod needed a baker that we should trust [with our brand](/media-kit) and one that would act autonomously because timezones would make further communication impossible.
@@ -39,8 +39,8 @@ After checking with an insider at GitHub, we got confirmation that people in the
 
 That last tip-off was the tasty butter...
 
-![Credit: Camisha's Cakes](../../../static/images/blog/cake/camishascakes.jpg)
-![Credit: Camisha's Cakes](../../../static/images/blog/cake/camishascakes-gallery.jpg)
+![Credit: Camisha's Cakes](../../../static/images/blog/cake/camishascakes.webp)
+![Credit: Camisha's Cakes](../../../static/images/blog/cake/camishascakes-gallery.webp)
 _Photo Credit: [Camisha's Cakes](https://www.camishascakes.com/)_
 
 ### The brief
@@ -50,7 +50,7 @@ The baker of our cake was none other than Camisha Green of Camisha's Cakes. A pr
 - 🌐 https://camishascakes.com
 - 📸 https://www.instagram.com/camishascakes/
 
-![Credit: Camisha's Cakes](../../../static/images/blog/cake/camishagreen.jpg)
+![Credit: Camisha's Cakes](../../../static/images/blog/cake/camishagreen.webp)
 
 Unfortunately, due to timezones, I was unable to contact [camishascakes.com](https://camishascakes.com) by phone, so an email was dispatched:
 
@@ -62,7 +62,7 @@ Unfortunately, due to timezones, I was unable to contact [camishascakes.com](htt
 >
 > Can you please confirm production availability and share your thoughts about cake designs?
 >
-> We are thinking something like [this](https://news-cdn.softpedia.com/images/news2/why-microsoft-google-and-mozilla-send-each-other-cakes-after-launching-browsers-528960-2.jpg) would be mint but instead of the Firefox logo use [our brand](https://www.gitpod.io/images/media-kit/logo-light-theme.png). The top text would be `CONGRATULATIONS ON SHIPPING CODESPACES` and the bottom text would be `LOVE GITPOD`.
+> We are thinking something like [this](https://news-cdn.softpedia.com/images/news2/why-microsoft-google-and-mozilla-send-each-other-cakes-after-launching-browsers-528960-2.webp) would be mint but instead of the Firefox logo use [our brand](https://www.gitpod.io/images/media-kit/logo-light-theme.webp). The top text would be `CONGRATULATIONS ON SHIPPING CODESPACES` and the bottom text would be `LOVE GITPOD`.
 
 Casmisha _promptly_ replied with:
 
@@ -86,12 +86,12 @@ and I promptly replied with:
 
 As a person who knows nothing about cakes, here's what I had in mind and shared with Camisha...
 
-![Credit: Softpedia](../../../static/images/blog/cake/mozilla-cake.jpg)
+![Credit: Softpedia](../../../static/images/blog/cake/mozilla-cake.webp)
 _Photo Credit: [Softpedia](https://news.softpedia.com/news/why-microsoft-google-and-mozilla-send-each-other-cakes-after-launching-browsers-528960.shtml)_
 
 Truth be told, I was 🤬 'ing myself. To trust someone in a completely different country that you haven't met before is a huge, huge leap of faith. Meanwhile, over in the company slack, a vote was cast:
 
-![Credit: Gitpod](../../../static/images/blog/cake/the-vote.jpg)
+![Credit: Gitpod](../../../static/images/blog/cake/the-vote.webp)
 
 Whilst Gitpod is a fully distributed company, that [hires people from anywhere in the world](https://www.gitpod.io/careers/careers) our origins are from Kiel, Germany thus a lot of our employees are German. After an unfair vote, German Chocolate was declared the winner, but it wasn't without some office debate as to _what German Chocolate tastes like_:
 
@@ -107,7 +107,7 @@ Camisha, a couple days later, came back with:
 
 and attached to the email was this image:
 
-![Credit: Camisha's Cakes](../../../static/images/blog/cake/concept.jpg)
+![Credit: Camisha's Cakes](../../../static/images/blog/cake/concept.webp)
 _Photo Credit: [Camisha's Cakes](https://www.camishascakes.com/)_
 
 I started 🤬 'ing myself. Had I chosen the wrong baker? I am IN OVER MY HEAD HERE as I absolutely could not imagine what the end result would look like from this concept. We jumped on a quick video call (which was the first time we had spoken with each other), and it became super clear that Gitpod had indeed found a baker we could trust with our brand.
@@ -123,7 +123,7 @@ I started 🤬 'ing myself. Had I chosen the wrong baker? I am IN OVER MY HEAD H
 
 Camisha, being the legend that she is, included 2 dozen gluten-free vegan cupcakes in the delivery just in case some wouldn't be able to have the actual cake.
 
-![Credit: Camisha's Cakes](../../../static/images/blog/cake/collage.jpg)
+![Credit: Camisha's Cakes](../../../static/images/blog/cake/collage.webp)
 _Photo Credit: [Camisha's Cakes](https://www.camishascakes.com/)_
 
 Here is the cake in all its glory. The edible Gitpod workspace was sent to the GitHub office - we know it arrived and made an extremely positive impression, but unfortunately never got feedback on how it tasted.
@@ -136,5 +136,5 @@ Go ahead and experience the peace of mind and productivity boost on your own.
 
 Learn how to [use Gitpod](/docs/introduction/getting-started) in less than 5 minutes!
 
-![Credit: Camisha's Cakes](../../../static/images/blog/cake/the-cake.jpg)
+![Credit: Camisha's Cakes](../../../static/images/blog/cake/the-cake.webp)
 _Photo Credit: [Camisha's Cakes](https://www.camishascakes.com/)_

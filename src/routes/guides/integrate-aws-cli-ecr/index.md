@@ -3,8 +3,8 @@ author: nancy-chauhan, Siddhant-K-code
 date: Thursday, 1 September 2022 02:00:00 UTC
 excerpt: This guide, will show you how you can set up AWS SSO & AWS ECR on Gitpod ephemeral workspace
 slug: integrate-aws-cli-ecr
-teaserImage: header.jpg
-image: teaser.jpg
+teaserImage: header.webp
+image: teaser.webp
 title: Integrate AWS Single Sign-On (SSO) and Amazon Elastic Container Registry (ECR) with Gitpod
 ---
 
@@ -29,7 +29,7 @@ All these steps would be automated. So you will always get a ready-to-use worksp
 We will provide you with a setup that will provision AWS CLI and enable SSO when you open a new ephemeral Gitpod workspace. The flow diagram below describes how we have done it in our [demo-aws-with-gitpod](https://github.com/gitpod-io/demo-aws-with-gitpod) template repo in 3 steps:
 
 <figure class="flex flex-col items-center text-center">
-  <img src="/images/guides/integrate-aws-cli-ecr/flow-diagram.png" alt="Flow Diagram of Integration of AWS CLI & Gitpod" width="700"/>
+  <img src="/images/guides/integrate-aws-cli-ecr/flow-diagram.webp" alt="Flow Diagram of Integration of AWS CLI & Gitpod" width="700"/>
   <figcaption>Flow Diagram of Integration of AWS CLI & Gitpod</figcaption>
 </figure>
 

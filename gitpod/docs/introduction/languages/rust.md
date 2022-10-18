@@ -64,7 +64,7 @@ In order to install one of these extensions for your repository, simply head to 
 
 ### Rust Test Explorer
 
-![Rust test explorer example](../../../static/images/docs/rustTest.png)
+![Rust test explorer example](../../../static/images/docs/rustTest.webp)
 <br>
 <br>
 The Rust Test Explorer makes it easy to run Rust tests.
@@ -91,7 +91,7 @@ Do you have an idea of a library you want to use but don't know the version well
 
 ### Better TOML
 
-![TOML Syntax highlighting example](../../../static/images/docs/feature_syntax_highlight.png)
+![TOML Syntax highlighting example](../../../static/images/docs/feature_syntax_highlight.webp)
 
 Better TOML adds syntax highlighting to your `Cargo.toml`.
 

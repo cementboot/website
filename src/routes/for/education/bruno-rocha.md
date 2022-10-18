@@ -2,7 +2,7 @@
 title: "Teaching thousands of students using Gitpod."
 excerpt: "Bruno Rocha used Gitpod to teach students Python and Rust, reducing the amount of in-person support each student needed and allowing students to learn on any device. Bruno also hosted Python Week 2022 where he taught thousands of students using Gitpod."
 slug: bruno-rocha
-image: teaser.png
+image: teaser.webp
 date: Friday, 17 June 2022 06:00:00 UTC
 pageTitle: "Bruno Rocha case study: Teaching python with Gitpod"
 pageDescription: Teaching thousands of students using Gitpod. Saving 20 minutes every workshop. Learn how Bruno uses Gitpod to teach Python.
@@ -35,7 +35,7 @@ data={{
 title="Teaching thousands of students using Gitpod"
 text="Gitpod helped Bruno Rocha teach students Python and Rust reducing the amount of in-person support each student needed and allowing students to learn on any device."
 card={{
-		image: "/images/education/bruno-rocha/teaser.png",
+		image: "/images/education/bruno-rocha/teaser.webp",
 		details:{
 			industry: "Education",
 			plan: "Team Unlimited, SaaS",
@@ -77,7 +77,7 @@ text: "of students taught w/ Gitpod",
 	/>
 </Section>
 
-<Story bannerImg="/images/customers/bruno-rocha/banner.png" text="Teaching thousands of students using Gitpod">
+<Story bannerImg="/images/customers/bruno-rocha/banner.webp" text="Teaching thousands of students using Gitpod">
 
 Bruno Rocha is an engineer at RedHat and for the past 12 years he's been an online educator. He runs workshops teaching students to code using python and rust.
 

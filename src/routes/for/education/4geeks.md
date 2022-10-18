@@ -3,7 +3,7 @@ title: Building a learning platform on Gitpod
 # We can't do $ signs here because whatever parses this reads $1 as a keyword and injects <script type="module" in its place
 excerpt: "Building a learning platform on Gitpod that allows instructors to teach, evaluate, and grade code lessons. They have taught over 4000 students in 6 countries and have received over 15 million USD in educational grants."
 slug: 4geeks
-image: teaser.png
+image: teaser.webp
 date: Friday, 30 June 2022 06:00:00 UTC
 pageTitle: "4Geeks Academy case study: Building a learning platform on Gitpod"
 pageDescription: Building a learning platform on Gitpod that allows instructors to teach, evaluate, and grade code lessons. They have taught over 4000 students in 6 countries and have received over 15 million USD in educational grants.
@@ -35,7 +35,7 @@ data={{
 title="Building a learning platform on Gitpod"
 text="4Geeks built LearnPack – an educational platform that runs in Gitpod on VS Code and allows instructors to teach, evaluate, and grade code lessons. Using LearnPack and Gitpod, they have taught over 4000 students in 6 countries and have received over $15 million USD in educational grants."
 card={{
-		image: "/images/education/4geeks/teaser.png",
+		image: "/images/education/4geeks/teaser.webp",
 		details:{
 			industry: "Education",
 			plan: "Team Unlimited, SaaS",
@@ -77,7 +77,7 @@ text: "students taught w/ Gitpod",
 	/>
 </Section>
 
-<Story bannerImg="/images/customers/4geeks/banner.png" text="Building a learning platform on Gitpod">
+<Story bannerImg="/images/customers/4geeks/banner.webp" text="Building a learning platform on Gitpod">
 
 4Geeks Academy is an international code school operating bootcamps in the United States, Latin America, and Europe. Teaching full stack development, computer science, and machine learning, the academy has taught over 4000 students with a high job placement rate.
 

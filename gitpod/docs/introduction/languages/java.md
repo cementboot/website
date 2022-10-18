@@ -249,14 +249,14 @@ tasks:
 With [VS Code Desktop](/docs/references/ides-and-editors/vscode), local port-forwarding is handled automatically and can be configured via the ports view within VS Code Desktop.
 
 <figure>
-<img class="shadow-medium w-full rounded-xl max-w-3xl mt-x-small" alt="Port forwarding in VS Code Desktop" src="/images/editors/port-forwarding-vscode-desktop.png">
+<img class="shadow-medium w-full rounded-xl max-w-3xl mt-x-small" alt="Port forwarding in VS Code Desktop" src="/images/editors/port-forwarding-vscode-desktop.webp">
     <figcaption>Port forwarding in VS Code Desktop</figcaption>
 </figure>
 
 With IntelliJ IDEA using [JetBrains Gateway](/docs/integrations/jetbrains-gateway) you can setup remote port-forwarding manually.
 
 <figure>
-<img class="shadow-medium w-full rounded-xl max-w-3xl mt-x-small" alt="Port forwarding in a JetBrains IDE" src="/images/jetbrains-gateway/port-forward-jetbrains.png">
+<img class="shadow-medium w-full rounded-xl max-w-3xl mt-x-small" alt="Port forwarding in a JetBrains IDE" src="/images/jetbrains-gateway/port-forward-jetbrains.webp">
     <figcaption>Port forwarding in a JetBrains IDE</figcaption>
 </figure>
 
@@ -385,7 +385,7 @@ See [dotfiles](/docs/configure/user-settings/dotfiles) for more.
 
 ### Browser Extension
 
-![Browser Extension](../../../static/images/docs/browser-extension-lense.png)
+![Browser Extension](../../../static/images/docs/browser-extension-lense.webp)
 
 To make opening Gitpod workspaces easier, install the Gitpod browser extension, which enables an "Open in Gitpod" button on GitHub, GitLab and Bitbucket.
 
@@ -404,8 +404,8 @@ See [IDEs & Editors](/docs/references/ides-and-editors) for more.
 
 ### VS Code Desktop Settings Sync
 
-![Enable Settings Sync with Gitpod](/images/editors/enable-signin-with-gitpod-light-theme.png)
-![Enable Settings Sync with Gitpod](/images/editors/enable-signin-with-gitpod-dark-theme.png)
+![Enable Settings Sync with Gitpod](/images/editors/enable-signin-with-gitpod-light-theme.webp)
+![Enable Settings Sync with Gitpod](/images/editors/enable-signin-with-gitpod-dark-theme.webp)
 _Enable Settings Sync with Gitpod_
 
 VS Code Desktop by default is not setup to sync your VS Code settings (e.g. your fonts, layouts, etc) with VS Code running in the browser of Gitpod. You can configure Gitpod to sync settings between browser and desktop by running the command palette action "Settings Sync: Enable signing in with Gitpod" from the Gitpod VS Code extension.

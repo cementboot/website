@@ -2,10 +2,10 @@
 author: ghuntley, michaelaring
 date: Tuesday, 14 June 2022 16:00:00 UTC
 excerpt: The talks from DevX Conf are now available for viewing and USD $22,600 is being distributed to Open-source projects that conference attendees voted for.
-image: teaser.png
+image: teaser.webp
 slug: devxconf-2022-wrap
 subtitle: All twenty seven talks from the conference are now available on YouTube.
-teaserImage: teaser.png
+teaserImage: teaser.webp
 title: Gitpod raises $22,600 at DevX Conf to give to Open-source maintainers
 ---
 
@@ -19,7 +19,7 @@ The conference is evolving to be a space where developer tool founders share wha
 
 [Last year](https://www.gitpod.io/blog/devxconf-wrap) was the first year of the DevX Conference, and over USD $10,000 was raised and donated to unpaid volunteers and the maintainers of Open-source projects that underpin our digital infrastructure.
 
-![DevX Conf - Sponsors](/images/blog/devxconf-2022-wrap/sponsors.png)
+![DevX Conf - Sponsors](/images/blog/devxconf-2022-wrap/sponsors.webp)
 
 <br/>
 
@@ -57,7 +57,7 @@ Only a fraction of funds has been distributed at this stage because, as an indus
 
 At Gitpod, we often wonder what the future would look like if these high achievers that our digital society is built upon were empowered to become independent artists. If just one of those people can help more people better understand a technology or improve the developer experience for an entire ecosystem what is the worth/value of that and why isn’t our industry doing that yet? In business terms, Open-source maintainers are unpaid and unsecured vendors.
 
-![Open-source supply chain decision tree](/images/blog/gitpod-open-source-sustainability-fund/decision-tree.png)
+![Open-source supply chain decision tree](/images/blog/gitpod-open-source-sustainability-fund/decision-tree.webp)
 
 Gitpod hopes other companies will also start taking steps to mitigate this critical risk in their technology stack. Paying for resources that are being consumed broadens the list of people who can do Open-source. Additionally, money enables maintainers to buy services and outsource the activities that do not bring them joy.
 

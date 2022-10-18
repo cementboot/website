@@ -2,10 +2,10 @@
 author: sagor999, aledbf, kylos101, csweichel
 date: Friday, 4 Feb 2022 11:00:00 UTC
 excerpt: On January 25th Gitpod experienced a global outage. What happened? Why was there data loss? So what exactly happened during the outage? How are we improving Gitpod?
-image: teaser.png
+image: teaser.webp
 slug: no-way-it-is-dns
 subtitle: what happened and how we're improving
-teaserImage: teaser.png
+teaserImage: teaser.webp
 title: January 25th Outage
 ---
 
@@ -37,7 +37,7 @@ We upload workspace content backups into a private Google Cloud Storage (GCS) bu
 
 ## So what exactly happened during the outage?
 
-![It was DNS](../../../static/images/blog/no-way-it-is-dns/it-was-dns.png)
+![It was DNS](../../../static/images/blog/no-way-it-is-dns/it-was-dns.webp)
 
 We had a DNS failure inside our cluster. We are using Google’s primary DNS server (`8.8.8.8`) to resolve any public addresses, and our cluster was not able to communicate with that server. It looked like any traffic on port 53 UDP was just not getting through, resulting in timeout errors.
 

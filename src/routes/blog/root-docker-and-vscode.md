@@ -2,10 +2,10 @@
 author: svenefftinge
 date: Thu Dec 07 2020 11:49:24 GMT+0000 (UTC)
 excerpt: The team has been focussing on shipping some major new features, which mark important milestones on our goal to eliminate all friction.
-image: teaser.jpg
+image: teaser.webp
 slug: root-docker-and-vscode
 subtitle: New Release
-teaserImage: teaser.jpg
+teaserImage: teaser.webp
 title: Root, Docker and VS Code
 ---
 
@@ -57,7 +57,7 @@ You can now [connect your Self-Hosted GitLab application with gitpod.io](/docs/c
 
 After completing this process, your entire team can open dev environments by prefixing the projects and merge requests URLs on the self-managed instance with `gitpod.io#` or simply use the Gitpod button provided by GitLab (make sure it is enabled).
 
-![Gitpod loves GitLab](../../../static/images/blog/root-docker-and-vscode/teaser-gitlab-gitpod.jpg)
+![Gitpod loves GitLab](../../../static/images/blog/root-docker-and-vscode/teaser-gitlab-gitpod.webp)
 
 ## Next Steps ⏩
 

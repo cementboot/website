@@ -20,7 +20,7 @@ On gitpod.io, the options are:
 
 You can configure the workspace class that should be used for your workspaces in your user preferences.
 
-![Select Workspace Class](../../../static/images/docs/select-workspace-class.png)
+![Select Workspace Class](../../../static/images/docs/select-workspace-class.webp)
 
 Once you have selected the workspace class every new workspace will use the updated workspace class.
 

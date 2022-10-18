@@ -19,7 +19,7 @@ export const collaborationFeature: Feature = {
   paragraph:
     "Share running workspaces for pair programming, use port forwarding or share a snapshot as a copy of your workspace with teammates.",
   // image: {
-  //   src: "/images/features/collaboration.png",
+  //   src: "/images/features/collaboration.webp",
   //   alt: "Collaboration",
   //   classNames: "shadow-medium",
   //   styles: "border-radius: 7px",
@@ -35,7 +35,7 @@ export const codeAnywhereFeature: Feature = {
   paragraph:
     "You no longer need an over-powered laptop to code, Gitpod works just as smoothly on a Chromebook or iPad. All you need is a browser. ",
   image: {
-    src: "/images/features/ipad.png",
+    src: "/images/features/ipad.webp",
     alt: "Gitpod Workspace on an iPad.",
   },
 };

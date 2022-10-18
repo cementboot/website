@@ -2,10 +2,10 @@
 author: ghuntley
 date: Friday, 16 Apr 2021 11:00:00 UTC
 excerpt: On the 27th of April there will be a one-day virtual conference where members from the Gitpod team will be spending dedicated time with you, our community.
-image: teaser.jpg
+image: teaser.webp
 slug: a-day-with-gitpod
 subtitle:
-teaserImage: teaser.jpg
+teaserImage: teaser.webp
 title: A day with Gitpod
 ---
 

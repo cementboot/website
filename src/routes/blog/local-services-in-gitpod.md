@@ -2,9 +2,9 @@
 author: csweichel
 date: Thu Nov 13 2019 09:00:00 GMT+0000 (UTC)
 excerpt: Some things just aren't exposed to the internet. Either because we do not want them out in the open, think some on-prem database, or because
-image: local-services.jpg
+image: local-services.webp
 slug: local-services-in-gitpod
-teaserImage: local-services.jpg
+teaserImage: local-services.webp
 title: Using local services in Gitpod
 ---
 
@@ -20,7 +20,7 @@ On top of that, they do incur additional cost if used often.
 
 ## Inlets to the rescue
 
-![Inlets to the Rescue](../../../static/images/blog/local-services-in-gitpod/concept.png)
+![Inlets to the Rescue](../../../static/images/blog/local-services-in-gitpod/concept.webp)
 
 [Inlets](https://github.com/inlets/inlets) is a great piece of kit written by [Alex Ellis](https://twitter.com/alexellisuk) which is basically the Open-Source version of the services mentioned above.
 

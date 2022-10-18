@@ -4,8 +4,8 @@ date: Wednesday, 8 June 2022 11:00:00 UTC
 title: Automate .env files with Gitpod environment variables
 slug: automate-env-files-with-gitpod-environment-variables
 excerpt: Gitpod's environment variables can be used to securely persist small files between workspaces without committing them to source control. Use this feature to automate the storage and retrieval of a .env file when workspaces are created.
-teaserImage: header.png
-image: teaser.png
+teaserImage: header.webp
+image: teaser.webp
 ---
 
 <script context="module">

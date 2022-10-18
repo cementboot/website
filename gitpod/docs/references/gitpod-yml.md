@@ -229,7 +229,7 @@ github:
 
 Gitpod can modify the description of a pull request to add an “Open in Gitpod” button. This approach produces fewer GitHub notifications than [adding a comment](#prebuildsaddcomment), but can also create a concurrent editing conflict when the bot and a user try to edit the description of a pull request at the same time.
 
-![An Open in Gitpod badge in a PR description](../../../static/images/docs/beta/references/gitpod-yml/references-gitpod-yml-github-badge.png)
+![An Open in Gitpod badge in a PR description](../../../static/images/docs/beta/references/gitpod-yml/references-gitpod-yml-github-badge.webp)
 
 <div class="overflow-x-auto">
 
@@ -245,7 +245,7 @@ Configure whether Gitpod registers itself as a status check to pull requests - m
 
 To learn more about status checks, please see the GitHub documentation [about status checks](https://docs.github.com/en/github/collaborating-with-pull-requests/collaborating-on-repositories-with-code-quality-features/about-status-checks).
 
-![Gitpod status check in a pull request](../../../static/images/docs/beta/references/gitpod-yml/references-gitpod-yml-github-check.png)
+![Gitpod status check in a pull request](../../../static/images/docs/beta/references/gitpod-yml/references-gitpod-yml-github-check.webp)
 
 <div class="overflow-x-auto">
 
@@ -259,7 +259,7 @@ To learn more about status checks, please see the GitHub documentation [about st
 
 Gitpod can add a comment with an “Open in Gitpod” button to your pull requests. Alternatively, you could [add a badge](#prebuildsaddbadge) to the pull request's description.
 
-![An Open in Gitpod badge in a PR comment](../../../static/images/docs/beta/references/gitpod-yml/references-gitpod-yml-github-comment.png)
+![An Open in Gitpod badge in a PR comment](../../../static/images/docs/beta/references/gitpod-yml/references-gitpod-yml-github-comment.webp)
 
 <div class="overflow-x-auto">
 

@@ -2,10 +2,10 @@
 author: pawlean, mikenikles
 date: Tues, 08 Feb 2022 16:00:00 UTC
 excerpt: For our seventh edition of DevX Digest, we look back at our conversation with Kurt Kemple from Forthright about the link between developer experience and developer relations.
-image: teaser.jpg
+image: teaser.webp
 slug: devrel-link-devx
 subtitle:
-teaserImage: teaser.jpg
+teaserImage: teaser.webp
 title: DevX Digest 07 -  Is DevX the new DevRel?
 type: digest
 ---
@@ -22,7 +22,7 @@ Another awesome guest which means another great DevXPod episode! This time, we s
 
 As usual, we’ve summarised the key points from our conversation and[ you can also listen to the episode anywhere you get your podcasts!](https://www.buzzsprout.com/1895030/9940849-the-link-between-developer-experience-and-developer-relations-w-kurt-kemple-founder-and-principal-advisor-forthright.mp3?download=true) Don’t forget to subscribe and leave us a rating ⭐️
 
-![DevX Podcast Episode 1](../../../static/images/blog/devrel-link-devx/podcast.png)
+![DevX Podcast Episode 1](../../../static/images/blog/devrel-link-devx/podcast.webp)
 _DevX Pod is avaliable wherever you get your podcasts!_
 
 ### Key Takeaways

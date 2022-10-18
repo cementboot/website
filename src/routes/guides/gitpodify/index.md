@@ -4,8 +4,8 @@ date: Thu Jun 6 2019 09:00:00 GMT+0000 (UTC)
 excerpt: I recently stumbled upon a new project on GitHub that peaked my interest. It proposed a new type of database that I was dying to try out. So
 slug: gitpodify
 subtitle: How to fully automate your dev environments on GitHub
-teaserImage: teaser.jpg
-image: thumbnail.jpg
+teaserImage: teaser.webp
+image: thumbnail.webp
 title: Gitpodifying — The Ultimate Guide
 ---
 
@@ -294,7 +294,7 @@ FROM gitpod/workspace-full-vnc
 
 This will give you a virtual X server and a Remote Desktop client running on port `6080`:
 
-![Virtual X server and Remote Desktop client running on port 6080](../../../static/images/guides/gitpodify/virtual-x-sever-running-on-a-remote-desktop-client.png)
+![Virtual X server and Remote Desktop client running on port 6080](../../../static/images/guides/gitpodify/virtual-x-sever-running-on-a-remote-desktop-client.webp)
 
 This can be useful for example to run Electron apps graphically. For that, you'll just need a few extra dependencies in your `.gitpod.dockerfile`:
 
@@ -320,7 +320,7 @@ Or check out this fun [Windows 95 in Electron](https://github.com/felixrieseberg
 
 Gitpod will automatically detect when processes like web servers start listening on a port, and display a notification that allows you to open a web preview:
 
-![Port notification](../../../static/images/guides/gitpodify/port-notification.png)
+![Port notification](../../../static/images/guides/gitpodify/port-notification.webp)
 
 If you want to suppress these notifications, or pre-configure a specific behavior, you can do this in your `.gitpod.yml` file:
 

@@ -2,7 +2,7 @@
 author: csweichel
 date: Thu Oct 04 2018 12:47:53 GMT+0000 (UTC)
 excerpt: Gitpod is a web-based IDE. As such one would think it only works for web-based projects or anything else that does not require a native UI
-image: virtual-x-sever-running-on-a-remote-desktop-client.png
+image: virtual-x-sever-running-on-a-remote-desktop-client.webp
 slug: native-ui-with-vnc
 subtitle: Cloud IDEs aren't limited to web apps
 title: Developing native UI applications in Gitpod
@@ -15,7 +15,7 @@ url: https://medium.com/gitpod/developing-native-ui-applications-in-gitpod-15af2
 
 Gitpod is a web-based IDE. As such one would think it only works for web-based projects or anything else that does not require a native UI. However, there’s still a plethora of native UI applications around and many of them are here to stay. In this article we’ll go through how to use Gitpod for developing native desktop UI applications.
 
-![VSCode in Gitpod](../../../static/images/blog/native-ui-with-vnc/virtual-x-sever-running-on-a-remote-desktop-client.png)
+![VSCode in Gitpod](../../../static/images/blog/native-ui-with-vnc/virtual-x-sever-running-on-a-remote-desktop-client.webp)
 
 A few days ago [Gero introduced Docker builds to Gitpod](/blog/docker-in-gitpod) with which you can bring your own Dockerfile (instead of a pre-built image), and Gitpod will build the image for you. We’ll use that feature to setup a cloud-based developer environment for native UI applications.
 
@@ -32,7 +32,7 @@ RUN sudo apt-get update && \
 
 This Dockerfile uses the gitpod/workspace-full-vnc image which supports the setup necessary to run X11 and VNC in Gitpod. It runs a [web-based VNC viewer](https://novnc.com) on port 6080 — during startup, Gitpod will ask you if you want to open this page.
 
-![The Hello World UI example running in Gitpod](https://cdn-images-1.medium.com/max/6720/1*8xUjJfd3pV0QXyK-ytyhwA.png)_The Hello World UI example running in Gitpod_
+![The Hello World UI example running in Gitpod](https://cdn-images-1.medium.com/max/6720/1*8xUjJfd3pV0QXyK-ytyhwA.webp)_The Hello World UI example running in Gitpod_
 
 ## Native UI in Gitpod = X11 + VNC
 

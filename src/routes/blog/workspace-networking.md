@@ -2,10 +2,10 @@
 author: csweichel, aledbf
 date: Thursday, 16 Dec 2021 11:00:00 UTC
 excerpt: Gitpod workspaces are Kubernetes pods. Each Kubernetes pod maintains its own network namespace - similar to how a regular container would. We use a combination of user and network namespaces to enable features you wouldn't find in a normal Kubernetes pod.
-image: teaser.png
+image: teaser.webp
 slug: workspace-networking
 subtitle: or how we enabled Tailscale
-teaserImage: teaser.png
+teaserImage: teaser.webp
 title: Gitpod Workspace Networking
 ---
 
@@ -21,7 +21,7 @@ Container runtimes (e.g. Docker) or VPNs (e.g. Tailscale) both require control o
 
 More than a year ago we enabled "$lib/components/workspacekit).
 
-![Docker-specific network setup](../../../static/images/blog/workspace-networking/old-setup.png)
+![Docker-specific network setup](../../../static/images/blog/workspace-networking/old-setup.webp)
 
 You'll have noticed that a network namespace was not part of additions we make to what Kubernetes provides. Docker however, requires the control a network namespace would afford.
 
@@ -43,7 +43,7 @@ We've been living with the setup described above (netns only for the Docker daem
 
 One day, we [were approached](https://github.com/gitpod-io/gitpod/issues/3258#issuecomment-949576242) by the awesome folks from [Tailscale](https://tailscale.com/). They were working on how to make [Tailscale available in Gitpod](/blog/tailscale) workspaces. The underlying issue: creating a TAP/TUN device and setting up routes to make use of it, all within a regular Gitpod workspace.
 
-![workspace-wide network namespace](../../../static/images/blog/workspace-networking/new-setup.png)
+![workspace-wide network namespace](../../../static/images/blog/workspace-networking/new-setup.webp)
 
 We had solved this problem already for one specific use-case: the Docker daemon. Within a single day, [we wrapped the entire workspace in a network namespace](https://github.com/gitpod-io/gitpod/pull/6409), if the workspace had a new `experimentalNetwork: true` [config flag set.](https://github.com/gitpod-io/demo-tailscale-with-gitpod/blob/1091c778c7e608d58e6e3cb1d494c73d5b255558/.gitpod.yml#L12)
 

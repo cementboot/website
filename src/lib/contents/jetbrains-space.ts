@@ -331,7 +331,7 @@ export const jetbrainsQuote: Quote = {
     isDark: true,
   },
   img: {
-    src: "/images/jetbrains-space/quote.png",
+    src: "/images/jetbrains-space/quote.webp",
     alt: "Jetbrains",
   },
   link: {

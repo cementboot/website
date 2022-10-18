@@ -2,10 +2,10 @@
 author: svenefftinge
 date: Mon Apr 5 2019 15:00:00 GMT+0000 (UTC)
 excerpt: Every day developers waste millions of hours switching contexts between projects and branches, setting up developer environments, or
-image: teaser-launch-min.jpg
+image: teaser-launch-min.webp
 slug: gitpod-launch
 subtitle: No Setup, Less Waiting, More Flow
-teaserImage: teaser-launch-min.jpg
+teaserImage: teaser-launch-min.webp
 title: Introducing Gitpod — Frictionless Coding on GitHub
 ---
 
@@ -23,7 +23,7 @@ Today, we are happy to announce the launch of [Gitpod.io](https://gitpod.io), an
 
 Here's how Gitpod works: You are on GitHub and want to start working on a project. Instead of going through the manual setups, etc. you simply click a button to start a ready-to-code dev environment in your browser. You can now code, review, or just try out the project. Once you are done you simply close the tab.
 
-![Gitpod button added by Gitpod browser extension](../../../static/images/blog/gitpod-launch/browser-ext.png)
+![Gitpod button added by Gitpod browser extension](../../../static/images/blog/gitpod-launch/browser-ext.webp)
 
 Don’t see the button on GitHub yet? You need to [install a small browser extension](/docs/configure/user-settings/browser-extension) to get it. Alternatively, you can just prefix any GitHub URL with “[gitpod.io/#](https://gitpod.io/#)”.
 
@@ -41,7 +41,7 @@ As a project owner you should do everything you can to streamline the experience
 
 A great example is [ssloy's tinyraytracer project](https://github.com/ssloy/tinyraytracer/wiki). It's a tutorial for raytracing in C++ and is configured so it runs the build and automatically opens the rendered graphics. The author has even added Gitpod buttons to individual steps in the tutorial to make following along easier.
 
-![Tinyraytracer Gitpod workspace](../../../static/images/blog/gitpod-launch/tinyrt.png)
+![Tinyraytracer Gitpod workspace](../../../static/images/blog/gitpod-launch/tinyrt.webp)
 
 ## Less Waiting
 
@@ -55,7 +55,7 @@ Once you've installed the app for your GitHub repository, it will pre-build dev 
 
 We call this feature prebuilt workspaces and you can read more about it in [Chris' post](/blog/prebuilds).
 
-![Prebuilt Workspaces](../../../static/images/blog/gitpod-launch/prebuilt-workspaces.png)
+![Prebuilt Workspaces](../../../static/images/blog/gitpod-launch/prebuilt-workspaces.webp)
 
 ## More Flow
 
@@ -67,7 +67,7 @@ Starting a workspace from a pull request will open in code-review mode. The list
 
 Even if you prefer your local machine for development, being able to do [deep code reviews](/blog/when-code-reviews-lgtm) in a browser is a great way to improve your workflow.
 
-![Inlined Code Review](../../../static/images/blog/gitpod-launch/inline-comments.png)
+![Inlined Code Review](../../../static/images/blog/gitpod-launch/inline-comments.webp)
 
 ## A Complete IDE Running in the Cloud
 
@@ -87,7 +87,7 @@ Gitpod comes with two major features supporting collaboration.
 
 - [Snapshots](/blog/workspace-snapshots) are useful in many ways. In a nutshell, they allow taking an immutable copy of your dev environment at any point in time. You can share the provided link wherever you want. Users opening such a snapshot link will get an exact clone of the environment including all state and even UI layout. This feature is great for sharing reproducibles in issues, but also good for blog posts or solutions on Stack Overflow.
 
-![Collaboration: Share Running Workspace or Snapshot](../../../static/images/blog/gitpod-launch/collaboration.png)
+![Collaboration: Share Running Workspace or Snapshot](../../../static/images/blog/gitpod-launch/collaboration.webp)
 
 ## Pricing
 

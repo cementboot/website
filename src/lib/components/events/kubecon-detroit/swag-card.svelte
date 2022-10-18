@@ -9,12 +9,12 @@
     class="flex items-center max-w-3xl mx-auto px-xx-small py-small md:px-small md:py-medium gap-medium shadow-normal"
   >
     <img
-      src="/images/team/plant.png"
+      src="/images/team/plant.webp"
       alt="Plant"
       class="hidden dark:hidden md:block w-36"
     />
     <img
-      src="/images/team/plant-dark.png"
+      src="/images/team/plant-dark.webp"
       alt="Plant"
       class="hidden dark:md:block w-44"
     />

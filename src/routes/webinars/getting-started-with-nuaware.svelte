@@ -22,11 +22,11 @@
     keywords:
       "panel-discussion, remote development, success-stories, Java, Gitpod",
     image: isRegistrationOpen
-      ? "images/webinars/getting-started-with-nuaware-register.png"
-      : "images/webinars/getting-started-with-nuaware-past.png",
+      ? "images/webinars/getting-started-with-nuaware-register.webp"
+      : "images/webinars/getting-started-with-nuaware-past.webp",
     imageTwitter: isRegistrationOpen
-      ? "images/webinars/getting-started-with-nuaware-register.png"
-      : "images/webinars/getting-started-with-nuaware-past.png",
+      ? "images/webinars/getting-started-with-nuaware-register.webp"
+      : "images/webinars/getting-started-with-nuaware-past.webp",
   }}
 />
 
@@ -41,7 +41,7 @@
     >
       <div slot="additionalHosts">
         <img
-          src="https://www.nuaware.com/hubfs/raw_assets/public/nuaware/website/img/logo.png"
+          src="https://www.nuaware.com/hubfs/raw_assets/public/nuaware/website/img/logo.webp"
           alt="Nuaware"
           class="h-10 -mt-2"
         />
@@ -84,7 +84,7 @@
         hosts={[
           {
             avatar: {
-              src: "/images/webinars/chad-metcalf.jpg",
+              src: "/images/webinars/chad-metcalf.webp",
             },
             name: "Chad Metcalf",
             jobTitle: "Plays a developer on YouTube",
@@ -102,7 +102,7 @@
       <OrganizedBy>
         <img src="/images/gitpod-logo.svg" alt="Gitpod" class="h-10 w-10" />
         <img
-          src="https://www.nuaware.com/hubfs/raw_assets/public/nuaware/website/img/logo.png"
+          src="https://www.nuaware.com/hubfs/raw_assets/public/nuaware/website/img/logo.webp"
           alt="Nuaware"
           class="h-10 -mt-[0.0125rem]"
         />

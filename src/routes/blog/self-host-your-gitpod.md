@@ -2,10 +2,10 @@
 author: meysholdt
 date: Thu Dec 19 2019 11:49:24 GMT+0000 (UTC)
 excerpt: Eighteen months ago we launched the public beta of Gitpod. That date marked the beginning of an amazing journey with plenty of feedback
-image: globe.png
+image: globe.webp
 slug: self-host-your-gitpod
 subtitle: Gitpod on Your Infrastructure
-teaserImage: globe.png
+teaserImage: globe.webp
 title: Self-Host Your Gitpod
 ---
 

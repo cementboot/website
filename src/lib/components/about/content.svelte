@@ -98,16 +98,16 @@
       <SpeedInvest />
       <ImageLightDark
         image={{
-          src: "/images/about/crane.png",
-          darkSrc: "/images/about/crane-dark.png",
+          src: "/images/about/crane.webp",
+          darkSrc: "/images/about/crane-dark.webp",
           alt: "Crane",
           class: "h-[35px]",
         }}
       />
       <ImageLightDark
         image={{
-          src: "/images/about/vertex.png",
-          darkSrc: "/images/about/vertex-dark.png",
+          src: "/images/about/vertex.webp",
+          darkSrc: "/images/about/vertex-dark.webp",
           alt: "Crane",
           class: "h-[38px]",
         }}

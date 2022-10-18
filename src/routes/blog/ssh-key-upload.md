@@ -2,10 +2,10 @@
 author: iqqbot, mustard-mh, loujaybee
 date: Wednesday, 13 July 2022 09:00:00 UTC
 excerpt: For more secure and easier to use workspace access, you can now upload a public SSH key to Gitpod to access Gitpod workspaces using your own dedicated SSH key.
-image: header.jpg
+image: header.webp
 slug: ssh-key-upload
 subtitle: For more secure and easier to use workspace access, you can now upload a public SSH key to Gitpod to access Gitpod workspaces using your own dedicated SSH key.
-teaserImage: header.jpg
+teaserImage: header.webp
 title: "Introducing workspace SSH support using your own private key(s)"
 ---
 
@@ -47,23 +47,23 @@ So, watch this space for future announcements!
 
 1. Navigate to the [keys](https://gitpod.io/keys) page in your Gitpod preferences
 
-![SSH page of the Gitpod dashboard](/images/docs/ssh-key-upload-dark-theme.png)
-![SSH page of the Gitpod dashboard](/images/docs/ssh-key-upload-light-theme.png)
+![SSH page of the Gitpod dashboard](/images/docs/ssh-key-upload-dark-theme.webp)
+![SSH page of the Gitpod dashboard](/images/docs/ssh-key-upload-light-theme.webp)
 
 2. Upload a public SSH key (See: [SSH](https://www.gitpod.io/docs/configure/user-settings/ssh) documentation)
 
-![Adding an SSH Key to Gitpod](/images/docs/new-ssh-key-light-theme.png)
-![Adding an SSH Key to Gitpod](/images/docs/new-ssh-key-dark-theme.png)
+![Adding an SSH Key to Gitpod](/images/docs/new-ssh-key-light-theme.webp)
+![Adding an SSH Key to Gitpod](/images/docs/new-ssh-key-dark-theme.webp)
 
 3. Go to your workspace list and copy the SSH command
 
-![Copy SSH key from modal](/images/docs/ssh-key-modal-dark-light-theme.png)
-![Copy SSH key from modal](/images/docs/ssh-key-modal-dark-theme.png)
+![Copy SSH key from modal](/images/docs/ssh-key-modal-dark-light-theme.webp)
+![Copy SSH key from modal](/images/docs/ssh-key-modal-dark-theme.webp)
 
 Or, get the SSH connection from the workspace start page (when using a [Desktop IDE or editor](/docs/references/ides-and-editors))
 
-![SSH to a workspace via the workspace splash page](/images/docs/ssh-connect-splash-dark-theme.png)
-![SSH to a workspace via the workspace splash page](/images/docs/ssh-connect-splash-light-theme.png)
+![SSH to a workspace via the workspace splash page](/images/docs/ssh-connect-splash-dark-theme.webp)
+![SSH to a workspace via the workspace splash page](/images/docs/ssh-connect-splash-light-theme.webp)
 
 For more information, see the [configuring SSH](/docs/configure/user-settings/ssh) documentation, and using Gitpod with [command-line](/docs/references/ides-and-editors/command-line) access. And for any feedback see the related [GitHub issue](https://github.com/gitpod-io/gitpod/issues/9932), or [raise a new one](https://github.com/gitpod-io/gitpod/issues/new/choose).
 

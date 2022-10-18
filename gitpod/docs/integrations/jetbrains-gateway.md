@@ -92,7 +92,7 @@ If you're using Gitpod [Self-Hosted](/docs/configure/self-hosted/latest), to upd
 4. Modify the `Gitpod Host` field
 
 <figure>
-<img class="shadow-medium w-full rounded-xl max-w-3xl mt-x-small" alt="Setting the Gitpod host in the JetBrains Gateway plugin" src="/images/jetbrains-gateway/jetbrains-gateway-host.png">
+<img class="shadow-medium w-full rounded-xl max-w-3xl mt-x-small" alt="Setting the Gitpod host in the JetBrains Gateway plugin" src="/images/jetbrains-gateway/jetbrains-gateway-host.webp">
     <figcaption>Setting the Gitpod host in the JetBrains Gateway plugin (OSX)</figcaption>
 </figure>
 
@@ -104,8 +104,8 @@ The following diagram details how the JetBrains Gateway client connects and comm
 2. **JetBrains Gateway** - The JetBrains Gateway client is the component which fetches information about Gitpod workspaces, pulled from the Gitpod API via HTTPS.
 3. **JetBrains Thin Client** - The thin client connects to the Gitpod workspace via SSH, routed via the workspace proxy ("ws-proxy"). The SSH server (SSH Gateway) runs in the workspace proxy, not in the workspace directly.
 
-![JetBrains networking setup](/images/editors/jetbrains-architecture-dark-theme.png)
-![JetBrains networking setup](/images/editors/jetbrains-architecture-light-theme.png)
+![JetBrains networking setup](/images/editors/jetbrains-architecture-dark-theme.webp)
+![JetBrains networking setup](/images/editors/jetbrains-architecture-light-theme.webp)
 
 ## Troubleshooting
 

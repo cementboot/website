@@ -4,8 +4,8 @@ date: Thursday, 9 Mar 2022 11:00:00 UTC
 title: Appwrite and Gitpod
 slug: appwrite-and-gitpod
 excerpt: Develop your Appwrite application on Gitpod without the need to install Docker on your local computer.
-teaserImage: teaser.jpg
-image: image.jpg
+teaserImage: teaser.webp
+image: image.webp
 ---
 
 <script context="module">

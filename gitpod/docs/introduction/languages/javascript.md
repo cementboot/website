@@ -75,7 +75,7 @@ tasks:
 
 and then search for `eslint` in the extensions tab and then install it from there using the install button as shown in the screenshot.
 
-![Install ESLint in Gitpod](.../../../static/images/docs/eslint-extension.png)
+![Install ESLint in Gitpod](.../../../static/images/docs/eslint-extension.webp)
 
 ## Making Live Reload work in Rollup based projects like Svelte
 

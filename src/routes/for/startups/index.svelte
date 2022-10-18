@@ -95,7 +95,7 @@
         href: "/vs/local-development",
       },
       image: {
-        src: "/images/startups/bob-alice.png",
+        src: "/images/startups/bob-alice.webp",
         alt: "Bob and Alice",
       },
     }}

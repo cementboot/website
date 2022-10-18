@@ -2,7 +2,7 @@
 title: From internal hackathon to 20% fewer hotfixes
 excerpt: Vizlib started using Gitpod for an internal hackathon and eventually moved their whole development to the cloud. This reduced the onboarding time for new hires from two days to one hour and resulted in 20% fewer hotfixes after release.
 slug: vizlib
-image: teaser.png
+image: teaser.webp
 date: Thursday, 3 February 2022 05:00:00 UTC
 pageTitle: "Vizlib case study: 20% fewer hotfixes with Gitpod"
 pageDescription: By moving their whole development to the cloud, Vizlib reduced onboarding time for new hires from 2d to 1h. 20% fewer hotfixes after release through Gitpod.
@@ -39,7 +39,7 @@ logo={{
 		alt: "Astrato"
 	}}
 card={{
-		image: "/images/customers/vizlib/teaser.png",
+		image: "/images/customers/vizlib/teaser.webp",
 		details:{
 			industry: "Data Analytics",
 			plan: "Team Unlimited, SaaS",
@@ -81,7 +81,7 @@ text: "Cloud cost saved per dev/month",
 	/>
 </Section>
 
-<Story bannerImg="/images/customers/vizlib/banner.png" text="An internal hackathon as catalyst to move developer environments into the cloud">
+<Story bannerImg="/images/customers/vizlib/banner.webp" text="An internal hackathon as catalyst to move developer environments into the cloud">
 
 Vizlib builds powerful value-added products for Qlik Sense. Customers go beyond native Qlik Sense to supercharge their analytics. They are growing quickly on the back of their five value-added products, used by 1.000+ enterprise customers, and are now expanding into cloud-native BI with their new product, Astrato.
 

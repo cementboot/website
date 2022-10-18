@@ -5,7 +5,7 @@ import type { Host } from "$lib/types/host";
 export const hosts: Host[] = [
   {
     avatar: {
-      src: "/images/webinars/sven-efftinge.png",
+      src: "/images/webinars/sven-efftinge.webp",
     },
     name: "Sven Efftinge",
     jobTitle: "Co-CEO & Co-founder",
@@ -19,7 +19,7 @@ export const hosts: Host[] = [
   },
   {
     avatar: {
-      src: "/images/webinars/matt-ellis.png",
+      src: "/images/webinars/matt-ellis.webp",
     },
     name: "Matt Ellis",
     jobTitle: "Developer Advocate",
@@ -33,7 +33,7 @@ export const hosts: Host[] = [
   },
   {
     avatar: {
-      src: "/images/webinars/maarten-balliauw.png",
+      src: "/images/webinars/maarten-balliauw.webp",
     },
     name: "Maarten Balliauw",
     jobTitle: "Developer Advocate",

@@ -2,10 +2,10 @@
 author: akosyakov
 date: Tuesday, 20 Oct 2021 13:00:00 UTC
 excerpt: Background story about the last four years improving the editing experience of Cloud IDEs.
-image: cover_cloudIDE.jpg
+image: cover_cloudIDE.webp
 slug: cloud-ide-history
 subtitle:
-teaserImage: cover_cloudIDE.jpg
+teaserImage: cover_cloudIDE.webp
 title: From Theia to OpenVSCode Server - A history of Cloud IDEs
 ---
 
@@ -22,7 +22,7 @@ When we improved developer tooling for a San Francisco based client five years a
 > This recap is solely about the editing experience. This is important to stress because a big misconception in our ecosystem is that those remote, cloud-based developer environments are _web or online IDEs_. **While IDEs are an important building block, platforms such as Gitpod [are so much more](https://www.notion.so/gitpod/Architecture-0e39e570b10f4e8ba7b259629ee3cb74)**.
 > Think orchestration, provisioning, operating system, databases, compilers and all other tools you require to be productive.
 
-![Stackoverflow Survey 2021](../../../static/images/blog/cloud-ide-history/stackoverflow-ide.jpg)
+![Stackoverflow Survey 2021](../../../static/images/blog/cloud-ide-history/stackoverflow-ide.webp)
 
 ## The promise of VS Code
 
@@ -36,7 +36,7 @@ This is VS Code. The team around Erich Gamma [struck the right balance between a
 
 &nbsp
 
-![Theia Logo](../../../static/images/blog/cloud-ide-history/theia-ide.jpg)
+![Theia Logo](../../../static/images/blog/cloud-ide-history/theia-ide.webp)
 
 ## Why Theia?
 
@@ -44,7 +44,7 @@ Back in late 2017 VS Code could not run in a browser and was not (yet) refactore
 
 &nbsp
 
-![OpenVSX](../../../static/images/blog/cloud-ide-history/openvsx-ide.jpg)
+![OpenVSX](../../../static/images/blog/cloud-ide-history/openvsx-ide.webp)
 
 ## Why OpenVSX marketplace?
 
@@ -52,7 +52,7 @@ From the start the number one feature request for Theia was to support VS Code e
 
 &nbsp
 
-![VS Code](../../../static/images/blog/cloud-ide-history/vscode-logo.jpg)
+![VS Code](../../../static/images/blog/cloud-ide-history/vscode-logo.webp)
 
 ## VS Code refactoring for remote development
 
@@ -60,7 +60,7 @@ By 2020 the brilliant team behind VS Code added [remote support](https://code.vi
 
 &nbsp
 
-![Gitpod](../../../static/images/blog/cloud-ide-history/gitpod-ide.jpg)
+![Gitpod](../../../static/images/blog/cloud-ide-history/gitpod-ide.webp)
 
 ## Gitpod switches to VS Code
 
@@ -76,7 +76,7 @@ Since then a lot of individual developers as well as larger companies building i
 
 Honestly, we never expected to receive such a positive response and were impressed with the feedback even before our [launch announcement](/blog/openvscode-server-launch). Within several days we were joined by large companies such as GitLab, VMware, Uber, SAP, Sourcegraph, RStudio and SUSE. We went from 62 to more than 1.6k stars in a week and are working now with a vibrant community to further improve the project.
 
-![OpenVSCodeServer](../../../static/images/blog/cloud-ide-history/openvscodeserver-stars.jpg)
+![OpenVSCodeServer](../../../static/images/blog/cloud-ide-history/openvscodeserver-stars.webp)
 
 As a positive side effect, we streamlined the server implementation and dropped some unnecessary complexity. By imposing constraints such as never changing Microsoft code, we enabled a straightforward, fully automated upgrade path. We run a nightly sync job which brings all upstream changes to our fork. After that, we run smoke and integration tests from [Code - OSS](https://github.com/microsoft/vscode) with some additional tests for Open VSX. `This enables us to release OpenVSCode Server the same day when Microsoft releases its version of VS Code.`
 

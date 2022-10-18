@@ -56,7 +56,7 @@
       href: "/community/heroes",
     },
     image: {
-      src: "/images/heroes/heart-of-gitpod.png",
+      src: "/images/heroes/heart-of-gitpod.webp",
       alt: "Community Heroes",
     },
   }}

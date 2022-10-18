@@ -2,7 +2,7 @@
 author: svenefftinge
 date: Wed May 06 2020 16:00:00 GMT+0000 (UTC)
 excerpt: Today, GitHub announced the private beta of GitHub Codespaces, which provide container-based dev environments for GitHub projects.
-image: gh-cs-bg.jpg
+image: gh-cs-bg.webp
 slug: github-codespaces
 subtitle: A Milestone for Automated Developer environments
 title: GitHub Codespaces, Welcome to the Party!

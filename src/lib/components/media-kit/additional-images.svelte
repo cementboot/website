@@ -5,31 +5,31 @@
 
   const images: Image[] = [
     {
-      src: "/images/media-kit/desktop-vscode.png",
+      src: "/images/media-kit/desktop-vscode.webp",
       alt: "Desktop VS Code",
       text: "Desktop VS Code",
       btnText: "PNG",
     },
     {
-      src: "/images/media-kit/browser-vscode.png",
+      src: "/images/media-kit/browser-vscode.webp",
       alt: "VS Code running in the browser",
       text: "VS Code running in the browser",
       btnText: "PNG",
     },
     {
-      src: "/images/extension-activation/extension-screenshot.png",
+      src: "/images/extension-activation/extension-screenshot.webp",
       alt: "Gitpod Extension",
       text: "screenshot of the Gitpod browser extension within GitHub",
       btnText: "PNG",
     },
     {
-      src: "/images/blog/gitlab-integration/gitpod-button-on-gitlab.png",
+      src: "/images/blog/gitlab-integration/gitpod-button-on-gitlab.webp",
       alt: "Gitpod button on GitLab",
       text: "screenshot of the native Gitpod integration within GitLab",
       btnText: "PNG",
     },
     {
-      src: "/images/gitpod-editor.jpg",
+      src: "/images/gitpod-editor.webp",
       alt: "Gitpod Light Theme",
       text: "light theme screenshot",
       btnText: "JPG",

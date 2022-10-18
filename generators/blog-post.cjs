@@ -49,8 +49,8 @@ module.exports = (plop) => {
       },
       {
         type: "add",
-        path: "../static/images/blog/{{dashCase title}}/teaser.png",
-        templateFile: "./templates/blog-post/teaser.png",
+        path: "../static/images/blog/{{dashCase title}}/teaser.webp",
+        templateFile: "./templates/blog-post/teaser.webp",
       },
       "That's it. Please write your blog post in the newly created file in ./src/routes/blog and update the placeholder teaser image in ./static/images/blog.",
     ],

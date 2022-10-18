@@ -2,7 +2,7 @@
 title: Building a community by removing friction to contribute
 excerpt: RedwoodJS is the latest open source project of Tom Preston-Werner, the Founder and former CEO of GitHub. Gitpod removed the friction of building on and contributing to Redwood, helping to build an engaging community.
 slug: redwoodjs
-image: teaser.png
+image: teaser.webp
 date: Thursday, 3 Feburary 2022 04:00:00 UTC
 pageTitle: "RedwoodJS case study: Building a community by removing friction"
 pageDescription: RedwoodJS was founded by Tom Preston-Werner, the Founder and former CEO of GitHub. Gitpod removed the friction of contributing to RedwoodJS, growing the community.
@@ -36,11 +36,11 @@ title="Increasing Redwood's development velocity by removing the friction to&nbs
 text="RedwoodJS is the latest open source project of Tom Preston-Werner, the Founder and former CEO of GitHub. Gitpod removed the friction of building on and contributing to Redwood, helping them to build an engaging community."
 textMaxWClass="max-w-4xl"
 logo={{
-		src: "/images/customers/redwoodjs/logo.png",
+		src: "/images/customers/redwoodjs/logo.webp",
 		alt: "customer.io"
 	}}
 card={{
-		image: "/images/customers/redwoodjs/teaser.png",
+		image: "/images/customers/redwoodjs/teaser.webp",
 		details:{
 			industry: "Open Source Software",
 			plan: "Professional Open Source, SaaS",
@@ -82,9 +82,9 @@ text: "To spin up a fully functional test project",
 	/>
 </Section>
 
-<Story bannerImg="/images/customers/redwoodjs/banner.png" text="How Gitpod increases Redwood’s development velocity by removing the friction to contribute (and how we got to talk to the GitHub founder and former CEO)">
+<Story bannerImg="/images/customers/redwoodjs/banner.webp" text="How Gitpod increases Redwood’s development velocity by removing the friction to contribute (and how we got to talk to the GitHub founder and former CEO)">
 
-<img src="/images/customers/redwoodjs/twitter-chat.jpg" alt="Twitter DM from Tom Preston-Werner about Gitpod" class="rounded-t-2xl"/>
+<img src="/images/customers/redwoodjs/twitter-chat.webp" alt="Twitter DM from Tom Preston-Werner about Gitpod" class="rounded-t-2xl"/>
 
 Similar to developer experience, Open Source is part of Gitpod’s DNA. Not only is Gitpod an open source company, but our product is positioned to remove one of the biggest hurdles before developers can contribute to open source: setting up the developer environment.
 
@@ -100,7 +100,7 @@ Often the problem with building a community of contributors is the project setup
 
 To solve that and enable developers to contribute to the project with a single click, the RedwoodJS core team turned to Gitpod. Convinced by the idea, they described their configuration and startup tasks in a <code>[.gitpod.yml](https://github.com/redwoodjs/redwood/blob/main/.gitpod.yml)</code> file which is available to everyone publicly as it’s versioned in the Git repo along with the source code.
 
-<img src="/images/customers/redwoodjs/comment.png" alt="Comment about Gitpod from RedwoodJS core team member" class="rounded-t-2xl md:max-w-md mx-auto" />
+<img src="/images/customers/redwoodjs/comment.webp" alt="Comment about Gitpod from RedwoodJS core team member" class="rounded-t-2xl md:max-w-md mx-auto" />
 
 ## Making it easy for the community to use RedwoodJS and contribute to it
 
@@ -112,7 +112,7 @@ At Gitpod we also created [contribute.dev](https://contribute.dev/), an initiati
 
 Redwood also integrated the “Open in Gitpod” button in their <code>[contributing.md](https://github.com/redwoodjs/redwood/blob/main/CONTRIBUTING.md#browser-based-development-setup)</code> and recorded a 3min Gitpod + RedwoodJS walk-through [video](https://www.youtube.com/watch?v=_kMuTW3x--s) to help contributors understand the alternative to a tedious setup on their local machine.
 
-<img src="/images/customers/redwoodjs/about-gitpod.png" alt="About Gitpod" class="rounded-t-2xl" />
+<img src="/images/customers/redwoodjs/about-gitpod.webp" alt="About Gitpod" class="rounded-t-2xl" />
 
 The team also frequently hosts workshops for anyone interested to contribute to the project. Having workshop participants start their developer environment in Gitpod makes sure the time is best used for explaining how to actually contribute rather than troubleshooting everyone’s setup.
 

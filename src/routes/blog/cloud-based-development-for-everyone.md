@@ -2,9 +2,9 @@
 author: svenefftinge, JohannesLandgraf
 date: Fr, 13 Aug 2021 3:00:00 UTC
 excerpt: By 2023 working with ephemeral cloud-based dev environments will be the standard, just like CI/CD is today.
-image: teaser.jpg
+image: teaser.webp
 slug: cloud-based-development-for-everyone
-teaserImage: teaser.jpg
+teaserImage: teaser.webp
 title: Cloud-based development for everyone
 subtitle:
 ---

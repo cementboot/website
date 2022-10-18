@@ -23,19 +23,19 @@ Team plans are accessed from [gitpod.io/teams/](https://gitpod.io/teams/) in you
 
 You can choose between the **Team Professional** plan, or the **Team Unleashed** plan, and you can specify how many seats you want for each team. Each member of the Team Plan will then be able to use Gitpod as if they had purchased their own Professional or Unleashed plan.
 
-![New Team Plan](../../../static/images/docs/team-plan-new.png)
+![New Team Plan](../../../static/images/docs/team-plan-new.webp)
 
 Once the payment process is complete, you can manage team members, add more team seats, and also invite team members using a unique public URL.
 
-| Team Plan Billing                                                       | Manage Team Plan Members                                                          |
-| ----------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
-| ![Team Plan Billing](../../../static/images/docs/team-plan-billing.png) | ![Manage Team Plan Members](../../../static/images/docs/team-plan-membership.png) |
+| Team Plan Billing                                                        | Manage Team Plan Members                                                           |
+| ------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
+| ![Team Plan Billing](../../../static/images/docs/team-plan-billing.webp) | ![Manage Team Plan Members](../../../static/images/docs/team-plan-membership.webp) |
 
 You can either directly assign a seat by entering your team member's GitHub, GitLab, or Bitbucket username, or use the `Invite Members` link from the more actions button to get a shareable link. Send the link to your team so they can claim a seat.
 
-| Manage a Team                                             | Invite Members                                            |
-| --------------------------------------------------------- | --------------------------------------------------------- |
-| ![New Team](../../../static/images/docs/teams-manage.jpg) | ![New Team](../../../static/images/docs/teams-invite.jpg) |
+| Manage a Team                                              | Invite Members                                             |
+| ---------------------------------------------------------- | ---------------------------------------------------------- |
+| ![New Team](../../../static/images/docs/teams-manage.webp) | ![New Team](../../../static/images/docs/teams-invite.webp) |
 
 ## Good to know
 

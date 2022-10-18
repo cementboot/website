@@ -27,7 +27,7 @@ We provide you with a URL and password to a download portal. There you will find
 2. KOTS Airgap Bundle `kotsadm.tar.gz` <br/> (provides you with the Docker images you need for the Gitpod KOTS installer)
 3. Gitpod Airgap Bundle `gitpod-<version>.airgap` <br/> (provides you with the Gitpod Docker images)
 
-![kots-airgap-download](../../static/images/docs/self-hosted/kots-airgap-download.png)
+![kots-airgap-download](../../static/images/docs/self-hosted/kots-airgap-download.webp)
 
 Copy the KOTS CLI package as well as the KOTS Airgap Bundle to the machine where you are able to run `kubectl`.
 
@@ -97,7 +97,7 @@ Now, you will be asked for the password and the license. On the next page, you h
 
 Click on “choose a bundle to upload” and select your `gitpod-<version>.airgap` file on your local computer. Then hit the “Upload airgap bundle” button.
 
-![kots-airgap-upload](../../static/images/docs/self-hosted/kots-airgap-upload.png)
+![kots-airgap-upload](../../static/images/docs/self-hosted/kots-airgap-upload.webp)
 
 Uploading this file and pushing the images to your registry will take a while (could take several hours depending on your internet connection). Grab a cup of coffee or tea and wait for it to be ready. ☕
 

@@ -2,10 +2,10 @@
 author: jankeromnes
 date: Wed Jan 8 2020 09:00:00 GMT+0000 UTC
 excerpt: Are you tired of apt-get? Can’t use sudo right now? ... You can now ’brew install anything’ in Gitpod! 🎉
-image: teaser-brew.png
+image: teaser-brew.webp
 slug: brew
 subtitle: "'brew install anything' in Gitpod"
-teaserImage: teaser-brew.png
+teaserImage: teaser-brew.webp
 title: Gitpod ❤️ Homebrew
 ---
 
@@ -32,7 +32,7 @@ We've pre-installed `brew` for all Gitpod workspaces (using [workspace-full](htt
 1. Just open any repository in Gitpod (e.g. the [Spring PetClinic](https://gitpod.io/#https://github.com/gitpod-io/spring-petclinic))
 2. Try running `brew install fzf` (this should give you the awesome [fzf](https://github.com/junegunn/fzf) tool)
 
-![Homebrew in Gitpod screenshot](../../../static/images/blog/brew/homebrew-in-gitpod.png)
+![Homebrew in Gitpod screenshot](../../../static/images/blog/brew/homebrew-in-gitpod.webp)
 
 Here are a couple details to be aware of:
 

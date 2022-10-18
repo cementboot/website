@@ -16,7 +16,7 @@ prefixing for you - as simple as that.
 
 1. Drag the following image to your bookmark bar.
 
-![Open in Gitpod](../../../static/images/docs/browser-bookmarklet.png)
+![Open in Gitpod](../../../static/images/docs/browser-bookmarklet.webp)
 
 2. Select all of the code below and then copy it to your clipboard.
 
@@ -51,7 +51,7 @@ javascript: (() => {
 
 3. Right-click edit the bookmark and replace the contents of the URL field with the code that is in your clipboard:
 
-![Browser Extension](../../../static/images/docs/browser-bookmarklet-edit.png)
+![Browser Extension](../../../static/images/docs/browser-bookmarklet-edit.webp)
 
 4. Done! Next time you are viewing a repository on GitHub, GitLab or Bitbucket press the bookmarklet to open the repository in Gitpod.
 

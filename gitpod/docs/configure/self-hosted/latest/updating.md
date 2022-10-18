@@ -28,7 +28,7 @@ In most cases, updates should work without further effort - and your existing da
 
 > Gitpod allows you to [apply custom labels, annotations and environment variables to your resources](./advanced/customization). When using this feature, you will need to manually delete resources that have immutable labels on them for updates to take effect. See the [documentation](./advanced/customization#limitations) for full details.
 
-![kots-admin-dashboard](../../static/images/docs/self-hosted/kots-admin-dashboard.png)
+![kots-admin-dashboard](../../static/images/docs/self-hosted/kots-admin-dashboard.webp)
 
 ## Update Strategies
 

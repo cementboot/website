@@ -2,7 +2,7 @@
 author: svenefftinge
 date: Mon Nov 19 2018 15:39:56 GMT+0000 (UTC)
 excerpt: Imagine that only a decade ago system administrators deployed, configured, and maintained software systems manually.
-image: dev-env-gilbert.png
+image: dev-env-gilbert.webp
 slug: dev-env-as-code
 subtitle: How to streamline developer onboarding
 title: Dev environments as code
@@ -100,6 +100,6 @@ It integrates with code hosting platforms such as GitHub. It eliminates all the 
 
 Applying the lessons learned from DevOps to our development setup can save us so much precious time and energy. <a class="no-nowrap" href="https://www.activestate.com/developer-survey-2018-open-source-runtime-pains/">ActiveState’s Developer Survey 2018 </a> underlines this with some numbers:
 
-![ActiveState’s Developer Survey 2018: How much time do you spent on managing dependencies and development tools](https://cdn-images-1.medium.com/max/3200/1*Vvl3N-1hDANiy15Pc9xeiQ.png)
+![ActiveState’s Developer Survey 2018: How much time do you spent on managing dependencies and development tools](https://cdn-images-1.medium.com/max/3200/1*Vvl3N-1hDANiy15Pc9xeiQ.webp)
 
 Do we really need to welcome new colleagues or contributors with a painful on-boarding experience? Let’s skip the prose in the _readme_ and write code to have our dev environment setup **automated, reproducible, and versioned.**

@@ -54,7 +54,7 @@ When you start a Gitpod workspace from a pull request, it will automatically ope
 
 The opened diff editors are full-fledged code editors, so you can navigate to inspect references and easily check out alternative code. You can even comment right within those editors.
 
-![Diff Editor an example review comment](https://cdn-images-1.medium.com/max/6200/1*qGnEh6LFqkiChDY9-UXk8w.png)
+![Diff Editor an example review comment](https://cdn-images-1.medium.com/max/6200/1*qGnEh6LFqkiChDY9-UXk8w.webp)
 
 The build starts automatically, so you can already spot any issues coming up from there, while you are reviewing.
 
@@ -62,7 +62,7 @@ Launching the tests or even running and trying the application is something that
 
 The last thing you do is to submit your review and close the browser tab.
 
-![Gitpod submit review tab](https://cdn-images-1.medium.com/max/6200/1*eu_d_3DJvBOhC9rMDwjb1w.png)
+![Gitpod submit review tab](https://cdn-images-1.medium.com/max/6200/1*eu_d_3DJvBOhC9rMDwjb1w.webp)
 
 ## TL;DR
 

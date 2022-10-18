@@ -29,7 +29,7 @@ export const quotes: Quote[] = [
     companyLogo: redwoodjsSvelte,
     link: { href: "/customers/redwoodjs", text: "View Customer Story" },
     img: {
-      src: "/images/opensource/mojombo.jpg",
+      src: "/images/opensource/mojombo.webp",
       square: true,
       alt: "",
     },
@@ -40,7 +40,7 @@ export const quotes: Quote[] = [
     jobTitle: "Co-founder of Prisma",
     companyLogo: prismaSvelte,
     img: {
-      src: "/images/opensource/schickling.jpg",
+      src: "/images/opensource/schickling.webp",
       square: true,
       alt: "",
     },
@@ -51,7 +51,7 @@ export const quotes: Quote[] = [
     jobTitle: "Co-founder of Prometheus",
     companyLogo: prometheusSvelte,
     img: {
-      src: "/images/opensource/juliusv.jpg",
+      src: "/images/opensource/juliusv.webp",
       square: true,
       alt: "",
     },

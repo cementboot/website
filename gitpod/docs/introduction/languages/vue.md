@@ -45,7 +45,7 @@ RUN npm i -g vue-cli
 
 ### Vetur
 
-![Vetur extension](../../../static/images/docs/Vetur.png)
+![Vetur extension](../../../static/images/docs/Vetur.webp)
 
 Vetur provides syntax highlighting, snippets, Emmet support, linting/error checking, auto-formatting, and auto-complete for Vue files.
 

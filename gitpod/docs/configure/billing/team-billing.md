@@ -27,11 +27,11 @@ With Team billing, all plan seats will be managed automatically, by auto-subscri
 
 Team billing can be accessed under Team Settings if you are a Team owner.
 
-![Team billing New](../../../static/images/docs/team-billing-new.png)
+![Team billing New](../../../static/images/docs/team-billing-new.webp)
 
 Once a plan is active, Team billing will auto-subscribe new members, and the count will update automatically.
 
-![Team billing New](../../../static/images/docs/team-billing-subscribed.png)
+![Team billing New](../../../static/images/docs/team-billing-subscribed.webp)
 
 ## Good to know
 

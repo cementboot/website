@@ -23,8 +23,8 @@
 />
 
 <svelte:head>
-  <link rel="preload" as="image" href="/images/illustration-crop.png" />
-  <link rel="preload" as="image" href="/images/illustration-crop-dark.png" />
+  <link rel="preload" as="image" href="/images/illustration-crop.webp" />
+  <link rel="preload" as="image" href="/images/illustration-crop-dark.webp" />
 </svelte:head>
 
 <div class="flex items-start">

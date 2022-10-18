@@ -171,13 +171,13 @@ export const projects: Project[] = [
   //   alt: "C#",
   // },
   // {
-  //   logo: "python.png",
+  //   logo: "python.webp",
   //   title: "Python & Flask",
   //   githubUrl: "https://github.com/breatheco-de/python-flask-api-tutorial",
   //   alt: "Python",
   // },
   // {
-  //     logo: 'ruby.png',
+  //     logo: 'ruby.webp',
   //     title: 'Rails & Postgres',
   //     githubUrl: "https://github.com/gitpod-io/ruby-on-rails",
   //     gitlabUrl: "https://gitlab.com/gitpod/rails",
@@ -189,7 +189,7 @@ export const projects: Project[] = [
 export const testimonials: Testimonial[] = [
   {
     name: "Ben Halpern",
-    avatar: "ben-halpern.jpg",
+    avatar: "ben-halpern.webp",
     org: `<span>
           @forem
         </span>
@@ -205,7 +205,7 @@ export const testimonials: Testimonial[] = [
   },
   {
     name: "Michael Friedrich",
-    avatar: "michael-friedrich.jpg",
+    avatar: "michael-friedrich.webp",
     org: `<span>
         @GitLab
       </span>`,
@@ -221,7 +221,7 @@ export const testimonials: Testimonial[] = [
   },
   {
     name: "Julius Volz",
-    avatar: "julius-volz.jpg",
+    avatar: "julius-volz.webp",
     org: `<span>
         @PrometheusIO
       </span>`,
@@ -234,7 +234,7 @@ export const testimonials: Testimonial[] = [
   },
   {
     name: "David Ressler",
-    avatar: "david-ressler.jpg",
+    avatar: "david-ressler.webp",
     org: `
       <span>
         @instagram
@@ -251,7 +251,7 @@ export const testimonials: Testimonial[] = [
   },
   {
     name: "Bartłomiej Płotka",
-    avatar: "bwplotka.jpg",
+    avatar: "bwplotka.webp",
     org: `
       <span>
         @RedHat
@@ -270,7 +270,7 @@ export const testimonials: Testimonial[] = [
   },
   {
     name: "Mrugesh Mohapatra",
-    avatar: "mrugesh-mohapatra.jpg",
+    avatar: "mrugesh-mohapatra.webp",
     org: `
       <span>
         @freeCodeCamp
@@ -287,7 +287,7 @@ export const testimonials: Testimonial[] = [
   },
   {
     name: "Sven Peters",
-    avatar: "sven-peters.jpg",
+    avatar: "sven-peters.webp",
     org: `
       <span>
         @MongoDB
@@ -303,7 +303,7 @@ export const testimonials: Testimonial[] = [
   },
   {
     name: "Jonathan Lister Parsons",
-    avatar: "jonathan-lister-parsons.jpg",
+    avatar: "jonathan-lister-parsons.webp",
     org: `
       <span>
         @PensionBee
@@ -334,7 +334,7 @@ export const testimonials: Testimonial[] = [
   },
   {
     name: "ROKU",
-    avatar: "roman-kuba.jpg",
+    avatar: "roman-kuba.webp",
     org: `
       <span>
         @GitLab
@@ -349,7 +349,7 @@ export const testimonials: Testimonial[] = [
   },
   {
     name: "Hugh Durkin",
-    avatar: "hugh-durkin.jpg",
+    avatar: "hugh-durkin.webp",
     org: `
       <span>
         @HubSpot
@@ -366,7 +366,7 @@ export const testimonials: Testimonial[] = [
   },
   {
     name: "Marcel van Remmerden",
-    avatar: "marcel-van-remmerden.jpg",
+    avatar: "marcel-van-remmerden.webp",
     org: `
       <span>
         @GitLab
@@ -380,7 +380,7 @@ export const testimonials: Testimonial[] = [
   },
   {
     name: "Brendan O’Leary",
-    avatar: "brendan-o-leary.jpg",
+    avatar: "brendan-o-leary.webp",
     org: `
       <span>
         @GitLab
@@ -397,7 +397,7 @@ export const testimonials: Testimonial[] = [
   },
   {
     name: "Joonas Lehtinen",
-    avatar: "joonas-lehtinen.png",
+    avatar: "joonas-lehtinen.webp",
     org: `
       <span>
         @vaadin
@@ -415,7 +415,7 @@ export const testimonials: Testimonial[] = [
   },
   {
     name: "Yo",
-    avatar: "yogi.jpg",
+    avatar: "yogi.webp",
     org: `
       <span>
         @Taskord
@@ -431,7 +431,7 @@ export const testimonials: Testimonial[] = [
   },
   {
     name: "Senior Enterprise Geek",
-    avatar: "k33g.jpg",
+    avatar: "k33g.webp",
     org: `
       <span>
         @GitLab
@@ -452,8 +452,8 @@ export const ides: Ide[] = [
     name: "vscode",
     label: "Visual Studio Code",
     screenshots: {
-      desktop: "vscode-desktop.png",
-      browser: "vscode-browser.png",
+      desktop: "vscode-desktop.webp",
+      browser: "vscode-browser.webp",
     },
     icon: "vscode.svg",
   },
@@ -462,7 +462,7 @@ export const ides: Ide[] = [
     availibility: "beta",
     label: "Goland",
     screenshots: {
-      desktop: "goland.png",
+      desktop: "goland.webp",
     },
     icon: "goland.svg",
   },
@@ -471,7 +471,7 @@ export const ides: Ide[] = [
     availibility: "beta",
     label: "IntelliJ IDEA",
     screenshots: {
-      desktop: "Intellij.png",
+      desktop: "Intellij.webp",
     },
     icon: "intellij.svg",
   },
@@ -480,7 +480,7 @@ export const ides: Ide[] = [
     availibility: "beta",
     label: "PyCharm",
     screenshots: {
-      desktop: "pycharm.png",
+      desktop: "pycharm.webp",
     },
     icon: "pycharm.svg",
   },
@@ -489,7 +489,7 @@ export const ides: Ide[] = [
     availibility: "beta",
     label: "PhpStorm",
     screenshots: {
-      desktop: "phpstorm.png",
+      desktop: "phpstorm.webp",
     },
     icon: "phpstorm.svg",
   },
@@ -498,7 +498,7 @@ export const ides: Ide[] = [
     availibility: "beta",
     label: "RubyMine",
     screenshots: {
-      desktop: "rubymine.png",
+      desktop: "rubymine.webp",
     },
     icon: "rubymine.svg",
   },
@@ -507,7 +507,7 @@ export const ides: Ide[] = [
     availibility: "beta",
     label: "WebStorm",
     screenshots: {
-      desktop: "webstorm.png",
+      desktop: "webstorm.webp",
     },
     icon: "webstorm.svg",
   },
@@ -516,7 +516,7 @@ export const ides: Ide[] = [
     availibility: "beta",
     label: "Vim",
     screenshots: {
-      desktop: "vim.png",
+      desktop: "vim.webp",
     },
     icon: "vim.svg",
   },

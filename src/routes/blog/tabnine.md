@@ -2,10 +2,10 @@
 author: JohannesLandgraf, mikenikles
 date: Wednesday, 06 Oct 2021 13:00:00 UTC
 excerpt: Tabnine integrates with Gitpod in browser-based VS Code.
-image: gitpod-tabnine.png
+image: gitpod-tabnine.webp
 slug: tabnine
 subtitle:
-teaserImage: gitpod-tabnine.png
+teaserImage: gitpod-tabnine.webp
 title: Match made in automation heaven
 ---
 

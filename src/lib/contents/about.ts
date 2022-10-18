@@ -22,38 +22,38 @@ export const featureTitles: FeatureTitle[] = [
 
 export const imagesTop: Image[] = [
   {
-    src: "/images/about/3.png",
+    src: "/images/about/3.webp",
     alt: "Gitpod team members taking a selfie.",
   },
   {
-    src: "/images/about/2.png",
+    src: "/images/about/2.webp",
     alt: "Gitpod team members sitting near the sea.",
   },
   {
-    src: "/images/about/1.png",
+    src: "/images/about/1.webp",
     alt: "Gitpod team memebers smiling.",
   },
   {
-    src: "/images/about/4.png",
+    src: "/images/about/4.webp",
     alt: "A Gitpod team member skateboarding.",
   },
 ];
 
 export const imagesBottom: Image[] = [
   {
-    src: "/images/about/5.png",
+    src: "/images/about/5.webp",
     alt: "Gitpod team members clapping.",
   },
   {
-    src: "/images/about/6.jpg",
+    src: "/images/about/6.webp",
     alt: "Gitpod team with skateboards.",
   },
   {
-    src: "/images/about/7.png",
+    src: "/images/about/7.webp",
     alt: "Gitpod team on stairs for a group photo.",
   },
   {
-    src: "/images/about/8.png",
+    src: "/images/about/8.webp",
     alt: "Gitpod team members on eating table.",
   },
 ];

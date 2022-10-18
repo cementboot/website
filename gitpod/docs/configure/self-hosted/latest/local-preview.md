@@ -48,7 +48,7 @@ Unpacking the above command:
 
 > **Note:** It usually takes around 5 minutes to go from the `starting Gitpod` status to `Gitpod is running`. Among other things, this will depend on the speed of your internet connection. Once Gitpod is ready, it will look as follows:
 
-![gitpod is ready](../../static/images/docs/self-hosted/local-preview-ready.png)
+![gitpod is ready](../../static/images/docs/self-hosted/local-preview-ready.webp)
 
 As this is a self-signed instance of Gitpod, the Gitpod root CA cert has to be imported into your browser manually to access the full functionality of Gitpod. The certificate can be retrieved by running the following:
 
@@ -97,11 +97,11 @@ Once the certificate is loaded and Gitpod is ready, the URL to access the Gitpod
 
 You should be greeted by the following screen:
 
-![welcome screen](../../static/images/docs/self-hosted/welcome-screen.png)
+![welcome screen](../../static/images/docs/self-hosted/welcome-screen.webp)
 
 You will then be asked to configure a git integration:
 
-![git integration setup](../../static/images/docs/self-hosted/git-integration-setup.png)
+![git integration setup](../../static/images/docs/self-hosted/git-integration-setup.webp)
 
 This git integration will also serve as the way that you and your users get authenticated against your Gitpod installation. You can find out more in the [Integrations](/docs/integrations) section.
 

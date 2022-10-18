@@ -71,13 +71,13 @@ For all other clients, consult your client's documentation for what the implemen
 
 Once you've created an SSH key pair, you can upload your public SSH key to Gitpod, by navigating to [gitpod.io/keys](https://gitpod.io/keys) where you can upload one or more public SSH keys.
 
-![SSH page of the Gitpod dashboard](/images/docs/ssh-key-upload-dark-theme.png)
-![SSH page of the Gitpod dashboard](/images/docs/ssh-key-upload-light-theme.png)
+![SSH page of the Gitpod dashboard](/images/docs/ssh-key-upload-dark-theme.webp)
+![SSH page of the Gitpod dashboard](/images/docs/ssh-key-upload-light-theme.webp)
 
 Paste your public key, and give your key a memorable title so that you can remember the name of the public key later if you choose to add multiple keys, e.g. "Gitpod Bastion Host SSH Key"
 
-![Adding an SSH Key to Gitpod](/images/docs/new-ssh-key-light-theme.png)
-![Adding an SSH Key to Gitpod](/images/docs/new-ssh-key-dark-theme.png)
+![Adding an SSH Key to Gitpod](/images/docs/new-ssh-key-light-theme.webp)
+![Adding an SSH Key to Gitpod](/images/docs/new-ssh-key-dark-theme.webp)
 
 ### Edit an SSH key in Gitpod
 
@@ -89,8 +89,8 @@ To update an SSH key, delete the key and re-upload the SSH key to Gitpod.
 
 To delete an SSH key, click the kebab menu to the right of the SSH key in the dashboard and select "delete".
 
-![Deleting an SSH key from Gitpod](/images/docs/delete-ssh-key-light-theme.png)
-![Deleting an SSH key from Gitpod](/images/docs/delete-ssh-key-dark-theme.png)
+![Deleting an SSH key from Gitpod](/images/docs/delete-ssh-key-light-theme.webp)
+![Deleting an SSH key from Gitpod](/images/docs/delete-ssh-key-dark-theme.webp)
 
 ## SSH Gateway
 
@@ -100,8 +100,8 @@ SSH Gateway facilitates connection via SSH for direct SSH access using uploaded 
 
 SSH Gateway is an intermediary service within Gitpod that proxies incoming SSH requests to the appropriate running workspaces.
 
-![SSH Gateway architecture in Gitpod](/images/ssh-gateway/ssh-gateway-dark-theme.png)
-![SSH Gateway architecture in Gitpod](/images/ssh-gateway/ssh-gateway-light-theme.png)
+![SSH Gateway architecture in Gitpod](/images/ssh-gateway/ssh-gateway-dark-theme.webp)
+![SSH Gateway architecture in Gitpod](/images/ssh-gateway/ssh-gateway-light-theme.webp)
 
 ### SSH Gateway in Self-Hosted
 

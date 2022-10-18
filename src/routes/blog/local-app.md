@@ -2,10 +2,10 @@
 author: akosyakov, csweichel, rl-gitpod
 date: Wed, 9 Jun 2021 18:00:00 UTC
 excerpt: While Gitpod can seamlessly integrate into your workflow in the vast majority of cases, there are times where you may want to access a workspace from localhost
-image: header-desktop.png
+image: header-desktop.webp
 slug: local-app
 subtitle:
-teaserImage: header-desktop.png
+teaserImage: header-desktop.webp
 title: Gitpod Local Companion - localhost is going remote
 ---
 
@@ -104,15 +104,15 @@ Note that it currently requires a reload of the workspace VS Code page if the co
 
 Gitpod has extended the Remote Explorer Ports view to allow more control of how ports are exposed. As shown below there is an additional toggle on each port to switch between _Tunnel on localhost_ exposure i.e. nothing outside of your laptop
 
-![tunnel on localhost](../../../static/images/blog/local-app/tunnel-on-all.png)
+![tunnel on localhost](../../../static/images/blog/local-app/tunnel-on-all.webp)
 
 and _Tunnel on all interfaces_ to make that port available on 0.0.0.0. and, depending on your firewall settings, to anyone that can access your laptop externally.
 
-![tunnel on all](../../../static/images/blog/local-app/tunnel-on-all.png)
+![tunnel on all](../../../static/images/blog/local-app/tunnel-on-all.webp)
 
 By default it will attempt to tunnel on the same port, but it will pick a random port if the local port is unavailable. This is reflected in the Remote Explorer Ports view below where local port 3000 is tunneled via port 49605:
 
-![tunnel on random](../../../static/images/blog/local-app/tunnel-on-random.png)
+![tunnel on random](../../../static/images/blog/local-app/tunnel-on-random.webp)
 
 ## SSH Access
 

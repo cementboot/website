@@ -19,8 +19,8 @@ export const features: Feature[] = [
       href: "/customers/shares-io",
     },
     image: {
-      src: "/images/startups/stories.png",
-      darkSrc: "/images/startups/stories-dark.png",
+      src: "/images/startups/stories.webp",
+      darkSrc: "/images/startups/stories-dark.webp",
       alt: "Gitpod Customer Stories",
     },
   },

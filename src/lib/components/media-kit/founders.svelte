@@ -2,7 +2,7 @@
   import Section from "../section.svelte";
   import LinkButton from "$lib/components/ui-library/link-button";
 
-  const imgSrc = "/images/media-kit/founders.jpg";
+  const imgSrc = "/images/media-kit/founders.webp";
 </script>
 
 <Section class="text-center">

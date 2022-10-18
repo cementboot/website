@@ -2,10 +2,10 @@
 author: phimae, JohannesLandgraf
 date: Tuesday, 02 Nov 2021 13:00:00 UTC
 excerpt: We're launching our startup program to help you build great things without friction, for free.
-image: gitpod-for-startups.png
+image: gitpod-for-startups.webp
 slug: gitpod-for-startups
 subtitle:
-teaserImage: gitpod-for-startups.png
+teaserImage: gitpod-for-startups.webp
 title: Introducing Gitpod for Startups
 ---
 

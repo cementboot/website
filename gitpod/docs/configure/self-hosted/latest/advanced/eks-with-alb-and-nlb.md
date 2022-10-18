@@ -118,11 +118,11 @@ helm upgrade aws-load-balancer-controller \
 
 Ensure that you've created all the required components as per [the reference architecture guide](../reference-architecture/single-cluster-ref-arch): [Object Storage](../reference-architecture/single-cluster-ref-arch#object-storage), [OCI Image Registry](../reference-architecture/single-cluster-ref-arch#oci-image-registry), [Database](../reference-architecture/single-cluster-ref-arch#database). Then [install Gitpod](../reference-architecture/single-cluster-ref-arch#install-gitpod). While configuring your Gitpod installation, make sure to check 'use self-signed certificate'. Make sure that you select `node port` as the service type for the proxy service in the components section of the installation UI (this assumes you are using version 2022.07 or later):
 
-![proxy service type](../../static/images/docs/self-hosted/proxy-service-type-ui.png)
+![proxy service type](../../static/images/docs/self-hosted/proxy-service-type-ui.webp)
 
 You will also need to make sure that the "allow login via SSH" box is ticked:
 
-![ssh gateway](../../static/images/docs/self-hosted/ssh-gateway.png)
+![ssh gateway](../../static/images/docs/self-hosted/ssh-gateway.webp)
 
 ### 3. Create alb-ingresss.yaml
 

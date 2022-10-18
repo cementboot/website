@@ -44,7 +44,7 @@ export const benefits: Card[] = [
 
 export const intros: Intro[] = [
   {
-    image: "/images/local-development/bob.png",
+    image: "/images/local-development/bob.webp",
     name: "Bob",
     works: "works locally",
     workflow: `
@@ -59,7 +59,7 @@ export const intros: Intro[] = [
 		`,
   },
   {
-    image: "/images/local-development/alice.png",
+    image: "/images/local-development/alice.webp",
     name: "Alice",
     works: "works in the cloud",
     workflow: "Automates the configuration setup by using",
@@ -72,7 +72,7 @@ export const bobTableData: FeatureTableColumn = {
   header: {
     headline: "Bob",
     image: {
-      path: "/images/local-development/bob.png",
+      path: "/images/local-development/bob.webp",
       alt: "Bob",
       height: "h-20",
     },
@@ -137,7 +137,7 @@ export const aliceTableData: FeatureTableColumn = {
   header: {
     headline: " Alice",
     image: {
-      path: "/images/local-development/alice.png",
+      path: "/images/local-development/alice.webp",
       alt: "alice",
       height: "h-20",
     },

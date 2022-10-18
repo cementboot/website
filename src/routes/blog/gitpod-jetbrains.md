@@ -4,8 +4,8 @@ date: Thursday, 28 April 2022 11:00:00 UTC
 excerpt: Gitpod and JetBrains announce partnership and deep product integration to bring remote development to developers around the world
 
 slug: gitpod-jetbrains
-teaserImage: teaser.jpg
-image: teaser.jpg
+teaserImage: teaser.webp
+image: teaser.webp
 title: Gitpod x JetBrains join forces to solve 'works on my machine' problem
 ---
 
@@ -33,7 +33,7 @@ Today we are making a big step towards that goal.
 
 <Quotes />
 
-![03](../../../static/images/blog/gitpod-jetbrains/03.jpg)
+![03](../../../static/images/blog/gitpod-jetbrains/03.webp)
 
 ## Keep your tools, just automate them
 
@@ -43,7 +43,7 @@ We now seamlessly integrate and bundle with their standalone Gateway application
 
 With our native Gitpod integration in JetBrains Gateway application, professional software developers can connect ephemeral developer environments provisioned by Gitpod to their favorite desktop IDE from JetBrains without any friction. Think power of the cloud including all developer experience, security, and collaboration benefits paired with the world's best professional IDEs.
 
-![01](../../../static/images/blog/gitpod-jetbrains/01.jpg)
+![01](../../../static/images/blog/gitpod-jetbrains/01.webp)
 
 ## Entering the era of remote development
 
@@ -63,7 +63,7 @@ Take a step back and look at the benefits which led [companies such as Google, F
 
 - **Bringing developer environments closer to production**. Gitpod provisions powerful Linux containers under the hood. Workloads running on production are for a large part similarly running in containers on Linux. One operating system for both development and production.
 
-![02](../../../static/images/blog/gitpod-jetbrains/02.jpg)
+![02](../../../static/images/blog/gitpod-jetbrains/02.webp)
 
 ## Getting started in 5 minutes
 
@@ -87,7 +87,7 @@ And if you haven't done so join our active Discord community - we are here to he
 
 &nbsp
 
-![05](../../../static/images/blog/gitpod-jetbrains/05.jpg)
+![05](../../../static/images/blog/gitpod-jetbrains/05.webp)
 
 ## DevX Conf on May 2-3rd
 

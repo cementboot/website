@@ -2,10 +2,10 @@
 author: arthursens
 date: Sunday, 23 May 2021 11:00:00 UTC
 excerpt: The SRE team at Gitpod is making the first moves to implement Site Reliability Engineering best practices. We document our approach to implement our very first Service Level Objective.
-image: teaser.png
+image: teaser.webp
 slug: journey-to-site-reliability-engineering-at-gitpod
 subtitle:
-teaserImage: teaser.png
+teaserImage: teaser.webp
 title: Journey to Site Reliability Engineering at Gitpod
 ---
 
@@ -37,11 +37,11 @@ We do have things to be proud of though! Our Incident Response process, while it
 
 Unfortunately, today we can't have clear insights if our changes have a direct impact on user experience. We come from a mindset of measuring compute resources, e.g. CPU, RAM, and disk utilization, as a way to know if Gitpod is running smoothly. This strategy worked just fine for some time, it was simple to horizontally or vertically increase our nodes, but now we are often seeing that lack of resources are not the reason why Workspaces start to fail. Not to mention that keeping a high number of nodes under a certain threshold is quite challenging.
 
-![Too many nodes to keep an eye on](../../../static/images/blog/journey-to-site-reliability-engineering-at-gitpod/too-many-nodes.png)
+![Too many nodes to keep an eye on](../../../static/images/blog/journey-to-site-reliability-engineering-at-gitpod/too-many-nodes.webp)
 
 We want to change this mindset completely! Compute resource metrics may be good for debugging degraded performance during incidents, but shouldn't be the way we look for degraded user experience. We should be gathering metrics that measure exactly the symptoms that our users complain about during incidents:
 
-![Incident reporting](../../../static/images/blog/journey-to-site-reliability-engineering-at-gitpod/incident-report.png)
+![Incident reporting](../../../static/images/blog/journey-to-site-reliability-engineering-at-gitpod/incident-report.webp)
 
 As previously said, Workspaces are the core of Gitpod. We should be measuring metrics that tell us how our users are interacting with them:
 

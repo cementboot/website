@@ -2,7 +2,7 @@
 author: csweichel
 date: Mon Mar 18 2019 16:16:17 GMT+0000 (UTC)
 excerpt: Once your developer environment is freed from manual setup procedures it can do work even while you are not. We call this continuous
-image: compiling-xkcd.png
+image: compiling-xkcd.webp
 slug: prebuilds
 subtitle: Prebuild your workspaces
 title: Waiting for code to build is like watching paint dry
@@ -19,7 +19,7 @@ A while ago Sven described the idea of [developer environment as code](/blog/dev
 
 However, a machine-reproducible version of your development setup enables another powerful capability: your dev-environment can already checkout the latest code, download dependencies and build everything. Once you actually open your IDE, everything’s ready for you. No more siting there and watching ~~paint dry~~ yarn download the internet.
 
-![The number 1 programmer excuse for legitimately slacking off: 'My Code is compiling.' - https://xkcd.com/303/](../../../static/images/blog/prebuilds/compiling-xkcd.png)
+![The number 1 programmer excuse for legitimately slacking off: 'My Code is compiling.' - https://xkcd.com/303/](../../../static/images/blog/prebuilds/compiling-xkcd.webp)
 
 ## Paint dries even when you’re not watching
 
@@ -33,7 +33,7 @@ The result of _continuous development_ is a ready-to-code workspace. The second 
 
 ## How could we build this?
 
-![Hands with paint on them.](../../../static/images/blog/prebuilds/colored-hands.jpg)_Photo by [Amaury Salas](https://unsplash.com/photos/IhXrWDckZOQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_
+![Hands with paint on them.](../../../static/images/blog/prebuilds/colored-hands.webp)_Photo by [Amaury Salas](https://unsplash.com/photos/IhXrWDckZOQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_
 
 To build a continuous development system we need three things:
 

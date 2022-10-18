@@ -2,9 +2,9 @@
 author: csweichel, securitymirco, nancy-chauhan
 date: Tuesday, 21 Jun 2022 11:00:00 UTC
 excerpt: Gitpod takes a central position in the software development lifecycle. As such, the security of our product is paramount; not only at runtime, but also as we build and deliver Gitpod.
-image: teaser.png
+image: teaser.webp
 slug: securing-the-software-supply-chain-at-gitpod-with-slsa
-teaserImage: teaser.png
+teaserImage: teaser.webp
 title: Securing Gitpod's Software Supply Chain with SLSA
 ---
 
@@ -57,7 +57,7 @@ To read more about the remaining three levels, head over to the [SLSA page](http
 
 ## Making Gitpod SLSA level 1 compliant
 
-![Generating Provenance](../../../static/images/blog/securing-the-software-supply-chain-at-gitpod-with-slsa/illustration.png)
+![Generating Provenance](../../../static/images/blog/securing-the-software-supply-chain-at-gitpod-with-slsa/illustration.webp)
 
 We use a heavily caching build system called [Leeway](https://github.com/gitpod-io/leeway). Leeway recently gained [support for producing SLSA/in-toto provenance](https://github.com/gitpod-io/leeway/pull/75) during its build, and maintains that provenance as part of its cache. A package build produces an [attestation bundle](https://github.com/in-toto/attestation/blob/main/spec/bundle.md), which contains a number of SLSA attestations (records) that were created during the build; one per package.
 

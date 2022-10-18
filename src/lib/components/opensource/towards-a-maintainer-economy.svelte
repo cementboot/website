@@ -12,7 +12,7 @@
       title: "Open-Source Funding during DevX Conf",
       excerpt:
         "It's time to start giving back. Participants voted for their favourite nominated open-source projects and we distributed USD $10,000 between these projects.",
-      image: "/images/opensource/devxconf.png",
+      image: "/images/opensource/devxconf.webp",
       isNotAnActualPost: true,
       href: "https://devxconf.org/opensource",
     },
@@ -20,7 +20,7 @@
       title: "Platform to Foster OSS Contributions",
       excerpt:
         "We created contribute.dev to showcase open-source project with an automated developer environment. Here new contributors can easily find new projects for frictionless open-source contributions.",
-      image: "/images/opensource/contribute.dev.png",
+      image: "/images/opensource/contribute.dev.webp",
       isNotAnActualPost: true,
       href: "https://contribute.dev",
     },

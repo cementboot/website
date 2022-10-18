@@ -111,7 +111,7 @@
   }
 
   .kumquat-illustration {
-    background: url("/images/kumquat.png");
+    background: url("/images/kumquat.webp");
     @apply bg-cover;
   }
 </style>
@@ -152,35 +152,35 @@
       </ButtonsWrapper>
     </div>
     <div
-      class="explore__illustration w-full bg-cover bg-left bg-[url('/images/illustration-grid.png')] dark:bg-[url('/images/illustration-grid-dark.png')]"
+      class="explore__illustration w-full bg-cover bg-left bg-[url('/images/illustration-grid.webp')] dark:bg-[url('/images/illustration-grid-dark.webp')]"
       class:kumquat-illustration={useKumquatIllustration}
     >
       <img
         src="/images/{useKumquatIllustration
-          ? 'kumquat.png'
-          : 'illustration-grid.png'}"
+          ? 'kumquat.webp'
+          : 'illustration-grid.webp'}"
         alt="Gitpod in a Nutshell"
         class="dark:hidden"
       />
       <img
         src="/images/{useKumquatIllustration
-          ? 'kumquat.png'
-          : 'illustration-grid-dark.png'}"
+          ? 'kumquat.webp'
+          : 'illustration-grid-dark.webp'}"
         alt="Gitpod in a Nutshell"
         class="hidden dark:block"
       />
       <img
         src="/images/{useKumquatIllustration
-          ? 'kumquat.png'
-          : 'illustration-small.png'}"
+          ? 'kumquat.webp'
+          : 'illustration-small.webp'}"
         class:pt-micro={useKumquatIllustration}
         class="small small-light"
         alt="Gitpod in a Nutshell"
       />
       <img
         src="/images/{useKumquatIllustration
-          ? 'kumquat.png'
-          : 'illustration-small-dark.png'}"
+          ? 'kumquat.webp'
+          : 'illustration-small-dark.webp'}"
         class:pt-micro={useKumquatIllustration}
         class="small small-dark hidden dark:block"
         alt="Gitpod in a Nutshell"

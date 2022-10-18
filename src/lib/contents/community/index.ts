@@ -72,7 +72,7 @@ export const contributeToGitpod: Feature = {
     text: "Contribute to website",
   },
   image: {
-    src: "/images/community/contribute-to-gitpod.png",
+    src: "/images/community/contribute-to-gitpod.webp",
     alt: "Gitpod's GitHub Repo README.md and the Open Issues",
   },
 };

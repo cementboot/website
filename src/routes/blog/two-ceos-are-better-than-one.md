@@ -4,8 +4,8 @@ date: Wednesday, 2 March 2022 13:00:00 UTC
 excerpt: At Gitpod, we have operated unofficially with two CEOs for the past 1.5 years. We believe this is superior to having a single CEO if done right.
 
 slug: two-ceos-are-better-than-one
-teaserImage: teaser.jpg
-image: teaser.jpg
+teaserImage: teaser.webp
+image: teaser.webp
 title: Two CEOs are Better Than One
 ---
 

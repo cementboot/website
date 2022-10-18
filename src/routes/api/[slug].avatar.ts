@@ -1,7 +1,7 @@
 import type { RequestHandler } from "@sveltejs/kit";
 
 export const get: RequestHandler = async ({ params }) => {
-  const res = await fetch(`https://www.github.com/${params.slug}.png`);
+  const res = await fetch(`https://www.github.com/${params.slug}.webp`);
   const buffer = Buffer.from(await res.arrayBuffer());
   return {
     body: buffer,

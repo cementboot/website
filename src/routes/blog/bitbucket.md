@@ -2,10 +2,10 @@
 author: jankeromnes
 date: Thu, 02 Jul 2020 14:00:00 UTC
 excerpt: We’re excited to bring you instant developer environments for all Bitbucket projects.
-image: teaser.jpg
+image: teaser.webp
 slug: bitbucket
 subtitle: Instant dev environments for all Bitbucket projects
-teaserImage: teaser.jpg
+teaserImage: teaser.webp
 title: Gitpod for Bitbucket 🚀
 ---
 
@@ -54,7 +54,7 @@ For instance, if you start a workspace from the issue context above, you’ll ge
 The new local branch will be named like `<username>/<issue-title>-<issue-nr>`, in my case it is:
 `svenefftinge/allow-skip-first-name-1` (if the issue title is too long, only the first few words will be included in the branch name).
 
-![GitLab Issue Context](../../../static/images/blog/gitlab-support/gitlab-issue-context-status.png)
+![GitLab Issue Context](../../../static/images/blog/gitlab-support/gitlab-issue-context-status.webp)
 
 ### Configure your project
 

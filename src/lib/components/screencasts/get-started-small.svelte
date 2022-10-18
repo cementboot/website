@@ -8,7 +8,7 @@
   class="flex items-center mx-auto p-x-small md:py-medium md:px-small gap-small shadow-normal max-w-sm md:max-w-2xl"
 >
   <img
-    src="/images/screencasts/monitor-plant.png"
+    src="/images/screencasts/monitor-plant.webp"
     alt="Workspace setup"
     class="w-44 hidden md:block"
   />

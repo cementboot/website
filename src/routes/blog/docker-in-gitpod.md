@@ -14,7 +14,7 @@ url: https://medium.com/gitpod/bring-your-own-docker-image-to-gitpod-52db1aa861d
 
 Since we released Gitpod into Public Beta it has been incredibly exciting to see people from all over the world use our service. Even more so with feedback like this:
 
-[![George Kalpakas Tweet about Gitpod](../../../static/images/blog/docker-in-gitpod/tweet.png)](https://twitter.com/gkalpakas/status/1037800090977619973)
+[![George Kalpakas Tweet about Gitpod](../../../static/images/blog/docker-in-gitpod/tweet.webp)](https://twitter.com/gkalpakas/status/1037800090977619973)
 
 Of course, there is always room for improvement, especially with a service as new as Gitpod. Luckily, people have started to share their questions and ideas with us on [https://github.com/gitpod-io/gitpod](https://github.com/gitpod-io/gitpod). One of the most often asked questions was:
 

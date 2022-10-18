@@ -3,8 +3,8 @@ author: axonasif, pawlean, nancy-chauhan
 date: Wednesday, 30 Jun 2022 02:00:00 UTC
 excerpt: A detailed guide for setting up your Android phone for optimal development experience with Gitpod
 slug: getting-started-with-gitpod-in-android
-teaserImage: teaser.png
-image: thumbnail.png
+teaserImage: teaser.webp
+image: thumbnail.webp
 title: Getting started with Gitpod in Android
 ---
 
@@ -56,7 +56,7 @@ As phone displays are so small, it can get tricky coding from such a small scree
 
 Cheap phones won't likely come with USB-C 3.0, so you won't be able to get direct VIDEO output from your phone to an external monitor/TV. Some third-party products utilize ADB, and a mini-CPU on the HDMI end to stream your Android display over a cable.
 
-![external monitor](../../../../static/images/guides/getting-started-with-gitpod-in-android/external_monitor.jpg "external monitor setup with android")
+![external monitor](../../../../static/images/guides/getting-started-with-gitpod-in-android/external_monitor.webp "external monitor setup with android")
 
 In my case, I use a Chinese HDMI adapter for my microUSB phone to connect with this external screen. You can take "[Renkchip](https://www.amazon.com/dp/B08DLJCV55/)" for reference if you want one too. But, you have to consider a few things first:
 

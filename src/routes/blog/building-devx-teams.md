@@ -2,10 +2,10 @@
 author: pawlean, mikenikles, loujaybee
 date: Mon, 06 Dec 2021 11:00:00 UTC
 excerpt: For our fourth edition of DevX Digest, we’d like to introduce our new podcast with a first episode all about building a developer experience team!
-image: header.jpg
+image: header.webp
 slug: building-devx-teams
 subtitle:
-teaserImage: header.jpg
+teaserImage: header.webp
 title: DevX Digest 04 - Building a Developer Experience team
 type: digest
 ---
@@ -22,7 +22,7 @@ This edition is particularly exciting as we’ve launched **DevX Pod** which is 
 
 Our first episode features [Cirpo](https://twitter.com/cirpo), Head of Developer Experience at DAZN Engineering and [Lou](https://twitter.com/loujaybee), Product Manager at Gitpod. In a previous life, Lou worked with Cirpo as one of the founding figures in DevX at DAZN, they even wrote [a blog post](https://medium.com/dazn-tech/developer-experience-dx-at-dazn-e6de9a0208d2) all about their values, focus, team structure, learnings and more.
 
-![DevX Podcast Episode 1](../../../static/images/blog/building-devx-teams/podcast.png)
+![DevX Podcast Episode 1](../../../static/images/blog/building-devx-teams/podcast.webp)
 _DevX Pod is avaliable wherever you get your podcasts!_
 
 Unlike more “external-facing” DevX content that is seen more often in the wild, this episode focused more on “internal-facing” DevX i.e. from the POV of an internal team (also known sometimes as platform/tooling/infrastructure teams) where improving developer experience was the full-time responsibility.
@@ -57,6 +57,6 @@ There’s clearly folks excited about DevX, so let’s continue talking ⚡️ I
 
 As a result, we’ve recently improved the dedicated area in our Discord server to build up on the developer experience community. If you’re interested in developer experience either from a team-building perspective or from the tooling side of things, come and join us!
 
-![DevX Podcast Episode 1](../../../static/images/blog/building-devx-teams/DevX-Discord.png)
+![DevX Podcast Episode 1](../../../static/images/blog/building-devx-teams/DevX-Discord.webp)
 
 That’s it for now, thanks folks! See you over [on our Discord.](https://www.gitpod.io/chat) 👋🏼
