@@ -35,7 +35,7 @@ export const hosts: Host[] = [
   },
   {
     avatar: {
-      src: "/images/webinars/julien.jpeg",
+      src: "/images/webinars/julien.webp",
     },
     name: "Julien Lengrand-Lambert",
     jobTitle: "Lead Developer Advocate | Gitpod Community Hero",
@@ -49,7 +49,7 @@ export const hosts: Host[] = [
   },
   {
     avatar: {
-      src: "/images/webinars/tom.jpeg",
+      src: "/images/webinars/tom.webp",
     },
     name: "Tom Barber",
     jobTitle: "Data Systems Engineer | Gitpod Community Hero",
