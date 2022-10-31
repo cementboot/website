@@ -13,10 +13,10 @@ The `.gitpod.yml` file at the root of your project is where you tell Gitpod how 
 
 Below is a full reference of all available properties. To see the underlying schema, please refer to [`gitpod-io/gitpod`](https://github.com/gitpod-io/gitpod/blob/main/components/gitpod-protocol/data/gitpod-schema.json) in the [gitpod-io/gitpod](https://github.com/gitpod-io/gitpod) repository.
 
-- [.gitpod.yml](#.gitpod.yml)
+- [.gitpod.yml](#gitpodyml)
   - [`additionalRepositories`](#additionalrepositories)
   - [`checkoutLocation`](#checkoutlocation)
-  - [`coreDump`](#coreDump)
+  - [`coreDump`](#coredump)
   - [`gitConfig`](#gitconfig)
   - [`github`](#github)
     - [`prebuilds.addBadge`](#prebuildsaddbadge)
@@ -55,6 +55,8 @@ Below is a full reference of all available properties. To see the underlying sch
   - [`vscode`](#vscode)
     - [`vscode.extensions`](#vscodeextensions)
   - [`workspaceLocation`](#workspacelocation)
+  - [`workspaceRequirements`](#workspacerequirements)
+    - [`class`](#class)
 
 ## `additionalRepositories`
 
@@ -811,4 +813,35 @@ In most cases, this is not needed. If you work on an older Go project, please se
 
 ```yaml
 workspaceLocation: "."
+```
+
+## `workspaceRequirements`
+
+Configure the requirements of the workspace.
+
+### `class`
+
+Either one or multiple classes can be specified. If multiple classes are specified the first supported class will be used.
+
+<div class="overflow-x-auto">
+
+| Type     | Default   |
+| -------- | --------- |
+| `string` | `<empty>` |
+| `array`  | `<empty>` |
+
+</div>
+
+**Examples**
+
+```yaml
+workspaceRequirements:
+  class: g1-standard
+```
+
+```yaml
+workspaceRequirements:
+  class:
+    - g1-standard
+    - g1-large
 ```
