@@ -44,7 +44,7 @@ tasks:
 
 Use the following steps to enable prebuilds on your repository:
 
-- [Create a project](https://www.gitpod.io/docs/configure/projects/prebuilds#projects-and-prebuilds) for the repository.
+- [Create a project](/docs/configure/projects/prebuilds#projects-and-prebuilds) for the repository.
 - Define the prebuild steps in an init [task](https://www.gitpod.io/docs/configure/workspaces/tasks) in your [gitpod.yml](https://www.gitpod.io/docs/references/gitpod-yml).
 
 Since prebuilds are included in all our metered [pay-as-you-go](https://www.gitpod.io/docs/configure/billing) plans, configuring prebuild settings in your project should help with managing prebuild usage.
@@ -63,6 +63,12 @@ To create a new project:
 - If necessary, you will be prompted for additional authorization to install and configure the Gitpod GitHub app,
   so that Gitpod can watch your repositories and trigger prebuilds.
 - Select the repository for your project.
+
+## Start workspaces based on existing prebuilds
+
+You can start workspaces using existing prebuilds. This helps when you have a repo with many commits, so you’re not left waiting for the latest prebuild to finish. To get started, select a prebuild from your project prebuild list, and click "New Workspace (with this prebuild)"
+
+![Start a new workspace based on an existing prebuild](/images/docs/projects/prebuild-dashboard.webp)
 
 ## Prebuilds are shared
 
