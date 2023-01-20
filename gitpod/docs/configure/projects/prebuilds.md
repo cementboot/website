@@ -40,6 +40,15 @@ tasks:
       npm start
 ```
 
+## Enable Prebuilds on your repository project
+
+Use the following steps to enable prebuilds on your repository:
+
+- [Create a project](https://www.gitpod.io/docs/configure/projects/prebuilds#projects-and-prebuilds) for the repository.
+- Define the prebuild steps in an init [task](https://www.gitpod.io/docs/configure/workspaces/tasks) in your [gitpod.yml](https://www.gitpod.io/docs/references/gitpod-yml).
+
+Since prebuilds are included in all our metered [pay-as-you-go](https://www.gitpod.io/docs/configure/billing) plans, configuring prebuild settings in your project should help with managing prebuild usage.
+
 ## Projects and prebuilds
 
 For prebuilds to run automatically, you also need a [project](/docs/configure#projects) for your repository.
@@ -47,6 +56,10 @@ For prebuilds to run automatically, you also need a [project](/docs/configure#pr
 To create a new project:
 
 - Click on _New Project_ in the Projects page of one your teams.
+<figure>
+<video onloadstart="this.playbackRate = 1.5;" controls playsinline autoplay loop muted class="shadow-medium w-full rounded-xl max-w-3xl mt-x-small" alt="ARepl extension example" src="/images/docs/projects/prebuilds.webm" type="video/webm"></video>
+    <figcaption>Create a new project in one of your teams to enable prebuilds</figcaption>
+</figure>
 - If necessary, you will be prompted for additional authorization to install and configure the Gitpod GitHub app,
   so that Gitpod can watch your repositories and trigger prebuilds.
 - Select the repository for your project.
