@@ -18,6 +18,7 @@
   import SubmissionSuccess from "$lib/components/submission-success.svelte";
   import Wrapper from "$lib/components/webinars/wrapper.svelte";
   import Textarea from "../ui-library/textarea";
+  import { trackEvent } from "../segment.svelte";
 
   let clazz = "";
   export { clazz as class };
@@ -82,6 +83,16 @@
       return;
     }
     isSubmissionInProgress = true;
+
+    trackEvent("waitlist_joined", {
+      name: formData.name.value,
+      email: formData.email.value,
+      companyWebsite: formData.companyWebsite.value,
+      noOfEngineers: formData.noOfEngineers.value,
+      cloudInfrastructure: formData.cloudInfrastructure.value,
+      gitProvider: formData.gitProvider.value,
+      message: formData.message.value,
+    });
 
     try {
       const response = await fetch("/api/dedicated-signup", {

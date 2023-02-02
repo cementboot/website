@@ -38,7 +38,7 @@ card={{
 		image: "/images/education/4geeks/teaser.png",
 		details:{
 			industry: "Education",
-			plan: "Team Unlimited, SaaS",
+			plan: "Organization, SaaS",
 			people: {
 				title: "Students",
 				text: "over 4000"

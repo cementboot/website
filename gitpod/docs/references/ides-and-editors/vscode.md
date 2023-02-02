@@ -5,11 +5,10 @@ title: VS Code Desktop
 
 <script context="module">
   export const prerender = true;
+  import Keybind from "$lib/components/keybind.svelte";
 </script>
 
 # VS Code Desktop
-
-> VS Code Desktop is currently in [Beta](/docs/help/public-roadmap/release-cycle) · [Send feedback](https://github.com/gitpod-io/gitpod/issues/5712).
 
 With VS Code Desktop Support, you keep your local editor configurations<sup>1</sup> and benefit from Gitpod's high-spec servers & automated prebuilds. As usual, your code executes in an ephemeral Gitpod workspace, keeping each of your projects isolated from one another.
 
@@ -22,8 +21,8 @@ There are currently two supported ways to open a VS Code Desktop session connect
 ### From VS Code Browser
 
 1. Start a new Gitpod workspace
-2. Open the command palette (⇧⌘P or Ctrl+Shift+P)
-3. Type "Open in VS Code" and hit Enter
+2. Open the command palette (<Keybind>CtrlCmd + Shift + P</Keybind>)
+3. Type "Open in VS Code" and hit <Keybind>Enter</Keybind>
 
 You will now be redirected to VS Code Desktop.
 

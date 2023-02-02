@@ -125,7 +125,6 @@ export const post: RequestHandler = async ({ request }) => {
 
     return { body: { message: "success" }, status: 200 };
   } catch (e) {
-    console.log(e);
     return { body: { message: `failed` }, status: 500 };
   }
 };

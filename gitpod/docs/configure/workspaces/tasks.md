@@ -142,6 +142,9 @@ tasks:
     command: npm run dev
 ```
 
+> **Note**: This doesn't stop execution on errors. If `npm install` in the example above fails, the `npm run configure-database` will still run.  See [how to exit after failure](#immediately-exit-for-any-command-failure-within-a-task) below for a workaround.
+
+
 ### Wait for commands to complete
 
 When working with multiple terminals, you may have a situation where terminal 1 runs build scripts and terminal 2 and 3 require that these scripts complete first. This can be achieved with [`gp sync-await`](/docs/references/gitpod-cli#sync-await) and [`gp sync-done`](/docs/references/gitpod-cli#sync-done).
@@ -190,7 +193,7 @@ tasks:
 ### Immediately exit for any command failure within a task
 
 If you wish to halt an entire task with for an error within the task script, then you could do the following:
-```
+```yaml
 tasks:
   - init: |
       (

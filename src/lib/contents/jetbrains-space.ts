@@ -38,7 +38,7 @@ export const features: Feature[] = [
   {
     title: "Your environment, your tools, your&nbsp;craft",
     paragraph:
-      "We adapt, so you don't need to. That's why we natively integrated JetBrains IDEs into Gitpod next to VS Code and other editors. Don't limit yourself or your team to one editing experience and choose from the best options available.",
+      "We adapt, so you don't need to. That's why we natively integrated JetBrains IDEs into Gitpod next to VS Code and other editors. Don't limit yourself or your organization to one editing experience and choose from the best options available.",
     previewComponent: idesSvelte,
   },
   openSourceFeature,

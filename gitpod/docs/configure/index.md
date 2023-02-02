@@ -11,7 +11,7 @@ title: Configure Gitpod
 
 You can open any repository in Gitpod by prefixing the full repository URL with `gitpod.io/#`.
 
-**For example:** [https://gitpod.io/#https://github.com/nodejs/node`](https://gitpod.io/#https://github.com/nodejs/node)
+**For example:** [https://gitpod.io/#https://github.com/nodejs/node](https://gitpod.io/#https://github.com/nodejs/node)
 
 > **Note:** For [Self-Hosted](/docs/configure/self-hosted/latest), substitute gitpod.io for the domain of your installation.
 
@@ -43,16 +43,16 @@ Workspaces can be created on their own, or as part of a [Project](/docs/configur
 
 ## Projects
 
-[Projects](/docs/configure/projects) are the connection between Gitpod and one or more git repositories and allow you to manage [Prebuilds](/docs/configure/projects/prebuilds). Projects can be associated with your personal account, or associated with [Teams](/docs/configure/teams).
+[Projects](/docs/configure/projects) are the connection between Gitpod and one or more git repositories and allow you to manage [Prebuilds](/docs/configure/projects/prebuilds). Projects can be associated with your personal account, or associated with [Organizations](/docs/configure/orgs).
 
 - [Prebuilds](/docs/configure/projects/prebuilds)
 - [Incremental Prebuilds](/docs/configure/projects/incremental-prebuilds)
 - [Last Successful Prebuild](/docs/configure/projects/last-successful-prebuild)
 - [Environment Variables](/docs/configure/projects/environment-variables)
 
-## Teams
+## Organizations
 
-[Teams](/docs/configure/teams) in Gitpod allow you to share projects and their settings amongst many team individuals.
+[Organizations](/docs/configure/orgs) in Gitpod allow you to share projects and their settings amongst many organization individuals.
 
 ## Authentication
 

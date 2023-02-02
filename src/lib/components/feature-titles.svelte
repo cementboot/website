@@ -4,15 +4,23 @@
 
   export let featureTitles: FeatureTitleProps[];
   export let swap: boolean = false;
+  export let showKumquat: boolean = false;
   export let featureTitlePadding: string = "px-macro py-xx-small sm:p-x-small";
 </script>
 
 <div
   class="grid grid-cols-2 lg:grid-cols-4 gap-macro sm:gap-micro max-w-[608px] lg:flex lg:max-w-none lg:justify-center mx-auto"
 >
-  {#each featureTitles as featureTitle}
+  {#each featureTitles as featureTitle, index}
     <FeatureTitle
-      featureTitle={{ ...featureTitle, swap }}
+      featureTitle={{
+        ...featureTitle,
+        swap,
+        showLeftKumquat: showKumquat ? index === 0 : false,
+        showRightKumquat: showKumquat
+          ? index === featureTitles.length - 1
+          : false,
+      }}
       {featureTitlePadding}
     />
   {/each}

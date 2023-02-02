@@ -7,6 +7,7 @@
   import Pill from "./pill.svelte";
   import type { ShareLink } from "$lib/types/share-link";
   import RequestChanges from "./ui-library/request-changes.svelte";
+  import SubscribeRssFeed from "./ui-library/subscribe-rss-feed.svelte";
 
   export let baseUrl: string;
   export let imagesDirectoryName: string;
@@ -145,14 +146,17 @@
       <slot />
     </div>
     <div
-      class="flex flex-col-reverse items-center md:flex-row justify-between md:items-baseline border-t border-solid border-divider pt-4 mt-small"
+      class="flex items-center md:flex-row justify-between md:items-baseline border-t border-solid border-divider pt-4 mt-small"
     >
       <Share text="Share this post" {shareLinks} />
-      {#if imagesDirectoryName === "blog"}
-        <RequestChanges
-          href={`https://github.com/gitpod-io/website/edit/main/src/routes/blog/${slug}.md`}
-        />
-      {/if}
+      <div class="flex flex-row md:flex-row justify-between">
+        {#if imagesDirectoryName === "blog"}
+          <SubscribeRssFeed href="/blog/rss.xml" />
+          <RequestChanges
+            href={`https://github.com/gitpod-io/website/edit/main/src/routes/blog/${slug}.md`}
+          />
+        {/if}
+      </div>
       {#if imagesDirectoryName === "guides"}
         <RequestChanges
           href={`https://github.com/gitpod-io/website/edit/main/src/routes/guides/${slug}/index.md`}

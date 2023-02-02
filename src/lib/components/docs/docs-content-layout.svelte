@@ -13,6 +13,8 @@
   export let section;
   /** @type {string} */
   export let title;
+  /** @type {string} */
+  export let description;
 
   /** @type {string}*/
   export let subsection;
@@ -27,8 +29,10 @@
 
 <OpenGraph
   data={{
-    description: "Explore the documentation to learn more about Gitpod",
     title: title ? title : "Gitpod Documentation",
+    description: description
+      ? description
+      : "Explore the documentation to learn more about Gitpod",
   }}
 />
 <div class="flex">

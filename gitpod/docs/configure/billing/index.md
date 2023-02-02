@@ -13,7 +13,7 @@ Gitpod charges for usage based on how long workspaces run, and the resources con
 
 As an individual user, you receive a free usage allowance so that you can try Gitpod without a billing account. A personal billing account is required for additional usage beyond that.
 
-Team billing accounts provide a way to pay for team members' usage when they run workspaces on team projects.
+Organization billing accounts provide a way to pay for organization members' usage when they run workspaces on organization projects.
 
 ## Credits
 
@@ -27,7 +27,7 @@ Your invoice will show the total amount of credits consumed in a billing period.
 
 The personal billing page is located in your [account settings](https://gitpod.io/account).
 
-> 💡 If you do not see "Billing" in your settings, cancel your existing plan or team plan first.
+> 💡 If you do not see "Billing" in your settings, cancel your existing plan or organization plan first.
 
 The Gitpod Free plan comes with 500 free credits, renewed monthly. These credits can be used for all workspace classes. Unused credits expire at the end of each month.
 
@@ -43,19 +43,19 @@ Once billing has been configured, use the "Manage Plan" button to modify your pa
 
 ![Active Personal billing](../../static/images/docs/billing/active-personal-billing.png)
 
-If you are a member of a team with billing, you can select the team to pay for all your personal usage under "Default Billing Account".
+If you are a member of an organization with billing, you can select the organization to pay for all your personal usage under "Default Billing Account".
 
 ![Select default billing account](../../static/images/docs/billing/select-default-billing-account.png)
 
-## Configure team billing
+## Configure organization billing
 
-Team owners can configure billing for a team in their team settings.
+Organization owners can configure billing for an organization in their organization settings.
 
-> 💡 You may need to cancel your existing Professional or Unleashed team-billing plan first.
+> 💡 You may need to cancel your existing Professional or Unleashed organization-billing plan first.
 
 ![Configure Team Billing](../../static/images/docs/billing/configure-team-billing.png)
 
-Once team billing is configured, Gitpod will charge the team billing account for usage by team members, when they start workspaces on team projects, and for prebuild usage on team projects.
+Once organization billing is configured, Gitpod will charge the organization billing account for usage by organization members, when they start workspaces on organization projects, and for prebuild usage on organization projects.
 
 ![Active Team billing](../../static/images/docs/billing/active-team-billing.png)
 
@@ -63,19 +63,19 @@ Once team billing is configured, Gitpod will charge the team billing account for
 
 The usage limit prevents workspaces from starting once the limit has been reached. It will not stop running workspaces.
 
-To change the usage limit, look for "Update limit" in the BALANCE section of your personal or team billing settings, after you have configured billing.
+To change the usage limit, look for "Update limit" in the BALANCE section of your personal or organization billing settings, after you have configured billing.
 
 ![Active Team billing](../../static/images/docs/billing/update-usage-limit-2.png)
 
 ## View usage details
 
-You can see the details of your personal usage when you click on "View Usage →" in your personal billing settings. Team owners can view usage details for their team.
+You can see the details of your personal usage when you click on "View Usage →" in your personal billing settings. Organization owners can view usage details for their organization.
 
 ![Active Team billing](../../static/images/docs/billing/view-team-usage-details.png)
 
 ## Old pricing plans
 
-Users with old paid plans, may need to cancel those plans before configurig their personal or team billing accounts.
+Users with old paid plans, may need to cancel those plans before configuring their personal or organization billing accounts.
 
-- [Team plans](/docs/configure/billing/team-plans)
-- [Team billing](/docs/configure/billing/team-billing)
+- [Organization plans](/docs/configure/billing/org-plans)
+- [Organization billing](/docs/configure/billing/org-billing)

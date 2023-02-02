@@ -16,6 +16,7 @@ export const get: RequestHandler = async () => {
         "src/routes/docs/introduction/getting-started",
         "extension-activation",
         "unsubscribe",
+        "subscribe",
         "stay-connected",
         "extension-uninstall",
       ];

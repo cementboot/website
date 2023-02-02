@@ -20,7 +20,7 @@ A big part of my journey was shaped by the editing experience of cloud-based dev
 
 When we improved developer tooling for a San Francisco based client five years ago, we realized that the technology is now finally there to bring to the mainstream what Google, Facebook and several others already started years ago: moving software development to the cloud by providing fully automated and ephemeral developer environments.
 
-> This recap is solely about the editing experience. This is important to stress because a big misconception in our ecosystem is that those remote, cloud-based developer environments are _web or online IDEs_. **While IDEs are an important building block, platforms such as Gitpod [are so much more](https://www.notion.so/gitpod/Architecture-0e39e570b10f4e8ba7b259629ee3cb74)**.
+> This recap is solely about the editing experience. This is important to stress because a big misconception in our ecosystem is that those remote, cloud-based developer environments are _web or online IDEs_. **While IDEs are an important building block, platforms such as Gitpod [are so much more](https://www.youtube.com/watch?v=svV-uE0Cdjk)**.
 > Think orchestration, provisioning, operating system, databases, compilers and all other tools you require to be productive.
 
 ![Stackoverflow Survey 2021](../../../static/images/blog/cloud-ide-history/stackoverflow-ide.jpg)

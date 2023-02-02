@@ -39,7 +39,7 @@ vscode:
     - https://example.com/abc/releases/extension-0.26.0.vsix
 ```
 
-You can share the installed extensions with your team by committing the `.gitpod.yml` change and pushing it to your Git repository.
+You can share the installed extensions with your organization by committing the `.gitpod.yml` change and pushing it to your Git repository.
 
 Extensions are installed in the `/workspace/.vscode-remote/extensions/` directory.
 

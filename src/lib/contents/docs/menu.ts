@@ -26,10 +26,6 @@ export const MENU: MenuEntry[] = [
       "One workspace per task",
       "introduction/learn-gitpod/one-workspace-per-task"
     ),
-    M(
-      "The life of a workspace",
-      "introduction/learn-gitpod/the-life-of-a-workspace"
-    ),
     M("Context URL", "introduction/learn-gitpod/context-url"),
     M(".gitpod.yml", "introduction/learn-gitpod/gitpod-yaml"),
   ]),
@@ -44,6 +40,7 @@ export const MENU: MenuEntry[] = [
   M("Configure", "configure", true),
 
   M("Workspaces", "configure/workspaces", false, [
+    M("Workspace Lifecycle", "configure/workspaces/workspace-lifecycle"),
     M("Workspace Image", "configure/workspaces/workspace-image"),
     M("Tasks", "configure/workspaces/tasks"),
     M("Ports", "configure/workspaces/ports"),
@@ -81,7 +78,7 @@ export const MENU: MenuEntry[] = [
     M("Environment Variables", "configure/projects/environment-variables"),
   ]),
 
-  M("Teams", "configure/teams"),
+  M("Organizations", "configure/orgs"),
 
   M("Authentication", "configure/authentication", false, [
     M("GitLab", "configure/authentication/gitlab"),
@@ -188,13 +185,7 @@ export const MENU: MenuEntry[] = [
   // M("Gitpod public API", "references/gitpod-public-api", false, [], "alpha"),
   M("IDEs & editors", "references/ides-and-editors", false, [
     M("VS Code Browser", "references/ides-and-editors/vscode-browser"),
-    M(
-      "VS Code Desktop",
-      "references/ides-and-editors/vscode",
-      false,
-      [],
-      "beta"
-    ),
+    M("VS Code Desktop", "references/ides-and-editors/vscode"),
     M(
       "IntelliJ IDEA",
       "references/ides-and-editors/intellij",

@@ -23,26 +23,42 @@
     10 * monthlyHours * (standardWorkspaces / 100) +
     20 * monthlyHours * (largeWorkspaces / 100);
 
-  $: displayValue = getResult(members, usedCredits, calculatedPrice);
+  $: toalHoursUsingOrgMembers = members * monthlyHours;
+
+  $: displayValue = getResult(
+    members,
+    usedCredits,
+    calculatedPrice,
+    toalHoursUsingOrgMembers
+  );
 
   const getResult = (
     members: number,
     usedCredits: number,
-    calculatedPrice: number
+    calculatedPrice: number,
+    toalHoursUsingOrgMembers: number
   ) => {
-    switch (members) {
-      case 1:
-        if (usedCredits <= 500) {
-          return 0;
-        }
-        if (usedCredits <= 1000) {
-          return 9;
-        } else {
-          return 9 + (usedCredits - 1000) * 0.036;
-        }
-
-      default:
-        return calculatedPrice;
+    if (members === 1) {
+      if (usedCredits <= 500) {
+        return 0;
+      }
+      if (usedCredits <= 1000) {
+        return 9;
+      } else {
+        return 9 + (usedCredits - 1000) * 0.036;
+      }
+    } else if (
+      members >= 2 &&
+      usedCredits <= 1000 &&
+      toalHoursUsingOrgMembers <= 100
+    ) {
+      if (usedCredits <= 1000) {
+        return 9;
+      } else {
+        return 9 + (usedCredits - 1000) * 0.036;
+      }
+    } else {
+      return calculatedPrice;
     }
   };
 </script>
@@ -61,7 +77,8 @@
   <div>
     {#if members >= 100}
       <p>
-        For large teams of 100+, please contact sales to receive a custom quote.
+        For large organizations of 100+ members, please contact sales to receive
+        a custom quote.
       </p>
       <br />
       <LinkButton
@@ -96,15 +113,15 @@
         <TickList
           textClassNames="max-w-sm"
           list={[
-            "Pay for total team usage, not individual plans",
+            "Pay for total organization usage, not individual plans",
             "Manage billing from a central account",
           ]}
         />
       </div>
       <LinkButton
-        href="https://gitpod.io/teams/new"
+        href="https://gitpod.io/orgs/new"
         variant="primary"
-        size="large">Create team for free</LinkButton
+        size="large">Create organization for free</LinkButton
       >
     {/if}
   </div>

@@ -10,7 +10,7 @@
   import Button from "$lib/components/ui-library/button";
   import Card from "$lib/components/ui-library/card";
   import { tick } from "svelte";
-  import { scrollToElement } from "../lib/utils/helpers";
+  import { scrollToElement } from "$lib/utils/helpers";
 
   const extensionUrls = {
     chrome:

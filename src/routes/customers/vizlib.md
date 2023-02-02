@@ -42,7 +42,7 @@ card={{
 		image: "/images/customers/vizlib/teaser.png",
 		details:{
 			industry: "Data Analytics",
-			plan: "Team Unlimited, SaaS",
+			plan: "Organization, SaaS",
 			people: {
 				title: "Engineers",
 				text: "80+"

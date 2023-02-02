@@ -15,7 +15,7 @@
   import Hero from "$lib/components/cde/hero.svelte";
   import ThisWay from "$lib/components/cde/this-way.svelte";
   import Voices from "$lib/components/cde/voices.svelte";
-  import OpenGraph from "../lib/components/open-graph.svelte";
+  import OpenGraph from "$lib/components/open-graph.svelte";
 </script>
 
 <OpenGraph

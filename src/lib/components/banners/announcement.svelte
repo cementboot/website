@@ -27,11 +27,11 @@
     class="announcement-banner flex justify-between items-center px-4 py-2 w-full bg-sand-dark dark:bg-card shadow-sm text-xs sm:text-sm md:text-base border-b border-divider border-solid"
     location="top"
   >
-    <span class="flex-1 text-right">📢</span>
-    <p class="flex-2 px-4 md:px-2">
+    <span class="flex-1 text-right">🎊</span>
+    <p class="flex-2 px-4 md:px-2 font-normal">
+      Gitpod Dedicated: the self-hosted alternative for large teams |
       <a href="/dedicated" sveltekit:prefetch on:click={closeBanner}
-        >Coming soon: Gitpod Dedicated, an isolated & managed installation of
-        Gitpod
+        >Request early access
       </a>
     </p>
     <div class="flex-1 flex justify-end">
@@ -43,6 +43,7 @@
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
+          Close
           <path
             d="M1.00107 1L11 11M10.9989 1L1 11"
             stroke="var(--important)"

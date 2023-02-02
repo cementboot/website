@@ -50,7 +50,7 @@ export const screencasts: Screencast[] = [
     youtubeId: "4495YOMhhgo",
     relatedDocs: [
       {
-        path: "/docs/introduction/learn-gitpod/the-life-of-a-workspace",
+        path: "/docs/configure/workspaces/workspace-lifecycle",
         title: "Life of a Workspace",
       },
     ],
@@ -79,7 +79,7 @@ export const screencasts: Screencast[] = [
     nextScreencast: id++,
     title: "Personalise Your Workspace 🎨",
     description:
-      "How to customize and configure Gitpod for your personal needs and those of your team.",
+      "How to customize and configure Gitpod for your personal needs and those of your organization.",
     duration: 125,
     tile: "screencast-4.jpg",
     youtubeId: "VYHsd1zI_tE",
@@ -121,7 +121,7 @@ export const screencasts: Screencast[] = [
     youtubeId: "n7Ca3jHFtZg",
     relatedDocs: [
       {
-        path: "/docs/introduction/learn-gitpod/the-life-of-a-workspace",
+        path: "/docs/configure/workspaces/workspace-lifecycle",
         title: "Life of a Workspace",
       },
     ],

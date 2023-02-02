@@ -13,6 +13,7 @@ Workspaces are the developer environments where you code in Gitpod.
 
 Workspaces can be created on their own, or as part of a [Project](/docs/configure/projects).
 
+- [Workspace Lifecycle](/docs/configure/workspaces/workspace-lifecycle)
 - [Workspace Image](/docs/configure/workspaces/workspace-image)
 - [Tasks](/docs/configure/workspaces/tasks)
 - [Ports](/docs/configure/workspaces/ports)

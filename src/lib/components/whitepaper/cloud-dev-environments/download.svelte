@@ -11,6 +11,7 @@
   import SubmissionSuccess from "$lib/components/submission-success.svelte";
   import Wrapper from "$lib/components/webinars/wrapper.svelte";
   import { goto } from "$app/navigation";
+  import { trackEvent } from "$lib/components/segment.svelte";
 
   let clazz = "";
   export { clazz as class };
@@ -55,6 +56,12 @@
       return;
     }
     isSubmissionInProgress = true;
+
+    trackEvent("whitepaper_downloaded", {
+      name: formData.name.value,
+      email: formData.email.value,
+      companyWebsite: formData.companyWebsite.value,
+    });
 
     goto(
       "https://drive.google.com/uc?export=download&id=1ATli6smC3WO6vRLFXWVIEIzx3M8u0OkM"

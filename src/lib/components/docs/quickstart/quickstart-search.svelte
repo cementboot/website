@@ -17,7 +17,7 @@
     Oh no, this quickstart does not exist yet. Please <a
       target="_blank"
       rel="noreferrer"
-      href="https://github.com/gitpod-io/website/issues/new?labels=documentation&title=[Docs%20-%20Quickstart]%20-%20Requesting%20{$searchQuery}"
+      href="https://github.com/gitpod-samples/awesome-gitpod/issues/new?assignees=&labels=good+first+issue%2C+New+demo&template=%E2%9C%A8-add-new-tutorial.md&title=[Template]%20-%20Requesting%20{$searchQuery}"
       >let us know</a
     >.
   </p>

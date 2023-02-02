@@ -3,14 +3,25 @@
 
   export const load: Load = async ({ url }) => {
     const filterParam = url.searchParams.get("tag");
-    const allPosts: BlogPost[] = await getPosts();
-    const posts = allPosts.filter((post) => {
-      if (!filterParam) {
-        return true;
-      }
-      return post.tags?.includes(filterParam);
-    });
-    return { props: { posts, selectedCategory: filterParam || "" } };
+    if (filterParam === "") {
+      return { redirect: "/blog" };
+    }
+    try {
+      const allPosts: BlogPost[] = await getPosts();
+      const posts = allPosts.filter((post) => {
+        if (!filterParam) {
+          return true;
+        }
+        return post.tags?.includes(filterParam);
+      });
+      return { props: { posts, selectedCategory: filterParam || "" } };
+    } catch (e) {
+      return {
+        redirect: "/blog",
+        error: e,
+        fallback: { props: { posts: [] } },
+      };
+    }
   };
 </script>
 

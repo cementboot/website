@@ -37,6 +37,18 @@ The best way to configure Gitpod is by using Gitpod - you could perform the foll
 
 **Congratulations**, you have started your first of many ephemeral developer environments 🎉!
 
+### Open in Gitpod button
+
+You can add the following button to your Development/Setup Docs so that users can launch projects in Gitpod and begin working on them without having to go through the entire setup process.
+
+<img src="https://gitpod.io/button/open-in-gitpod.svg" alt="Open with Gitpod"/>
+
+```markdown
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#<your-repository-url>)
+```
+
+> here, `your-repository-url` can be something like: `https://github.com/gitpod-samples/awesome-gitpod` or any of your Repository URLs.
+
 ### Contribute with Gitpod badge
 
 To make it easy for anyone to start a Gitpod workspace based on your project, we recommend you add a badge to your `README.md`.
@@ -51,20 +63,6 @@ To make it easy for anyone to start a Gitpod workspace based on your project, we
   />
 </a>
 ```
-
-> here, `your-repository-url` can be something like: `https://github.com/gitpod-io/website` or any of your Repository URLs.
-
-### Open in Gitpod button
-
-You can add the following button to your Development/Setup Docs so that users can launch projects in Gitpod and begin working on them without having to go through the entire setup process.
-
-<img src="https://gitpod.io/button/open-in-gitpod.svg" alt="Open with Gitpod"/>
-
-```markdown
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#<your-repository-url>)
-```
-
-> here, `your-repository-url` can be something like: `https://github.com/gitpod-io/website` or any of your Repository URLs.
 
 Next, let's help Gitpod understand your repository to automate the developer environment and turn on prebuilds to supercharge your development workflow.
 
@@ -142,7 +140,7 @@ Within three minutes, the workspaces will be stopped. You can always find them a
 
 The automation you have experienced so far is nice, but there's more! Remember that `init` task we [configured earlier](#init-script)?
 
-You may have wondered why there are separate `init` and `command` tasks. This is because we can tell Gitpod to **run the `init` script every time new code is pushed to your project**. By the time you or one of your team members starts a new workspace, the `init` task already finished and you don't have to wait for that - saving you precious time. We call this **prebuilds**.
+You may have wondered why there are separate `init` and `command` tasks. This is because we can tell Gitpod to **run the `init` script every time new code is pushed to your project**. By the time you or one of your organization members starts a new workspace, the `init` task already finished and you don't have to wait for that - saving you precious time. We call this **prebuilds**.
 
 ### An intro to prebuilds
 
@@ -157,7 +155,7 @@ Imagine this common workflow where Nina and Paul work on the same project:
 1. _Gitpod recognizes it already ran the `init` task and loads the prebuilt workspace_
 1. By the time the workspace starts, Paul sees the development server starting up and the application's preview is ready for review.
 
-For each new commit to your project, Gitpod continuously creates prebuilt workspaces so that the project is always ready-to-code. If your project is open source, anyone gets to enjoy the efficiency of prebuilds regardless of whether they are part of your team or not.
+For each new commit to your project, Gitpod continuously creates prebuilt workspaces so that the project is always ready-to-code. If your project is open source, anyone gets to enjoy the efficiency of prebuilds regardless of whether they are part of your organization or not.
 
 ### Configure prebuilds for your projects
 
@@ -170,4 +168,4 @@ At this point, you have a `.gitpod.yml` configuration file to automate repetitiv
 To explore more of what Gitpod has to offer, we recommend the following next topics:
 
 - [Configure](/docs/configure) to learn more about start tasks, environment variables and how to provide your own custom Docker image as the foundation for workspaces.
-- [Develop](/docs/introduction/learn-gitpod) to learn more about the productivity gains you get with ephemeral workspaces, how contexts assist you and how to collaborate with team members.
+- [Develop](/docs/introduction/learn-gitpod) to learn more about the productivity gains you get with ephemeral workspaces, how contexts assist you and how to collaborate with organization members.

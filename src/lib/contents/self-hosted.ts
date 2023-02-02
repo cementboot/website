@@ -250,7 +250,7 @@ export const communityPlanTableData: FeatureTableColumn = {
   ],
 };
 
-export const teamPlanTableData: FeatureTableColumn = {
+export const organizationPlanTableData: FeatureTableColumn = {
   isHighlighted: true,
   header: {
     headline: "Professional",
@@ -519,7 +519,7 @@ export const selfHostedToc: FeatureTableToc[] = [
 
 export const selfHostedComparison: FeatureTable = {
   toc: selfHostedToc,
-  columns: [communityPlanTableData, teamPlanTableData],
+  columns: [communityPlanTableData, organizationPlanTableData],
 };
 export const selfhostedFAQ: FAQ = {
   headline: "FAQs",

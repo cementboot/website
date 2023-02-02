@@ -14,7 +14,7 @@ export const benefits: Card[] = [
       alt: "Developer experience",
     },
     title: "Developer experience",
-    text: "Developer productivity increases and results in greater team morale.",
+    text: "Developer productivity increases and results in greater organization morale.",
   },
   {
     icon: {

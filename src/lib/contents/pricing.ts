@@ -14,7 +14,7 @@ import githubMarkSvelte from "$lib/components/svgs/github-mark.svelte";
 export const pricingPlans: Pricing[] = [
   {
     title: "Individual",
-    description: "For your personal projects",
+    description: "For single users",
     prependedPrice: "From",
     showCurrency: true,
     price: `0`,
@@ -30,24 +30,24 @@ export const pricingPlans: Pricing[] = [
     trackingName: "individual",
   },
   {
-    title: "Teams",
-    description: "For teams of any size",
+    title: "Organization",
+    description: "For organizations of any size",
     prependedPrice: "From",
     showCurrency: true,
     price: `0.36/hour`,
     features: [
-      "Create a team for free",
-      "Manage team billing in one account",
-      "Invite additional team members at no extra charge",
+      "Create an organization for free",
+      "Manage organization billing in one account",
+      "Invite additional organization members at no extra charge",
     ],
-    btnText: "Create team",
-    btnHref: "https://gitpod.io/teams/new",
-    trackingName: "teams",
+    btnText: "Create organization",
+    btnHref: "https://gitpod.io/orgs/new",
+    trackingName: "organization",
   },
   {
     title: "Enterprise",
     price: "Custom",
-    description: "For teams with high security and support needs",
+    description: "For orgs with high security and support needs",
     features: [
       "Deployment options: run Gitpod in your cloud or ours",
       "VPC peering and private links to your dev resources",
@@ -193,7 +193,7 @@ export const indivdualPlanTableData: FeatureTableColumn = {
           availability: false,
         },
         {
-          term: "Centralized team billing",
+          term: "Centralized organization billing",
           availability: false,
         },
         {
@@ -317,7 +317,7 @@ export const indivdualPlanTableData: FeatureTableColumn = {
           availability: false,
         },
         {
-          term: "Centralized team billing",
+          term: "Centralized organization billing",
           availability: false,
         },
         {
@@ -337,14 +337,14 @@ export const indivdualPlanTableData: FeatureTableColumn = {
   ],
 };
 
-export const teamPlanTableData: FeatureTableColumn = {
+export const organizationPlanTableData: FeatureTableColumn = {
   link: {
-    href: "https://gitpod.io/teams/new",
-    label: "Create team",
+    href: "https://gitpod.io/orgs/new",
+    label: "Create organization",
   },
   isHighlighted: true,
   header: {
-    headline: "Teams",
+    headline: "Organization",
     isMostPopular: false,
   },
   enteries: [
@@ -359,11 +359,11 @@ export const teamPlanTableData: FeatureTableColumn = {
         {
           term: "Base price",
           isCurrency: true,
-          text: "0/ mo",
+          text: "9/ mo",
         },
         {
           term: "Credits in base price",
-          text: "0",
+          text: "1000",
         },
         {
           term: "Additional credits",
@@ -454,7 +454,7 @@ export const teamPlanTableData: FeatureTableColumn = {
           availability: false,
         },
         {
-          term: "Centralized team billing",
+          term: "Centralized organization billing",
           availability: true,
         },
         {
@@ -587,7 +587,7 @@ export const dedicatedPlanTableData: FeatureTableColumn = {
           text: "Coming soon",
         },
         {
-          term: "Centralized team billing",
+          term: "Centralized organization billing",
           availability: true,
         },
         {
@@ -649,7 +649,7 @@ export const pricingTableToc: FeatureTableToc[] = [
     data: {
       text: "Workspace classes",
       tooltip:
-        "Choose between standard and large workspaces. <br/>Use project settings to configure workspace classes. Projects are created in a team.<br/>Different classes (sizes) of workspaces are metered at different rates.",
+        "Choose between standard and large workspaces. <br/>Use project settings to configure workspace classes. Projects are created in an organization.<br/>Different classes (sizes) of workspaces are metered at different rates.",
     },
   },
   {
@@ -670,7 +670,7 @@ export const pricingTableToc: FeatureTableToc[] = [
     type: "tooltip",
     data: {
       text: "Timeout boost",
-      tooltip: "Manually extent workspace timeout to 180 minutes",
+      tooltip: "Manually extend workspace timeout up to 24 hours.",
     },
   },
   {
@@ -684,7 +684,7 @@ export const pricingTableToc: FeatureTableToc[] = [
     data: {
       text: "Snapshots",
       tooltip:
-        "Create a copy of your workspace by sharing a snapshot with your team.",
+        "Create a copy of your workspace by sharing a snapshot with your organization.",
     },
   },
   {
@@ -692,7 +692,7 @@ export const pricingTableToc: FeatureTableToc[] = [
     data: {
       text: "Prebuilds",
       tooltip:
-        "Use projects (in a team) to activate and configure prebuilds. <br/>Prebuilds to continuously build your Git branches, so your team can start coding right away..",
+        "Use projects (in an organization) to activate and configure prebuilds. <br/>Prebuilds to continuously build your Git branches, so your organization can start coding right away..",
     },
   },
   {
@@ -790,7 +790,7 @@ export const pricingTableToc: FeatureTableToc[] = [
   {
     type: "text",
     data: {
-      text: "Centralized team billing",
+      text: "Centralized organization billing",
     },
   },
   {
@@ -798,7 +798,7 @@ export const pricingTableToc: FeatureTableToc[] = [
     data: {
       text: "Admin dashboard",
       tooltip:
-        "Administer your Gitpod instance with a view on all users, teams and projects.",
+        "Administer your Gitpod instance with a view on all users, organizations and projects.",
     },
   },
   {
@@ -819,7 +819,11 @@ export const pricingTableToc: FeatureTableToc[] = [
 
 export const pricingTable: FeatureTable = {
   toc: pricingTableToc,
-  columns: [indivdualPlanTableData, teamPlanTableData, dedicatedPlanTableData],
+  columns: [
+    indivdualPlanTableData,
+    organizationPlanTableData,
+    dedicatedPlanTableData,
+  ],
 };
 
 export const faqOldPlan: FAQ = {
@@ -828,12 +832,12 @@ export const faqOldPlan: FAQ = {
     {
       title:
         "I am on one of the old plans. Where can I find the details of my plan?",
-      content: `To see the details of your old plan, login to <a href="https://gitpod.io">gitpod.io</a> and go to the plans or team plans section of your <a href="https://gitpod.io/settings">account settings</a>`,
+      content: `To see the details of your old plan, login to <a href="https://gitpod.io">gitpod.io</a> and go to the plans or organization plans section of your <a href="https://gitpod.io/settings">account settings</a>`,
     },
     {
       title:
         "I am on one of the old plans. How can I switch to the new pricing model?",
-      content: `To use large workspaces with the new pricing, you first need to cancel your existing plan in your <a href="https://gitpod.io/settings">account settings</a> or team settings`,
+      content: `To use large workspaces with the new pricing, you first need to cancel your existing plan in your <a href="https://gitpod.io/settings">account settings</a> or organization settings`,
     },
     {
       title:
@@ -857,9 +861,9 @@ export const pricingFAQ: FAQ = {
         '<p>You can pay with MasterCard, Visa card or Google Pay.</p><div class="flex my-xx-small space-x-xx-small"> <img class="mr-4" src="/svg/brands/mastercard.svg" alt="Mastercard" width="52" height="40" /> <img class="mr-4" src="/svg/brands/visa.svg" alt="Visa" width="72" height="40" /> <img src="/svg/brands/google-pay.svg" alt="Google Pay Logo" width="72" height="40" /></div> <p>For enterprise customers, additional payment options are available. Please contact sales for annual billing.</p> ',
     },
     {
-      title: "Can I create a team plan?",
+      title: "Can I create an organization plan?",
       content:
-        '<p> Sure, if you would like to manage subscriptions for a whole team on a single invoice, you can create a <a href="https://gitpod.io/teams/">team plan.</a> </p> <p> In case you need more information on how to setup a team subscription, visit <a href="/docs/configure/teams">gitpod.io/docs/configure/teams</a> </p>',
+        '<p> Sure, if you would like to manage subscriptions for a whole organization on a single invoice, you can create a <a href="https://gitpod.io/orgs/">organization plan.</a> </p> <p> In case you need more information on how to setup an organization subscription, visit <a href="/docs/configure/orgs">gitpod.io/docs/configure/orgs</a> </p>',
     },
     {
       title: "Can I change my subscription at any time?",

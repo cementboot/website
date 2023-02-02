@@ -16,6 +16,7 @@
   import { developFeature, quotes, benefits } from "$lib/contents/customers";
   import { testimonials } from "$lib/contents/home/index";
   import { page } from "$app/stores";
+  import Whitepaper from "$lib/components/cde/whitepaper.svelte";
 
   let customers = $page.stuff.customers;
 </script>
@@ -82,6 +83,8 @@
   isCustomerStoriesLinkShown={false}
 />
 
+<Whitepaper />
+<br />
 <Testimonials {testimonials} style="margin-top: var(--small);" />
 
 <Explore

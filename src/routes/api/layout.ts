@@ -2,10 +2,10 @@ import type { RequestHandler } from "@sveltejs/kit";
 import path from "path";
 import fs from "fs";
 
-const fallbackStars = 10100;
+const fallbackStars = 10200;
 
-const startDate = new Date("Nov 17 2022 00:00:00 EST");
-const endDate = new Date("Dec 3 2022 06:00:00 EST");
+const startDate = new Date("Jan 31 2023 00:00:00 EST");
+const endDate = new Date("June 31 2023 06:00:00 EST");
 
 const USE_CACHE = process.env.USE_CACHE;
 const CACHE_PATH = path.resolve("stars-cache.json");

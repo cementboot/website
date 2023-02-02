@@ -99,7 +99,7 @@
       <div>
         <div class="hero__icons">
           <img src="/svg/gitlab.svg" alt="GitLab logo" title="GitLab logo" />
-          <GithubMark alt="GitHub logo" title="GitHub logo" />
+          <GithubMark />
           <img
             src="/svg/bitbucket.svg"
             alt="Bitbucket logo"

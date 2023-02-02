@@ -32,7 +32,7 @@
   data={{
     title: "Gitpod vs local development - move to the cloud",
     description:
-      "Develop like Google, Facebook and Shopify. Spend less time worrying about brittle, local dev environments and leverage the power of the cloud to improve your team’s developer experience.",
+      "Develop like Google, Facebook and Shopify. Spend less time worrying about brittle, local dev environments and leverage the power of the cloud to improve your organization’s developer experience.",
     keywords: "local development, cloud, remote development, secure",
   }}
 />

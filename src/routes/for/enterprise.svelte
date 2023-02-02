@@ -4,9 +4,7 @@
 
 <script lang="ts">
   import UsedBy from "$lib/components/index/used-by.svelte";
-  import Explore from "$lib/components/explore.svelte";
   import {
-    exploreContents,
     featureCards,
     partnershipCards,
     integrateFeatures,
@@ -25,6 +23,7 @@
   import { featureTitles } from "$lib/contents/home";
   import FeatureTitles from "$lib/components/feature-titles.svelte";
   import Pill from "$lib/components/pill.svelte";
+  import Whitepaper from "$lib/components/cde/whitepaper.svelte";
 </script>
 
 <OpenGraph
@@ -94,4 +93,4 @@
 </Section>
 <Integrate features={integrateFeatures} />
 <Partnership partnershipItems={partnershipCards} />
-<Explore contents={exploreContents} />
+<Whitepaper />

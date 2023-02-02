@@ -195,3 +195,17 @@ Currently we put some startup scripts for the workspace-images at `~/.bashrc.d`,
 ```bash
 bash -lic 'true'
 ```
+
+
+## FAQs
+
+### [How to run a Desktop app for GUI development inside a Gitpod workspace](https://discord.com/channels/816244985187008514/1069538137572909106)
+<!-- DISCORD_BOT_FAQ - DO NOT REMOVE -->
+
+If you wish to do GUI application development in Gitpod and getting errors such as:
+- Unable to init server: Could not connect : Connection refused
+- No display server running
+- Xorg missing
+- `xdg-open` command not found
+
+Then you need to use the `gitpod/workspace-full-vnc` docker image. See [this page](https://github.com/gitpod-io/workspace-images/blob/axonasif/add_docs/chunks/tool-vnc/README.md#details) for more info.

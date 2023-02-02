@@ -33,7 +33,8 @@
       Pricing calculator
     </h2>
     <p class="text-large text-center mx-auto">
-      Get a cost estimate for your individual or your team’s usage of Gitpod.
+      Get a cost estimate for your individual or your organization’s usage of
+      Gitpod.
     </p>
     <p class="text-center mx-auto">
       <a href="/docs/configure/billing">Learn more</a> about billing and credits.
@@ -46,7 +47,7 @@
 <SectionCommon
   titleClassNames="!mb-micro"
   title="Compare features"
-  text="Start using Gitpod for free. Upgrade to flexible pricing and create a team in your dashboard any time."
+  text="Start using Gitpod for free. Upgrade to flexible pricing and create a organization in your dashboard any time."
   textClassNames="mb-micro md:mb-small"
   isTitleADeepLink={true}
 >

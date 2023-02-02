@@ -36,6 +36,10 @@ Learn how to start using Gitpod on an example project that is hosted on GitHub i
 
 <QuickstartSearch />
 
+<br>
+
+💡 Find more such templates on [Gitpod Samples](https://github.com/gitpod-samples)
+
 ## Installing the Gitpod browser extension
 
 You can install the Gitpod browser extension in any [Chromium-based](https://chrome.google.com/webstore/detail/gitpod-online-ide/dodmmooeoklaejobgleioelladacbeki) browser such as Google Chrome, Microsoft Edge, Brave, and others, or in [Firefox](https://addons.mozilla.org/firefox/addon/gitpod/).

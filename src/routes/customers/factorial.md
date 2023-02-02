@@ -38,7 +38,7 @@ card={{
 		image: "/images/customers/factorial/teaser.png",
 		details:{
 			industry: "Human Resources",
-			plan: "Team Unlimited, SaaS",
+			plan: "Organization, SaaS",
 			people: {
 				title: "Engineers",
 				text: "120+"

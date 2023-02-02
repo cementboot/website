@@ -213,6 +213,7 @@ https://community.gitpod.io/* https://www.gitpod.io/chat 301!
 /docs/workspaces /docs/introduction/learn-gitpod/one-workspace-per-task
 /docs/the-life-of-workspace /docs/introduction/learn-gitpod/the-life-of-a-workspace
 /docs/life-of-workspace /docs/introduction/learn-gitpod/the-life-of-a-workspace
+/docs/introduction/learn-gitpod/the-life-of-a-workspace /docs/configure/workspaces/workspace-lifecycle
 /docs/references/product-compatibility-matrix /docs/references/compatibility
 /docs/references/roadmap /docs/help/public-roadmap
 /docs/checkout-location /docs/configure/workspaces
@@ -281,3 +282,8 @@ docs/ides-and-editors/jetbrains-gateway /docs/integrations/jetbrains-gateway
 /github-student-developer-pack /for/education
 /enterprise-license /pricing
 /vs/coder /
+/docs/configure/teams /docs/configure/orgs
+docs/configure/billing/team-billing /docs/configure/billing/org-billing
+docs/configure/billing/team-plans /docs/configure/billing/org-plans
+/docs/configure/organizations /docs/configure/orgs
+/blog/rss /blog/rss.xml

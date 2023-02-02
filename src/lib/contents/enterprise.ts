@@ -134,7 +134,7 @@ const collaborationFeature: Feature = {
 };
 
 const codeAnywhereFeature: Feature = {
-  title: "Let your team work from anywhere, on any device",
+  title: "Let your organization work from anywhere, on any device",
   paragraph:
     "Gitpod moves the workload to the cloud. No need to ship overpowered laptops around the world. Use any computer to code securely.",
   image: {

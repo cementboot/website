@@ -24,6 +24,7 @@
   import LinkButton from "$lib/components/ui-library/link-button";
   import ButtonsWrapper from "$lib/components/buttons-wrapper.svelte";
   import type { Load } from "@sveltejs/kit";
+  import RSS from "$lib/components/svgs/rss.svelte";
 
   export let changelogEntries: ChangelogEntryType[];
 </script>
@@ -59,6 +60,14 @@
         href="https://gitpod.io/notifications"
         variant="secondary"
         size="medium">Signup for the Newsletter</LinkButton
+      >
+      <LinkButton
+        target="_blank"
+        data-analytics={`{"context":"changelog"}`}
+        href="https://gitpod.io/changelog/rss.xml"
+        variant="gray"
+        size="medium"
+        ><RSS class="inline-block my-0 mx-1 h-4 w-4" />Subscribe to RSS</LinkButton
       >
     </ButtonsWrapper>
   </Header>

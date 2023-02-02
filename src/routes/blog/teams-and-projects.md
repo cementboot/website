@@ -53,7 +53,7 @@ We're making it easy to create and to manage your Teams.
 3. Choose who is a Member or an Owner—you can even have multiple Owners
 4. Add GitHub or GitLab repositories to your Team in order to create Projects
 
-> ℹ️ For now, this new Teams feature is totally independent of Gitpod’s pre-existing [Team plans](/docs/configure/teams). If you’re currently managing a Team Plan, or you’re a member of a Team Plan, this will remain unchanged, regardless of what new Teams you create using this new feature or how many Members you invite (the Members lists are also independent).
+> ℹ️ For now, this new Teams feature is totally independent of Gitpod’s pre-existing [Team plans](/docs/configure/orgs). If you’re currently managing a Team Plan, or you’re a member of a Team Plan, this will remain unchanged, regardless of what new Teams you create using this new feature or how many Members you invite (the Members lists are also independent).
 
 ## Projects
 

@@ -1,7 +1,7 @@
 ---
 author: jankeromnes
 date: Thu Jun 6 2019 09:00:00 GMT+0000 (UTC)
-excerpt: I recently stumbled upon a new project on GitHub that peaked my interest. It proposed a new type of database that I was dying to try out. So
+excerpt: I recently stumbled upon a new project on GitHub that piqued my interest. It proposed a new type of database that I was dying to try out. So
 slug: gitpodify
 subtitle: How to fully automate your dev environments on GitHub
 teaserImage: teaser.jpg
@@ -13,7 +13,7 @@ title: Gitpodifying — The Ultimate Guide
   export const prerender = true;
 </script>
 
-I recently stumbled upon a new project on GitHub that peaked my interest. It proposed a new type of database that I was dying to try out. So I cloned their repository, and looked at their README for a way to build their code.
+I recently stumbled upon a new project on GitHub that piqued my interest. It proposed a new type of database that I was dying to try out. So I cloned their repository, and looked at their README for a way to build their code.
 
 After activating a Python 3.7 virtual env and running `pip install -v -e .` as suggested, I was soon faced with a rather cryptic build output. Investigating a bit revealed that some build command was failing due to a missing package: `zlib1g-dev`. I figured out the right incantation to install it on my machine, then tried again. Next it was `libreadline6-dev` that was missing. After a few similar iterations, I guessed that the project probably needed all [PostgreSQL build dependencies](https://www.manniwood.com/postgresql_93_compile_install_howto/index.html), so I went ahead and installed all that. Yet somehow the project still wouldn't build, showing yet another error, but by then I was out of free time and had to call it a day. Sadly, I hadn't been able to run this project even once.
 

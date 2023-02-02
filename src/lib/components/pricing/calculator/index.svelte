@@ -43,7 +43,7 @@
         <label class="h5 font-bold mb-small text-important" for="hours"
           ><Tooltip
             class="flex items-center gap-macro"
-            title="weekly hours worked with Gitpod per team member"
+            title="weekly hours worked with Gitpod per organization member"
             >Weekly hours/member</Tooltip
           ></label
         >

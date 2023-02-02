@@ -42,7 +42,7 @@ card={{
 		image: "/images/customers/shares-io/teaser.png",
 		details:{
 			industry: "Finance",
-			plan: "Team Unlimited, SaaS",
+			plan: "Organization, SaaS",
 			people: {
 				title: "Engineers",
 				text: "45+"

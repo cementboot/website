@@ -16,6 +16,11 @@ Gitpod comes with integrations for [GitLab](/docs/configure/authentication/gitla
 
 ## FAQs
 
+### ["Email address already used in another account" when trying to login into Gitpod](https://discord.com/channels/816244985187008514/1015175207301947433)
+<!-- DISCORD_BOT_FAQ - DO NOT REMOVE -->
+
+Send us a message through the [contact form](https://www.gitpod.io/contact/support) with your Gitpod account email. After you reach out, we will delete your account so that you can sign up again, which should resolve your issue.
+
 ### [How to get SCM API token from Gitpod's GitLab, GitHub or Bitbucket integration as environment variable](https://discord.com/channels/816244985187008514/1061997373817094236)
 <!-- DISCORD_BOT_FAQ - DO NOT REMOVE -->
 

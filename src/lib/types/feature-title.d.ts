@@ -3,4 +3,6 @@ export type FeatureTitle = {
   sub: string;
   third?: string;
   swap?: boolean;
+  showLeftKumquat?: boolean;
+  showRightKumquat?: boolean;
 };

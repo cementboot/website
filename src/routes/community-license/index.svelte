@@ -21,7 +21,7 @@
   } from "$lib/contents/contact";
   import Checkbox from "$lib/components/ui-library/checkbox";
   import { tick } from "svelte";
-  import { scrollToElement } from "../../lib/utils/helpers";
+  import { scrollToElement } from "$lib/utils/helpers";
   import SubmissionSuccess from "$lib/components/submission-success.svelte";
   import { trackEvent, trackIdentity } from "$lib/components/segment.svelte";
 

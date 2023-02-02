@@ -12,8 +12,18 @@
     <br />
     <ul class="pl-xx-small list-disc">
       <li>
+        Unlock Gitpod's benefits: onboard faster, remove friction, increase
+        security, and collaborate easily
+      </li>
+      <br />
+      <li>
         Get a private instance of Gitpod - ideal for large companies with high
         security requirements
+      </li>
+      <br />
+      <li>
+        Deployed in your region of choice: low latency and compliant with data
+        residency requirements
       </li>
       <br />
       <li>

@@ -1,46 +1,52 @@
 import type { ChangelogEntry } from "$lib/types/changelog-entry";
+import { stringToBeautifiedFragment } from "$lib/utils/helpers";
+import RSS from "rss";
 
 export const get: import("@sveltejs/kit").RequestHandler = async ({
   locals,
 }) => {
   const ttlInMin = 60;
-  const rssDocument = `<?xml version="1.0"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-   <title>Gitpod Changelog</title>
-   <description>New features and improvements to Gitpod.</description>
-   <link>https://www.gitpod.io/changelog</link>
-   <copyright>${new Date().getFullYear()} Gitpod GmbH. All rights reserved</copyright>
-   <lastBuildDate>${new Date(
-     locals.changelogEntries[0].date
-   ).toUTCString()}</lastBuildDate>
-   <pubDate>${new Date(locals.changelogEntries[0].date).toUTCString()}</pubDate>
-   <ttl>${ttlInMin}</ttl>
-   <atom:link href="https://www.gitpod.io/changelog/rss.xml" rel="self" type="application/rss+xml" />
-   ${locals.changelogEntries
-     .map(
-       (entry: ChangelogEntry) => `<item>
-      <title>${new Date(Date.parse(entry.date)).toLocaleDateString(undefined, {
-        year: "numeric",
-        month: "short",
-        day: "numeric",
-      })}</title>
-      <link>https://www.gitpod.io/changelog</link>
-      <pubDate>${new Date(Date.parse(entry.date)).toUTCString()}</pubDate>
-      <description><![CDATA['${entry.content.replace(
+
+  const feed = new RSS({
+    title: "Gitpod Changelog",
+    description: "New features and improvements to Gitpod.",
+    copyright: `${new Date().getFullYear()} Gitpod GmbH. All rights reserved`,
+    ttl: ttlInMin,
+    feed_url: "https://www.gitpod.io/changelog",
+    site_url: "https://www.gitpod.io/",
+    image_url: "https://www.gitpod.io/favicon192.png",
+    language: "en",
+    pubDate: new Date(locals.changelogEntries[0].date).toUTCString(),
+    generator: "Gitpod",
+  });
+
+  locals.changelogEntries.forEach((entry: ChangelogEntry) => {
+    feed.item({
+      title: entry.title,
+      description: entry.content.replace(
         /src="\//g,
         'src="https://www.gitpod.io/'
-      )}']]></description>
-    </item>`
-     )
-     .join("")}
-  </channel>
-</rss>`;
+      ),
+      url: `https://www.gitpod.io/changelog/${stringToBeautifiedFragment(
+        entry.title
+      )}`,
+      guid: `https://www.gitpod.io/changelog/${stringToBeautifiedFragment(
+        entry.title
+      )}`,
+      date: entry.date,
+      enclosure: {
+        url: `https://www.gitpod.io/images/changelog/${entry.image}`,
+        type: "image/webp",
+      },
+      author: "Gitpod",
+    });
+  });
+
   return {
-    body: rssDocument,
     headers: {
       "Cache-Control": `max-age=0, s-max-age=${ttlInMin * 60}`,
-      "Content-Type": "application/rss+xml",
+      "Content-Type": "application/xml",
     },
+    body: feed.xml(),
   };
 };
