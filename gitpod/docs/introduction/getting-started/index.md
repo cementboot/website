@@ -27,17 +27,28 @@ Gitpod can provide fully initialized, perfectly set-up developer environments fo
 
 ## Start your first workspace
 
+### Quick: Start a Gitpod workspace with default settings
+
 The best way to configure Gitpod is by using Gitpod - you could perform the following steps in your local environment as well, but we may as well experience ephemeral developer environments right from the beginning.
 
 1. In a browser, navigate to your project's GitHub, GitLab or Bitbucket page.
-1. In the browser's address bar, prefix the entire URL with `gitpod.io/#` and press Enter.
+2. In the browser's address bar, prefix the entire URL with `gitpod.io/#` and press Enter.
    - For example, `gitpod.io/#https://github.com/gitpod-io/website`
    - We recommend you [install the Gitpod browser extension](/docs/configure/user-settings/browser-extension) to make this a one-click operation.
-1. Sign in with one of the listed providers and let the workspace start up.
+3. Sign in with one of the listed providers and let the workspace start up.
 
 **Congratulations**, you have started your first of many ephemeral developer environments 🎉!
 
-### Open in Gitpod button
+### Choice: Start a Gitpod workspace with more options
+
+If you wanted to start a workspace with a specific [Editor](/docs/references/ides-and-editors) or custom [workspace class](/docs/configure/workspaces/workspace-classes). You can do that from [Gitpod Dashboard](https://gitpod.io/workspaces) by clicking on the `New Workspace` button. Then You can select the [context url](/docs/introduction/learn-gitpod/context-url), Editor and Class.
+
+<figure>
+<img class="shadow-medium w-full rounded-2xl max-w-lg	 mt-x-small" alt="Gitpod Dedicated" src="/images/docs/start-workspace-with-options.webp">
+    <figcaption>Start a Gitpod workspace with options from <a href="https://gitpod.io/workspaces">Gitpod dashboard</a></figcaption>
+</figure>
+
+## Open in Gitpod button
 
 You can add the following button to your Development/Setup Docs so that users can launch projects in Gitpod and begin working on them without having to go through the entire setup process.
 
