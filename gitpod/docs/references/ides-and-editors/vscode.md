@@ -16,9 +16,18 @@ With VS Code Desktop Support, you keep your local editor configurations<sup>1</s
 
 ## Open a workspace in VS Code Desktop
 
-There are currently two supported ways to open a VS Code Desktop session connected to a Gitpod workspace, either by choosing VS Code Desktop as your default preference, or directly from within VS Code Browser itself.
+There are currently three supported ways to open a VS Code Desktop session connected to a Gitpod workspace, either by opening it from the [Gitpod dashboard](https://gitpod.io/workspaces), choosing VS Code Desktop as your default preference, or directly from within VS Code Browser itself.
 
-### From VS Code Browser
+### Open VS Code Desktop from the Gitpod Dashboard
+
+You can start a workspace with VS Code Desktop directly from [Gitpod Dashboard](https://gitpod.io/workspaces). You can do that from by clicking on the `New Workspace` button. Then, you can select the [context url](/docs/introduction/learn-gitpod/context-url), Editor and custom [workspace class](/docs/configure/workspaces/workspace-classes).
+
+<figure>
+<video onloadstart="this.playbackRate = 1.5;" controls playsinline autoplay loop muted class="shadow-medium w-full rounded-xl max-w-2xl mt-x-small" alt="Start Gitpod new workspace with options" src="/images/docs/new-workspace-start-with-options.webm" type="video/webm"></video>
+    <figcaption>Open New Gitpod Workspace with VS Code Desktop • <a href="https://gitpod.io/workspaces">Gitpod Dashboard</a></figcaption>
+</figure>
+
+### Open VS Code Desktop from VS Code Browser
 
 1. Start a new Gitpod workspace
 2. Open the command palette (<Keybind>CtrlCmd + Shift + P</Keybind>)
@@ -30,7 +39,7 @@ You will now be redirected to VS Code Desktop.
 ![Open VS Code via the Command Palette](/images/editors/open-in-vscode-command-palette-dark-theme.png)
 _Open VS Code via the Command Palette_
 
-### On Workspace Start
+### Open VS Code Desktop using your preferences
 
 1. Navigate to your [Gitpod preferences](https://gitpod.io/preferences)
 2. Select "VS Code" (without the browser label)

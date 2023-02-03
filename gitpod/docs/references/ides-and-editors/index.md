@@ -45,3 +45,12 @@ The three main ways to edit code or access a Gitpod workspace:
 - [Rider](ides-and-editors/rider)
 - [CLion](ides-and-editors/clion)
 - [Command Line (e.g. Vim)](ides-and-editors/command-line)
+
+### Start a workspace with an IDE/editor
+
+You can start a workspace with your favourite IDE/editor directly from [Gitpod Dashboard](https://gitpod.io/workspaces). You can do that from by clicking on the `New Workspace` button. Then, you can select the [context url](/docs/introduction/learn-gitpod/context-url), Editor and custom [workspace class](/docs/configure/workspaces/workspace-classes).
+
+<figure>
+<video onloadstart="this.playbackRate = 1.5;" controls playsinline autoplay loop muted class="shadow-medium w-full rounded-xl max-w-2xl mt-x-small" alt="Start Gitpod new workspace with options" src="/images/docs/new-workspace-start-with-options.webm" type="video/webm"></video>
+    <figcaption>Open New Gitpod Workspace with your favourite IDE • <a href="https://gitpod.io/workspaces">Gitpod Dashboard</a></figcaption>
+</figure>

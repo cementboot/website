@@ -27,8 +27,6 @@ Gitpod can provide fully initialized, perfectly set-up developer environments fo
 
 ## Start your first workspace
 
-### Quick: Start a Gitpod workspace with default settings
-
 The best way to configure Gitpod is by using Gitpod - you could perform the following steps in your local environment as well, but we may as well experience ephemeral developer environments right from the beginning.
 
 1. In a browser, navigate to your project's GitHub, GitLab or Bitbucket page.
@@ -39,14 +37,7 @@ The best way to configure Gitpod is by using Gitpod - you could perform the foll
 
 **Congratulations**, you have started your first of many ephemeral developer environments 🎉!
 
-### Choice: Start a Gitpod workspace with more options
-
-If you wanted to start a workspace with a specific [Editor](/docs/references/ides-and-editors) or custom [workspace class](/docs/configure/workspaces/workspace-classes). You can do that from [Gitpod Dashboard](https://gitpod.io/workspaces) by clicking on the `New Workspace` button. Then You can select the [context url](/docs/introduction/learn-gitpod/context-url), Editor and Class.
-
-<figure>
-<img class="shadow-medium w-full rounded-2xl max-w-lg	 mt-x-small" alt="Gitpod Dedicated" src="/images/docs/start-workspace-with-options.webp">
-    <figcaption>Start a Gitpod workspace with options from <a href="https://gitpod.io/workspaces">Gitpod dashboard</a></figcaption>
-</figure>
+> 💡 **You can also start a Gitpod workspace with more options**. [_Learn more_](/docs/references/ides-and-editors#start-a-workspace-with-an-ideeditor)
 
 ## Open in Gitpod button
 
