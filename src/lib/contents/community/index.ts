@@ -5,23 +5,16 @@ import type { Testimonial } from "$lib/types/testimonial";
 
 export const testimonials: Testimonial[] = [
   {
-    name: "Pranav Shikarpur",
-    avatar: "snpranav.jpg",
-    text: `
-    I find it crazy that I can write code from my iPad 30,000 feet ✈️ off the ground thanks to @gitpod
-    <br /><br />
-    The IDE experience is a little buggy on the iPad browser, but this seems like the future of coding 🤯
-    `,
-    org: "@snpranav",
+    name: "Bruno Rocha",
+    avatar: "bruno-rocha.jpg",
+    text: `I migrated my entire development environment from Dynaconf to @gitpod the tool is amazing, I can access my complete workspaces from any device and run almost everything from vscodium + containers, right in the browser!`,
+    org: "@rochacbruno",
   },
   {
-    name: "Daniel Maricic",
-    avatar: "wossio.jpg",
-    text: `
-    it has been 3 months since i started using and paying @gitpod as my default env (in browser), replacing WSL + vscode + docker. The benefits are huge! Disposable workspaces are the best feature.
-    Also @AnagolayNet, @IdiyanaleNet & @kelp_digital are developed with them exclusively
-    `,
-    org: "@woss_io",
+    name: "Bartłomiej Płotka",
+    avatar: "bwplotka.jpg",
+    text: `This @gitpod thing is magic! Pretty cool, without any extra configuration. Good work!`,
+    org: "@bwplotka",
   },
   {
     name: "arryangga",

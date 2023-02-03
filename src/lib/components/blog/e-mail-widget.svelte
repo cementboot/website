@@ -40,7 +40,9 @@
       email_untrusted: formData.email.value,
     });
 
-    await trackEvent("email_submitted", {});
+    await trackEvent("email_submitted", {
+      email: formData.email.value,
+    });
 
     const response = await fetch("/api/signup", {
       method: "post",

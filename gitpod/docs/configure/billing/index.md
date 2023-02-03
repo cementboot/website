@@ -79,3 +79,19 @@ Users with old paid plans, may need to cancel those plans before configuring the
 
 - [Organization plans](/docs/configure/billing/org-plans)
 - [Organization billing](/docs/configure/billing/org-billing)
+
+
+## FAQs
+
+### [How can I limit or optimize prebuild costs?](https://discord.com/channels/816244985187008514/1070648758716600371)
+<!-- DISCORD_BOT_FAQ - DO NOT REMOVE -->
+
+There are a few built-in Gitpod features that can optimize your prebuild costs, such as:
+
+- **Skip prebuilds** every X commits and use [last successful prebuild](https://www.gitpod.io/docs/configure/projects/last-successful-prebuild)
+
+- **Stop prebuilds** for all branches, PRs and etc. when on GitHub. See [this page](https://www.gitpod.io/docs/references/gitpod-yml/#github). (might not be necessary)
+
+### With prebuilds enabled, does every push to my repository cost me credits?
+
+It depends on how you configured prebuilds. Prebuilds run on headless Gitpod workspaces and the cost depends on how long they run when triggered.

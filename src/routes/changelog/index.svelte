@@ -38,8 +38,8 @@
     keywords:
       "updates, product, changes, features, releases, bugs, fixes, version, updates, improvements",
     // Update this each monthly release and enter the changelog URL into https://cards-dev.twitter.com/validator to force twitter to refresh it
-    image: "images/changelog/2022-10-31-og.jpg",
-    imageTwitter: "images/changelog/2022-10-31-og.jpg",
+    image: "images/changelog/2023-01-31-og.jpg",
+    imageTwitter: "images/changelog/2023-01-31-og.jpg",
   }}
 />
 
