@@ -26,7 +26,7 @@ You can select workspace class directly from [Gitpod Dashboard](https://gitpod.i
 
 <figure>
 <video onloadstart="this.playbackRate = 1.5;" controls playsinline autoplay loop muted class="shadow-medium w-full rounded-xl max-w-2xl mt-x-small" alt="Start Gitpod new workspace with options" src="/images/docs/new-workspace-start-with-options.webm" type="video/webm"></video>
-    <figcaption>Open New Gitpod Workspace with VS Code Desktop • <a href="https://gitpod.io/workspaces">Gitpod Dashboard</a></figcaption>
+    <figcaption>Open New Gitpod Workspace with required workspace class • <a href="https://gitpod.io/workspaces">Gitpod Dashboard</a></figcaption>
 </figure>
 
 ## Good to know
