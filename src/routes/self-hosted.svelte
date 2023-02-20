@@ -2,16 +2,15 @@
   export const prerender = true;
 </script>
 
-<script>
-  import Explore from "$lib/components/explore.svelte";
-  import Faqs from "$lib/components/self-hosted/faqs.svelte";
+<script lang="ts">
+  import { dedicatedFeatures } from "$lib/contents/home/features";
+  import Testimonials from "$lib/components/index/testimonials.svelte";
+  import { testimonials } from "$lib/contents/home/index";
   import OpenGraph from "$lib/components/open-graph.svelte";
-  import PlansAndPricing from "$lib/components/pricing/plans-and-pricing.svelte";
-  import { pricingPlans } from "$lib/contents/self-hosted";
-  import ViewAllFeatures from "$lib/components/self-hosted/view-all-features.svelte";
-  import Card from "$lib/components/ui-library/card/card.svelte";
   import LinkButton from "$lib/components/ui-library/link-button";
   import Section from "$lib/components/section.svelte";
+  import Features from "$lib/components/features.svelte";
+  import Signup from "$lib/components/dedicated/signup.svelte";
 </script>
 
 <OpenGraph
@@ -24,44 +23,51 @@
   }}
 />
 
-<PlansAndPricing {pricingPlans} />
-<Section>
-  <Card
-    size="medium"
-    class="flex items-center max-w-2xl mx-auto p-x-small md:px-small md:py-medium gap-medium shadow-normal"
-  >
-    <img
-      src="/images/support/monitor.png"
-      alt="Monitor"
-      class="w-40 dark:hidden"
-    />
-    <img
-      src="/images/support/monitor-dark.png"
-      alt="Monitor"
-      class="w-40 hidden dark:block transform scale-110"
-    />
-    <div>
-      <h2 class="h4">Get a demo</h2>
-      <p class="mb-micro">
-        And learn how your engineering organization can scale with Gitpod.
-      </p>
-      <LinkButton href="/contact/get-demo" variant="primary">
-        Get a demo
-      </LinkButton>
-    </div>
-  </Card>
+<Section class="text-center">
+  <h2 class="text-5xl font-bold">Gitpod self-hosted alternative</h2>
+  <p class="text-lg sm:text-2xl mt-micro mb-x-small mx-auto max-w-4xl">
+    Run Gitpod in your own Cloud account with Gitpod Dedicated, our self-hosted
+    alternative great for large teams.
+  </p>
+  <LinkButton
+    href="/dedicated"
+    text="Request early access"
+    variant="primary"
+    size="large"
+    data-analytics={`{"context":"self-hosted"}`}
+  />
 </Section>
-<ViewAllFeatures />
-<Faqs />
-<Explore
-  contents={{
-    title: "Install <div class='whitespace-nowrap inline'>Self-Hosted</div>",
-    description: `
-      Install Gitpod Self-Hosted on GKE, EKS, and AKS.
-    `,
-    link: {
-      href: "/docs/configure/self-hosted/latest",
-      text: "View installation guide",
-    },
-  }}
-/>
+
+<Section>
+  <Features features={dedicatedFeatures} />
+</Section>
+
+<Section>
+  <Testimonials
+    title="Trusted by the best developer teams"
+    text=" "
+    class="-mb-20"
+    {testimonials}
+  />
+</Section>
+
+<Section class="flex" id="dedicated-request-access">
+  <div
+    class="max-w-4xl flex lgx:items-start flex-col items-center text-center lgx:text-left lgx:pt-xx-small m-auto"
+  >
+    <h2 class="h3 !mb-micro md:!mb-x-small align-middle">
+      Get started with Gitpod Dedicated
+    </h2>
+    <div class="max-w-[460px] text-p-large align-middle">
+      <p class="">
+        Gitpod Dedicate is best for engineering teams of 50 - 500 developers.
+        Get Early Access today.
+      </p>
+      <br />
+    </div>
+  </div>
+  <div class="max-w-2xl justify-center ">
+    <Signup class="lgx:hidden mx-auto" toType="dedicated-signup" />
+  </div>
+  <Signup toType="dedicated-signup" class="hidden lgx:block" />
+</Section>

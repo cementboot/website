@@ -158,3 +158,30 @@ export const secondaryFeatures: Card[] = [
     text: "Enable faster collaboration across all team members, in realtime.</br></br>With Gitpod, teams can work on several workspaces in parallel and share them in seconds.",
   },
 ];
+
+/**Dedicated Features
+ * Using on /self-hosted page
+ *
+ */
+
+export const maximizeControl: Feature = {
+  title: "Maximize control",
+  paragraph:
+    "Gitpod Dedicated is a single-tenant installation that runs your Cloud accounts or ours.</br></br>Maximize control, minimize overhead and create frictionless developer experiences.",
+  previewComponent: Workspaces,
+};
+
+export const devsDontCareAboutMachines: Feature = {
+  title: "Dev environments that don't care about machines",
+  paragraph:
+    "Gitpod Dedicated is a single-tenant installation that runs your Cloud accounts or ours.</br></br>Maximize control, minimize overhead and create frictionless developer experiences.",
+  lottie: {
+    src: "/lottie/edit_workspace.json",
+    id: "edit_workspace",
+  },
+};
+
+export const dedicatedFeatures: Feature[] = [
+  maximizeControl,
+  devsDontCareAboutMachines,
+];
