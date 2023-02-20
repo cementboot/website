@@ -39,6 +39,8 @@
       (s) => s.toLowerCase() === subject?.toLowerCase()
     );
 
+    formData.selectedSubject.value = "Enterprise";
+
     if (match) {
       formData.selectedSubject.value = match;
       formData.selectedSubject.valid = true;
@@ -60,8 +62,8 @@
   const formData: Form = {
     selectedSubject: {
       el: null,
-      valid: false,
-      value: "Enterprise",
+      valid: true,
+      value: "",
     },
     name: {
       el: null,
@@ -237,7 +239,6 @@
             <div class="space-y-8">
               <div class:error={isFormDirty && !formData.selectedSubject.valid}>
                 <fieldset class="flex">
-                  <!-- <legend>Please choose a subject</legend> -->
                   <Select
                     placeholder="Please choose a subject"
                     hasError={isFormDirty && !formData.selectedSubject.valid}
