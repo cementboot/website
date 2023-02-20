@@ -4,6 +4,7 @@
   export let value: string | number;
   export let name: string = "";
   export let label: string = "";
+  export let optionalLabel: boolean = false;
   export let element: HTMLElement = null;
   export let hasError: boolean = false;
   let className: string = "";
@@ -19,7 +20,15 @@
   }
 </style>
 
-{#if label}
+{#if optionalLabel}
+  <label
+    class="text-body cursor-pointer block mb-2"
+    class:error={hasError}
+    for={id}
+    >{@html label} <span class="text-xs text-body">(Optional)</span></label
+  >
+{/if}
+{#if label && !optionalLabel}
   <label
     class="text-body cursor-pointer block mb-2"
     class:error={hasError}

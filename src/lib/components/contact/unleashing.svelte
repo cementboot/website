@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { brands, fourGeeks, jetbrains } from "$lib/contents/home/index";
+  import { brands } from "$lib/contents/home/index";
 </script>
 
 <style lang="postcss">
@@ -24,7 +24,7 @@
 <section class="my-small lg:my-0 lg:ml-12 lgx:ml-16 2xl:ml-20">
   <h2 class="h5 text-center">Unleashing developer teams&nbsp;at</h2>
   <div class="grid max-w-md mx-auto gap-x-small gap-y-8 mt-x-small">
-    {#each [...brands, fourGeeks, jetbrains] as brand}
+    {#each [...brands] as brand}
       <svelte:component
         this={brand.logo}
         class="max-h-[40px] w-24"
